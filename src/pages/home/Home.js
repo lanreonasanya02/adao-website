@@ -21,7 +21,7 @@ const Home = () => {
             Supply, Exhibitions...
           </h5>
           <br />
-          <p className="lead">
+          <p className="">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             quos iusto illum repellat et voluptatum magnam neque ipsa in
             obcaecati, quisquam at quae, incidunt accusamus laborum
