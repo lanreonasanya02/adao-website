@@ -10,18 +10,18 @@ const Home = () => {
       {/* <SideNav /> */}
 
       <div className="container-lg header-hero">
-        <div>
-          <h1 className="display-6 fw-bold ">
+        <div className="fw-bold ">
+          <h1 className="display-5">
             An African Diversified Art Odyssey Group -
           </h1>
 
-          <h3>
+          <h5>
             {" "}
             Art Consultancy, Represention of Old & Modern Contemporary Artists,
             Supply, Exhibitions...
-          </h3>
-
-          <p>
+          </h5>
+          <br />
+          <p className="lead">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
             quos iusto illum repellat et voluptatum magnam neque ipsa in
             obcaecati, quisquam at quae, incidunt accusamus laborum

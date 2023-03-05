@@ -1,6 +1,6 @@
 header {
   /* background: url(../../images/adao-10.png); */
-  background: linear-gradient(rgba(0, 0, 150, 0.2), rgba(121, 164, 76, 0.6)),
+  background: linear-gradient(rgba(0, 0, 15, 0.6), rgba(121, 164, 76, 0.6)),
     url(../../images/adao-10.png);
   background-position: center;
   background-size: cover;
@@ -18,4 +18,9 @@ header .header-btn {
   width: fit-content;
   padding: 1rem 3rem;
   margin-top: 3rem;
+}
+
+header .header-hero h1,
+header .header-hero h5 {
+  font-weight: bold;
 }
