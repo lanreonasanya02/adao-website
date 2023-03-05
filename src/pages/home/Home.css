@@ -1,0 +1,21 @@
+header {
+  /* background: url(../../images/adao-10.png); */
+  background: linear-gradient(rgba(0, 0, 150, 0.2), rgba(121, 164, 76, 0.6)),
+    url(../../images/adao-10.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .header-hero {
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+header .header-btn {
+  width: fit-content;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+}
