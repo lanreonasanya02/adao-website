@@ -1,10 +1,11 @@
 header {
   /* background: url(../../images/adao-10.png); */
-  background: linear-gradient(rgba(0, 0, 15, 0.6), rgba(121, 164, 76, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 164, 76, 0.2)),
     url(../../images/adao-10.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
 
 header .header-hero {
@@ -18,6 +19,8 @@ header .header-btn {
   width: fit-content;
   padding: 1rem 3rem;
   margin-top: 3rem;
+  background-color: #d4b35f;
+  font-weight: bold;
 }
 
 header .header-hero h1,

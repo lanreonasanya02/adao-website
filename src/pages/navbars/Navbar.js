@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/adao-logo.png";
+import logo from "../../images/adao logo.jpg";
 import "../navbars/Navbar.css";
 
 const Navbar = () => {
@@ -7,7 +7,12 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg nav-bar">
       <div class="container-lg">
         <a class="navbar-brand" href="/">
-          <img src={logo} alt="logo" width="15%" />
+          <img
+            src={logo}
+            alt="logo"
+            width="15%"
+            className="border border-1 border-dark rounded"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -26,20 +31,18 @@ const Navbar = () => {
         >
           <div class="navbar-nav">
             <a class="nav-link active me-2" aria-current="page" href="#">
-              PRODUCTS
+              Products
             </a>
             <a class="nav-link me-2" href="#">
-              EXPERTS
+              Experts
             </a>
             <a class="nav-link me-2" href="#">
-              MEDIA
+              Media
             </a>
             <a class="nav-link me-2" href="#">
-              NEWS
+              News
             </a>
-            <a class="nav-link btn btn-secondary text-white py-2 px-4" href="#">
-              CONTACT
-            </a>
+            <button className="nav-btn">Contact</button>
           </div>
         </div>
       </div>

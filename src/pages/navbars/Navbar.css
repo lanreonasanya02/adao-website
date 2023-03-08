@@ -53,11 +53,24 @@
 }
 
 /* Navbar */
-/* nav {
-  background-color: rgba(95, 91, 91, 0.839);
-} */
+nav {
+  position: fixed;
+}
 
 nav .navbar-nav a {
-  color: #fff;
+  color: #000;
   font-weight: 600;
+}
+
+nav .navbar-nav .nav-btn {
+  background-color: #d4b35f;
+  outline: none;
+  padding: 10px 2.5rem;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+nav .navbar-nav .active {
+  color: green;
 }

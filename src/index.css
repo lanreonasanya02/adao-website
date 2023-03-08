@@ -5,13 +5,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  cursor: pointer;
-  font-size: 14px;
-  color: #fff;
+  /* cursor: pointer; */
+  font-size: 16px;
 }
 
 a {
-  color: #fff;
+  color: #000;
   font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
 }
