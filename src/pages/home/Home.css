@@ -27,3 +27,14 @@ header .header-hero h1,
 header .header-hero h5 {
   font-weight: bold;
 }
+
+@media (min-width: 375px) and (max-width: 576px) {
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 164, 76, 0.2)),
+      url(../../images/adao-10.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+}
