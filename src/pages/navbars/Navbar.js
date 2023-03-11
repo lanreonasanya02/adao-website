@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/adao logo.jpg";
+import logoMobile from "../../images/adao-logo.png";
 import "../navbars/Navbar.css";
 
 const Navbar = () => {
@@ -15,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg nav-bar">
+      <nav class="navbar navbar-expand-lg desktop-nav d-none d-md-block">
         <div class="container-lg">
           <a class="navbar-brand" href="/">
             <img
@@ -59,23 +60,42 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick={closeNav()}>
-          &times;
-        </a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
+      {/* Mobile Navbar */}
+      <nav className="mobile-nav py-3 d-block d-md-none">
+        <div id="mySidenav" className="sidenav">
+          <a class="navbar-brand closebtn-logo" href="#">
+            <img src={logoMobile} alt="logo" width="25%" />
+          </a>
+          <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>
+            &times;
+          </a>
+          <div className="sidenav-links">
+            <a href="#">Products</a>
+            <a href="#">Experts</a>
+            <a href="#">Media</a>
+            <a href="#">News</a>
+          </div>
+        </div>
 
-      {/* <!-- Use any element to open the sidenav --> */}
-      <span onclick={openNav}>
-        <i class="bi bi-list"></i> Open
-      </span>
-
-      {/* <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page --> */}
-      {/* <div id="main">...</div> */}
+        {/* <!-- Use any element to open the sidenav --> */}
+        <div className="container">
+          <div className="row">
+            <div className="col-6">
+              <a class="navbar-brand" href="/">
+                <img
+                  src={logo}
+                  alt="logo"
+                  width="35%"
+                  className="border border-1 border-dark rounded"
+                />
+              </a>
+            </div>
+            <span onClick={openNav} className="hamburger col-6 text-end">
+              <i class="bi bi-list"></i>
+            </span>
+          </div>
+        </div>
+      </nav>
     </>
   );
 };
