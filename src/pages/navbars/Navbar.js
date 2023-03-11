@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg desktop-nav d-none d-md-block">
+      <nav class="navbar navbar-expand-lg desktop-nav d-none d-lg-block">
         <div class="container-lg">
           <a class="navbar-brand" href="/">
             <img
@@ -61,10 +61,10 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="mobile-nav py-3 d-block d-md-none">
+      <nav className="mobile-nav py-3 d-block d-lg-none">
         <div id="mySidenav" className="sidenav">
           <a class="navbar-brand closebtn-logo" href="#">
-            <img src={logoMobile} alt="logo" width="25%" />
+            <img src={logoMobile} alt="logo" width="30%" />
           </a>
           <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>
             &times;
@@ -85,7 +85,7 @@ const Navbar = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  width="35%"
+                  width="40%"
                   className="border border-1 border-dark rounded"
                 />
               </a>
