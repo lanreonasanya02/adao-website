@@ -1,7 +1,7 @@
 header {
-  /* background: url(../../images/adao-10.png); */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 164, 76, 0.2)),
-    url(../../images/adao-10.png);
+  /* background: url(../../images/adao-21.jpg); */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 100, 76, 0.2)),
+    url(../../images/adao-21.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,6 +21,11 @@ header .header-btn {
   margin-top: 3rem;
   background-color: #d4b35f;
   font-weight: bold;
+}
+
+header .header-btn:hover {
+  background-color: #efce7d;
+  color: #000;
 }
 
 header .header-hero h1,

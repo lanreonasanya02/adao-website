@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../images/adao logo.jpg";
 import logoMobile from "../../images/adao-logo.png";
 import "../navbars/Navbar.css";
+import { useLocation, Link } from "react-router-dom";
 
 const Navbar = () => {
   // Open the sidenav
@@ -13,6 +14,13 @@ const Navbar = () => {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  // Setting active class
+  const location = useLocation();
+  const { pathname } = location;
+  console.log(pathname);
+  const exactLocation = pathname.split("/");
+  console.log(exactLocation);
 
   return (
     <>
@@ -42,16 +50,26 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link active me-2" aria-current="page" href="#">
+              <a class="nav-link me-2 link-white" aria-current="page" href="#">
                 Products
               </a>
-              <a class="nav-link me-2" href="#">
+              {/* <Link
+                className={
+                  exactLocation[1] === "products"
+                    ? "current-active nav-link"
+                    : "nav-link"
+                }
+                to="/products"
+              >
+                Products
+              </Link> */}
+              <a class="nav-link me-2 link-white" href="#">
                 Experts
               </a>
-              <a class="nav-link me-2" href="#">
+              <a class="nav-link me-2 link-white" href="#">
                 Media
               </a>
-              <a class="nav-link me-3" href="#">
+              <a class="nav-link me-3 link-white" href="#">
                 News
               </a>
               <button className="nav-btn">Contact</button>

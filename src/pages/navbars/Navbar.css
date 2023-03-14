@@ -58,6 +58,7 @@
 
 .sidenav .sidenav-links a {
   margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .hamburger {
@@ -71,6 +72,10 @@ nav .navbar-nav a {
   font-weight: 600;
 }
 
+nav .navbar-nav .link-white {
+  color: #fff;
+}
+
 nav .navbar-nav .nav-btn {
   background-color: #d4b35f;
   outline: none;
@@ -80,9 +85,24 @@ nav .navbar-nav .nav-btn {
   font-weight: 600;
 }
 
+nav .navbar-nav .nav-btn:hover {
+  background-color: #efce7d;
+  color: #000;
+}
+
 nav .navbar-nav .active {
   color: green;
 }
+
+.navbar-nav .current-active {
+  color: #d4b35f;
+  border-bottom: 3px solid #d4b35f;
+}
+
+/* .navbar-nav .contact-active {
+  color: #d4b35f;
+  border-bottom: 3px solid #d4b35f;
+} */
 
 .mobile-nav {
   width: 100%;
