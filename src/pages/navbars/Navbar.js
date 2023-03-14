@@ -103,7 +103,7 @@ const Navbar = () => {
                 <img
                   src={logo}
                   alt="logo"
-                  width="40%"
+                  width="50%"
                   className="border border-1 border-dark rounded"
                 />
               </a>
