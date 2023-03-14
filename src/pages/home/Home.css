@@ -33,13 +33,33 @@ header .header-hero h5 {
   font-weight: bold;
 }
 
+header .header-hero .header-hero-text {
+  width: 90%;
+}
+
 @media (min-width: 375px) and (max-width: 576px) {
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 164, 76, 0.2)),
-      url(../../images/adao-10.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+      url(../../images/adao-2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    width: 100%;
+  }
+
+  header .header-hero .header-hero-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  header .header-hero .header-hero-text h5 {
+    color: #d4b35f;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  header .header-hero .header-hero-text p {
+    text-align: justify;
   }
 }

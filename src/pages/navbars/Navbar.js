@@ -84,7 +84,7 @@ const Navbar = () => {
           <a class="navbar-brand closebtn-logo" href="#">
             <img src={logoMobile} alt="logo" width="30%" />
           </a>
-          <a href="javascript:void(0)" class="closebtn" onClick={closeNav}>
+          <a href="#" class="closebtn" onClick={closeNav}>
             &times;
           </a>
           <div className="sidenav-links">

@@ -12,9 +12,9 @@ const Home = () => {
         {/* <SideNav /> */}
 
         <div className="container-lg header-hero">
-          <div className="fw-bold" style={{ width: "90%" }}>
+          <div className="fw-bold header-hero-text">
             <h1 className="display-5">
-              An African Diversified Art Odyssey Group -
+              African Diversified Art Odyssey Group (ADAO)
             </h1>
 
             <h5>
