@@ -1,7 +1,8 @@
 import React from "react";
 import "../home/Home.css";
 import Navbar from "../navbars/Navbar";
-import Overview from "./inner-pages/Overview";
+import Products from "../products/Products";
+
 // import SideNav from "../navbars/SideNav";
 
 const Home = () => {
@@ -40,7 +41,7 @@ const Home = () => {
         </div>
       </header>
 
-      <Overview />
+      <Products />
     </>
   );
 };
