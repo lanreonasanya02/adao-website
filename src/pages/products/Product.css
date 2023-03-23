@@ -1,3 +1,11 @@
+.section-heading {
+  padding: 5rem 0 1rem;
+  border-bottom: 2px solid #d4b35f;
+  width: fit-content;
+  font-weight: bold;
+  font-style: italic;
+}
+
 section {
   padding: 3rem 0;
   /* width: 100%; */

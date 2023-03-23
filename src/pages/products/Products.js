@@ -17,6 +17,7 @@ import img13 from "../../images/adao-1.png";
 const Products = () => {
   return (
     <>
+      <h3 className="section-heading container">Products</h3>
       <section className="d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div className="carou">
