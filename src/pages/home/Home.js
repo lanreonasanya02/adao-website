@@ -12,19 +12,36 @@ const Home = () => {
         <Navbar />
         {/* <SideNav /> */}
 
-        <div className="container-lg header-hero">
+        <div className="container header-hero">
           <div className="fw-bold header-hero-text">
-            <h1 className="display-6 animate-charcter">
+            <h1 className="display-6 animate-charcter d-none d-lg-block">
               African Diversified Art Odyssey Group (ADAO)
             </h1>
 
-            <h5 className="fst-italic">
+            <div className="d-block d-lg-none text-start mobile-heading">
+              <h2 className="display-1">An</h2>
+              <h2 className="display-1">African</h2>
+              <h2 className="display-1">Diversified</h2>
+              <h2 className="display-1">Art</h2>
+              <h2 className="display-1">
+                Odyssey<span>.</span>
+              </h2>
+
+              <a
+                href="#"
+                className="btn header-btn d-block d-lg-none fst-italic"
+              >
+                See Collections
+              </a>
+            </div>
+
+            <h5 className="fst-italic d-none d-lg-block">
               {" "}
               Art Consultancy, Represention of Old & Modern Contemporary
               Artists, Supply, Exhibitions...
             </h5>
             <br />
-            <p className="">
+            <p className="d-none d-lg-block">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               quos iusto illum repellat et voluptatum magnam neque ipsa in
               obcaecati, quisquam at quae, incidunt accusamus laborum
@@ -34,7 +51,7 @@ const Home = () => {
               sapiente!
             </p>
 
-            <a href="#" className="btn header-btn">
+            <a href="#" className="btn header-btn d-none d-lg-block">
               Get In Touch
             </a>
           </div>

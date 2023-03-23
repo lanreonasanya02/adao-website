@@ -1,9 +1,10 @@
 .section-heading {
-  padding: 5rem 0 1rem;
+  padding: 5rem 0 12px;
   border-bottom: 2px solid #d4b35f;
-  width: fit-content;
-  font-weight: bold;
+  width: 8%;
+  font-weight: bolder;
   font-style: italic;
+  /* text-align: start; */
 }
 
 section {
@@ -42,7 +43,7 @@ section .carou .card .card-image,
 
 section .carou .card .card-body {
   background-color: #f4f4f4;
-  height: 65vh;
+  height: 70vh;
 }
 
 section .carou .card .card-image img,
@@ -73,7 +74,7 @@ section .card .card-body h5 {
 section .card .card-body .card-paragraph {
   font-size: 14px;
   font-weight: bold;
-  height: 20vh;
+  height: 25vh;
 }
 
 section .card .card-body .line {
@@ -81,7 +82,7 @@ section .card .card-body .line {
   width: 50%;
   margin: auto;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.7rem;
 }
 
 section .card .card-body .btn {

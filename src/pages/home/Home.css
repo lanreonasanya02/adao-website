@@ -21,6 +21,7 @@ header .header-btn {
   margin-top: 3rem;
   background-color: #d4b35f;
   font-weight: bold;
+  font-style: italic;
 }
 
 header .header-btn:hover {
@@ -66,6 +67,18 @@ header .header-hero .header-hero-text {
   to {
     background-position: 200% center;
   }
+}
+
+.mobile-heading h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.mobile-heading h2 span {
+  color: #d4b35f;
+  font-weight: bolder;
+  font-size: 3rem;
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
