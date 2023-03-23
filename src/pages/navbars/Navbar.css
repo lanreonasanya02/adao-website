@@ -121,7 +121,7 @@ nav .navbar-nav .active {
 
 .mobile-nav .logo-mobile {
   border-radius: 10rem;
-  width: 50%;
+  width: 60%;
   border: 4px double #d4b35f;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
