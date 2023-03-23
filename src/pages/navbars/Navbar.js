@@ -67,7 +67,9 @@ const Navbar = () => {
               <a class="nav-link me-3 link-white" href="#">
                 News
               </a>
-              <button className="nav-btn">Contact</button>
+              <a href="/contact" className="nav-btn">
+                Contact
+              </a>
             </div>
           </div>
         </div>
@@ -86,7 +88,7 @@ const Navbar = () => {
             <a href="#">Products</a>
             <a href="#">Experts</a>
             <a href="#">Gallery</a>
-            <a href="#">News</a>
+            <a href="/contact">Contact</a>
           </div>
         </div>
 
