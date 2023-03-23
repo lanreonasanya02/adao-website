@@ -1,6 +1,6 @@
 header {
   /* background: url(../../images/adao-21.jpg); */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 50, 76, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 50, 76, 0.5)),
     url(../../images/adao-24.jpg);
   background-position: center;
   background-size: cover;
@@ -37,10 +37,41 @@ header .header-hero .header-hero-text {
   width: 90%;
 }
 
+.animate-charcter {
+  text-transform: capitalize;
+  background-image: linear-gradient(
+    -225deg,
+    #060228 0%,
+    #a99caf 29%,
+    #f4f3f4 58%,
+    #690829 72%,
+    #fff800 88%,
+    #fcf413 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 @media (min-width: 375px) and (max-width: 576px) {
   header {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-      url(../../images/adao-27.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+      url(../../images/adao-24.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

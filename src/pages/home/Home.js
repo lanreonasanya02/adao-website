@@ -14,7 +14,7 @@ const Home = () => {
 
         <div className="container-lg header-hero">
           <div className="fw-bold header-hero-text">
-            <h1 className="display-6">
+            <h1 className="display-6 animate-charcter">
               African Diversified Art Odyssey Group (ADAO)
             </h1>
 
