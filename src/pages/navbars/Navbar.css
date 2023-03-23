@@ -74,6 +74,8 @@
 nav .logo-desktop {
   border-radius: 10rem;
   width: 20%;
+  border: 4px double #d4b35f;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
 nav .navbar-nav a {
@@ -120,11 +122,15 @@ nav .navbar-nav .active {
 .mobile-nav .logo-mobile {
   border-radius: 10rem;
   width: 50%;
+  border: 4px double #d4b35f;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
 .mobile-nav .logo-overlap-mobile {
   border-radius: 10rem;
   width: 30%;
+  border: 4px double #d4b35f;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

@@ -32,6 +32,6 @@ section .carou .card .card-image img {
   object-fit: cover;
 }
 
-section .carou .card .card-image img:hover {
+/* section .carou .card .card-image img:hover {
   object-fit: fill;
-}
+} */
