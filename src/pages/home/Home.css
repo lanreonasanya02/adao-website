@@ -78,7 +78,7 @@ header .header-hero .header-hero-text {
 .mobile-heading h2 span {
   color: #d4b35f;
   font-weight: bolder;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 @media (min-width: 375px) and (max-width: 576px) {

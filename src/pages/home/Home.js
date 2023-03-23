@@ -20,11 +20,17 @@ const Home = () => {
 
             <div className="d-block d-lg-none text-start mobile-heading">
               <h2 className="display-1">An</h2>
-              <h2 className="display-1">African</h2>
-              <h2 className="display-1">Diversified</h2>
-              <h2 className="display-1">Art</h2>
               <h2 className="display-1">
-                Odyssey<span>.</span>
+                <span>A</span>frican
+              </h2>
+              <h2 className="display-1">
+                <span>D</span>iversified
+              </h2>
+              <h2 className="display-1">
+                <span>A</span>rt
+              </h2>
+              <h2 className="display-1">
+                <span>O</span>dyssey
               </h2>
 
               <a
