@@ -15,7 +15,8 @@ section .carou button {
   background: none;
 }
 
-section .carou button .btn-prev-next {
+section .carou button .btn-prev-next,
+.carou-mobile button .btn-prev-next {
   color: #d4b35f;
   font-size: 2rem;
 }
@@ -27,7 +28,12 @@ section .carou .card .card-image {
   object-position: center; */
 }
 
-section .carou .card .card-image img {
+.carou-mobile .card {
+  margin: 0 4rem;
+}
+
+section .carou .card .card-image img,
+.carou-mobile .card .card-image img {
   width: 100%;
   height: 60vh;
   object-fit: cover;
