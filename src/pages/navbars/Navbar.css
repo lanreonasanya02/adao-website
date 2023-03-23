@@ -6,11 +6,8 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0;
-  background: linear-gradient(
-      rgba(241, 241, 241, 0.9),
-      rgba(241, 241, 241, 0.9)
-    ),
-    url(../../images/adao\ logo.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)),
+    url(../../images/adao-26.jpg);
   background-position: center;
   background-repeat: space;
   background-size: cover;
@@ -67,6 +64,11 @@
 }
 
 /* Navbar */
+nav .logo-desktop {
+  border-radius: 10rem;
+  width: 20%;
+}
+
 nav .navbar-nav a {
   color: #000;
   font-weight: 600;
@@ -106,6 +108,11 @@ nav .navbar-nav .active {
 
 .mobile-nav {
   width: 100%;
+}
+
+.mobile-nav .logo-mobile {
+  border-radius: 10rem;
+  width: 50%;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

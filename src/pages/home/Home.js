@@ -14,11 +14,11 @@ const Home = () => {
 
         <div className="container-lg header-hero">
           <div className="fw-bold header-hero-text">
-            <h1 className="display-5">
+            <h1 className="display-6">
               African Diversified Art Odyssey Group (ADAO)
             </h1>
 
-            <h5>
+            <h5 className="fst-italic">
               {" "}
               Art Consultancy, Represention of Old & Modern Contemporary
               Artists, Supply, Exhibitions...

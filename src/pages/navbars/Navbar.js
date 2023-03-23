@@ -27,12 +27,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg desktop-nav d-none d-lg-block">
         <div class="container-lg">
           <a class="navbar-brand" href="/">
-            <img
-              src={logo}
-              alt="logo"
-              width="15%"
-              className="border border-1 border-dark rounded"
-            />
+            <img src={logo} alt="logo" className="logo-desktop" />
           </a>
           <button
             class="navbar-toggler"
@@ -67,7 +62,7 @@ const Navbar = () => {
                 Experts
               </a>
               <a class="nav-link me-2 link-white" href="#">
-                Media
+                Gallery
               </a>
               <a class="nav-link me-3 link-white" href="#">
                 News
@@ -90,7 +85,7 @@ const Navbar = () => {
           <div className="sidenav-links">
             <a href="#">Products</a>
             <a href="#">Experts</a>
-            <a href="#">Media</a>
+            <a href="#">Gallery</a>
             <a href="#">News</a>
           </div>
         </div>
@@ -100,12 +95,7 @@ const Navbar = () => {
           <div className="row">
             <div className="col-6">
               <a class="navbar-brand" href="/">
-                <img
-                  src={logo}
-                  alt="logo"
-                  width="50%"
-                  className="border border-1 border-dark rounded"
-                />
+                <img src={logo} alt="logo" className="logo-mobile" />
               </a>
             </div>
             <span onClick={openNav} className="hamburger col-6 text-end">
