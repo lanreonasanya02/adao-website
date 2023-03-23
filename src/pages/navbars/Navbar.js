@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg desktop-nav d-none d-lg-block">
+      <nav class="navbar navbar-expand-lg desktop-nav py-3 d-none d-lg-block">
         <div class="container-lg">
           <a class="navbar-brand" href="/">
             <img src={logo} alt="logo" className="logo-desktop" />
@@ -77,7 +77,7 @@ const Navbar = () => {
       <nav className="mobile-nav py-3 d-block d-lg-none">
         <div id="mySidenav" className="sidenav">
           <a class="navbar-brand closebtn-logo" href="#">
-            <img src={logoMobile} alt="logo" width="30%" />
+            <img src={logo} alt="logo" className="logo-overlap-mobile" />
           </a>
           <a href="#" class="closebtn" onClick={closeNav}>
             &times;
