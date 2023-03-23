@@ -55,14 +55,14 @@ header .header-hero .header-hero-text {
 
   header .header-hero .header-hero-text h1 {
     font-weight: bold;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   header .header-hero .header-hero-text h5 {
     color: #d4b35f;
     /* font-weight: bold; */
     font-style: italic;
-    font-size: 1rem;
+    font-size: 14px;
   }
 
   header .header-hero .header-hero-text p {

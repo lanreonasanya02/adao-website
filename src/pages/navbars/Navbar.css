@@ -58,6 +58,13 @@
   font-style: italic;
 }
 
+.sidenav {
+  padding-top: 1.5rem;
+}
+.sidenav a {
+  font-size: 30px;
+}
+
 .hamburger {
   font-size: 2rem;
   color: #fff;
@@ -120,13 +127,6 @@ nav .navbar-nav .active {
   width: 30%;
 }
 
-.sidenav {
-  padding-top: 1.5rem;
-}
-.sidenav a {
-  font-size: 30px;
-}
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-}
+/* @media screen and (max-height: 450px) {
+} */

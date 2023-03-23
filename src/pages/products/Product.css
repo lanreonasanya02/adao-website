@@ -29,9 +29,9 @@ section .carou .card .card-image {
 section .carou .card .card-image img {
   width: 100%;
   height: 60vh;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 section .carou .card .card-image img:hover {
-  object-fit: cover;
+  object-fit: fill;
 }
