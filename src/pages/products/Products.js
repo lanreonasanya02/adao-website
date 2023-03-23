@@ -64,7 +64,7 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Scenery
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <a href="/adao-1" class="btn btn-first">
                             View Product
                           </a>
                           <a href="#" class="btn btn-second">

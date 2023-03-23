@@ -1,9 +1,10 @@
 import React from "react";
+import "../collections/Collections.css";
 
-const adao1 = () => {
+const Adao1 = () => {
   return (
     <>
-      <header>
+      <main>
         <div class="text">
           <h3>ART - THE UNSTOPPABLE BEAUTY OF THE WORLD!!!</h3>
           <h4>
@@ -11,17 +12,7 @@ const adao1 = () => {
             DONT TALK, JUST LISTEN !!!
           </h4>
         </div>
-      </header>
-
-      <section>
-        <div class="container links">
-          <a href="#">HOME /</a>
-          <a href="#">PRODUCTS /</a>
-          <a href="#">FURNITURE,FIXTURES & EQUIPMENT /</a>
-          <a href="#">HOTEL ARTWORK /</a>
-          <p>THE ART GROUP – TIME LIFE COLLECTION</p>
-        </div>
-      </section>
+      </main>
 
       <article class="container">
         <div class="text-center">
@@ -168,4 +159,4 @@ const adao1 = () => {
   );
 };
 
-export default adao1;
+export default Adao1;
