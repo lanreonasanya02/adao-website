@@ -17,19 +17,18 @@ section .carou button {
 
 section .carou button .btn-prev-next,
 .carou-mobile button .btn-prev-next {
-  color: #d4b35f;
+  color: #cdaa52;
   font-size: 2rem;
 }
 
 section .carou .card .card-image {
   width: 100%;
   height: 60vh;
-  /* object-fit: contain;
-  object-position: center; */
+  overflow: hidden;
 }
 
 .carou-mobile .card {
-  margin: 0 4rem;
+  margin: 0 3.5rem;
 }
 
 section .carou .card .card-image img,
@@ -37,8 +36,10 @@ section .carou .card .card-image img,
   width: 100%;
   height: 60vh;
   object-fit: cover;
+  transition: transform 0.4s;
+  overflow: hidden;
 }
 
-/* section .carou .card .card-image img:hover {
-  object-fit: fill;
-} */
+section .carou .card .card-image img:hover {
+  transform: scale(1.2);
+}

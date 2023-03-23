@@ -8,6 +8,11 @@ import img5 from "../../images/adao-14.png";
 import img6 from "../../images/adao-17.png";
 import img7 from "../../images/adao-18.png";
 import img8 from "../../images/adao-20.png";
+import img9 from "../../images/adao-5.png";
+import img10 from "../../images/adao-8.png";
+import img11 from "../../images/adao-2.png";
+import img12 from "../../images/adao-3.png";
+import img13 from "../../images/adao-1.png";
 
 const Products = () => {
   return (
@@ -38,6 +43,24 @@ const Products = () => {
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
                           <img src={img1} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img9} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
@@ -87,11 +110,70 @@ const Products = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+
+                {/* Slide 2 */}
+                <div class="carousel-item">
+                  <div className="row ">
+                    <div className="col-lg-3 col-md-4 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img12} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img4} class="card-img-top" alt="..." />
+                          <img src={img10} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img13} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img11} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
@@ -108,10 +190,28 @@ const Products = () => {
                   </div>
                 </div>
 
-                {/* Slide 2 */}
+                {/* Slide 3 */}
                 <div class="carousel-item">
                   <div className="row ">
                     <div className="col-lg-3 col-md-4 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img8} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
                           <img src={img5} class="card-img-top" alt="..." />
@@ -164,93 +264,6 @@ const Products = () => {
                         </div>
                       </div>
                     </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <div className="card-image">
-                          <img src={img8} class="card-img-top" alt="..." />
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Slide 3 */}
-                <div class="carousel-item">
-                  <div className="row ">
-                    <div className="col-lg-3 col-md-4 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <img src="..." class="card-img-top" alt="..." />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <img src="..." class="card-img-top" alt="..." />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <img src="..." class="card-img-top" alt="..." />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <img src="..." class="card-img-top" alt="..." />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
-                          </a>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -278,7 +291,7 @@ const Products = () => {
             <div class="carousel-item active">
               <div class="card">
                 <div className="card-image">
-                  <img src={img3} class="card-img-top" alt="..." />
+                  <img src={img13} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -312,7 +325,97 @@ const Products = () => {
             <div class="carousel-item">
               <div class="card">
                 <div className="card-image">
+                  <img src={img12} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
                   <img src={img4} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
+                  <img src={img11} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
+                  <img src={img9} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
+                  <img src={img10} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Go somewhere
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
+                  <img src={img3} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
