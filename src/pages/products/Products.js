@@ -12,7 +12,7 @@ import img8 from "../../images/adao-20.png";
 const Products = () => {
   return (
     <>
-      <section className="">
+      <section className="d-none d-lg-block">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div className="carou">
             <div className="">

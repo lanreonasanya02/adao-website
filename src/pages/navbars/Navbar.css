@@ -1,6 +1,6 @@
 /* The side navigation menu */
 .sidenav {
-  height: 100vh; /* 100% Full-height */
+  height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
@@ -50,11 +50,11 @@
 
 .sidenav .sidenav-links {
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 8rem;
 }
 
 .sidenav .sidenav-links a {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-style: italic;
 }
 
@@ -120,12 +120,13 @@ nav .navbar-nav .active {
   width: 30%;
 }
 
+.sidenav {
+  padding-top: 1.5rem;
+}
+.sidenav a {
+  font-size: 20px;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
 }
