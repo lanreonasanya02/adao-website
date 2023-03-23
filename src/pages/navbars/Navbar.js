@@ -74,7 +74,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="mobile-nav py-3 d-block d-lg-none">
+      <nav className="mobile-nav pt-3 d-block d-lg-none">
         <div id="mySidenav" className="sidenav">
           <a class="navbar-brand closebtn-logo" href="#">
             <img src={logo} alt="logo" className="logo-overlap-mobile" />
