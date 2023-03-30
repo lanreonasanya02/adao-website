@@ -1,6 +1,6 @@
 .section-heading {
   padding: 5rem 0 12px;
-  border-bottom: 2px solid #d4b35f;
+  border-bottom: 2px solid #c1bfbf;
   width: 8%;
   font-weight: bolder;
   font-style: italic;
@@ -26,14 +26,14 @@ section .carou button {
 
 section .carou button .btn-prev-next,
 .carou-mobile button .btn-prev-next {
-  color: #cdaa52;
+  color: #000;
   font-size: 2rem;
 }
 
 section .carou .card .card-image,
 .carou-mobile .card .card-image {
   width: 100%;
-  height: 60vh;
+  height: 45vh;
   overflow: hidden;
 }
 
@@ -41,9 +41,13 @@ section .carou .card .card-image,
   margin: 0 3.5rem;
 }
 
+section .carou .card {
+  border-radius: 10px;
+}
+
 section .carou .card .card-body {
   background-color: #f4f4f4;
-  height: 70vh;
+  height: 55vh;
 }
 
 section .carou .card .card-image img,
@@ -60,29 +64,33 @@ section .carou .card .card-image img:hover,
 }
 
 section .card .card-body .card-icon {
-  color: #d4b35f;
+  color: #5c5959;
   margin-right: 5px;
 }
 
-section .card .card-body h5 {
+section .card .card-body h6 {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bolder;
-  height: 10vh;
+}
+
+.carou-mobile .card .card-body h6 {
+  height: 5vh;
 }
 
 section .card .card-body .card-paragraph {
   font-size: 14px;
   font-weight: bold;
-  height: 25vh;
+  height: 15vh;
+  line-height: 12px;
 }
 
 section .card .card-body .line {
-  border: 1px solid #d4b35f;
+  border: 1px solid #d2d0d0;
   width: 50%;
   margin: auto;
   margin-top: 1rem;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
 }
 
 section .card .card-body .btn {
@@ -98,5 +106,6 @@ section .card .card-body .btn-first {
 }
 
 section .card .card-body .btn-second {
-  background-color: #d4b35f;
+  background-color: #5c5959;
+  color: #fff;
 }

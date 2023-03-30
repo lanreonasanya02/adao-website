@@ -5,6 +5,7 @@ import img2 from "../../images/adao-15.png";
 import img3 from "../../images/adao-6.png";
 import img4 from "../../images/adao-7.png";
 import img5 from "../../images/adao-14.png";
+import img5sub from "../../images/adao-19ed.png";
 import img6 from "../../images/adao-17.png";
 import img7 from "../../images/adao-18.png";
 import img8 from "../../images/adao-20.png";
@@ -48,9 +49,9 @@ const Products = () => {
                           <img src={img1} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">
-                            ADAO - Lorem ipsum dolor sit amet.
-                          </h5>
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -80,10 +81,9 @@ const Products = () => {
                           <img src={img9} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">
-                            ADAO - Lorem, ipsum dolor sit amet consectetur
-                            adipisicing elit. Nihil, rem!
-                          </h5>
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -110,9 +110,9 @@ const Products = () => {
                           <img src={img2} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">
+                          <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
-                          </h5>
+                          </h6>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -143,10 +143,9 @@ const Products = () => {
                           <img src={img3} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">
-                            ADAO - Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Est.
-                          </h5>
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -172,19 +171,29 @@ const Products = () => {
                 {/* Slide 2 */}
                 <div class="carousel-item">
                   <div className="row ">
-                    <div className="col-lg-3 col-md-4 col-10">
+                    <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
                           <img src={img12} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -196,13 +205,23 @@ const Products = () => {
                           <img src={img10} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -214,13 +233,23 @@ const Products = () => {
                           <img src={img13} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -232,13 +261,23 @@ const Products = () => {
                           <img src={img11} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -249,19 +288,30 @@ const Products = () => {
                 {/* Slide 3 */}
                 <div class="carousel-item">
                   <div className="row ">
-                    <div className="col-lg-3 col-md-4 col-10">
+                    <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
                           <img src={img8} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Sculpture
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Wood
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -270,16 +320,27 @@ const Products = () => {
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img5} class="card-img-top" alt="..." />
+                          <img src={img5sub} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Sculpture
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Wood
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -291,13 +352,24 @@ const Products = () => {
                           <img src={img6} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Sculpture
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Metal
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -309,13 +381,24 @@ const Products = () => {
                           <img src={img7} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">
-                            Go somewhere
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Sculpture
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Metal
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
                           </a>
                         </div>
                       </div>
@@ -350,10 +433,9 @@ const Products = () => {
                   <img src={img13} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Nihil, rem!
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -378,10 +460,9 @@ const Products = () => {
                   <img src={img1} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Sint minus magnam aliquam ut libero consequuntur?
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -409,10 +490,9 @@ const Products = () => {
                   <img src={img12} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Nihil, rem!
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -438,10 +518,9 @@ const Products = () => {
                   <img src={img4} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Lorem ipsum dolor sit amet.
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -467,10 +546,9 @@ const Products = () => {
                   <img src={img11} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Nihil, rem!
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -496,10 +574,9 @@ const Products = () => {
                   <img src={img9} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Nihil, rem!
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -528,10 +605,9 @@ const Products = () => {
                   <img src={img10} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Nihil, rem!
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -557,11 +633,9 @@ const Products = () => {
                   <img src={img3} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
-                  <h5 class="card-title">
-                    ADAO - Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Nihil, rem! Lorem ipsum dolor sit. Lorem ipsum dolor
-                    sit.
-                  </h5>
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
