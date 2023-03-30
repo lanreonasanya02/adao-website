@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/adao logo.jpg";
+import logo from "../../images/adao-logo.png";
 import logoMobile from "../../images/adao-logo.png";
 import "../navbars/Navbar.css";
 import { useLocation, Link } from "react-router-dom";
@@ -94,7 +94,7 @@ const Navbar = () => {
 
         {/* <!-- Use any element to open the sidenav --> */}
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-6">
               <a class="navbar-brand" href="/">
                 <img src={logo} alt="logo" className="logo-mobile" />
