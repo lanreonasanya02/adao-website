@@ -42,13 +42,17 @@ const Home = () => {
                 </p>
 
                 <a href="#" className="btn header-btn d-none d-lg-block">
-                  Get In Touch
+                  View Collections
                 </a>
               </div>
 
               <div className="col-md-6 m-auto">
                 <img src={img} alt="african-art" width="45%" />
                 <img src={img2} alt="african-art" width="55%" />
+
+                <a href="#" className="btn mobile-header-btn d-block d-lg-none">
+                  View Collections
+                </a>
               </div>
             </div>
           </div>
