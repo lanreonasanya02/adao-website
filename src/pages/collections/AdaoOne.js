@@ -1,7 +1,7 @@
 import React from "react";
 // import "../collections/Collections.css";
 
-const Adao1 = () => {
+const AdaoOne = () => {
   return (
     <>
       <main>
@@ -135,4 +135,4 @@ const Adao1 = () => {
   );
 };
 
-export default Adao1;
+export default AdaoOne;
