@@ -41,7 +41,124 @@ const Products = () => {
             <div className="">
               <div class="carousel-inner">
                 {/* Slide 1 */}
-                <div class="carousel-item active">
+                <div class="carousel-item  active">
+                  <div className="row ">
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img11} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img10} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img13} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-lg-3 col-md-3 col-10">
+                      <div class="card" style={{ width: "15rem" }}>
+                        <div className="card-image">
+                          <img src={img12} class="card-img-top" alt="..." />
+                        </div>
+                        <div class="card-body">
+                          <h6 class="card-title">
+                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                          </h6>
+                          <div className="line"></div>
+                          <div className="card-paragraph">
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Painting
+                            </p>
+                            <p class="card-text">
+                              <i class="bi bi-view-list card-icon"></i> Abstract
+                            </p>
+                          </div>
+                          <a href="#" class="btn btn-first">
+                            View Product
+                          </a>
+                          <a href="#" class="btn btn-second">
+                            Send Enquiry
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Slide 2 */}
+                <div class="carousel-item">
                   <div className="row">
                     <div className="col-lg-3 col-md-4 col-10">
                       <div class="card" style={{ width: "15rem" }}>
@@ -154,123 +271,6 @@ const Products = () => {
                             </p>
                             <p class="card-text">
                               <i class="bi bi-view-list card-icon"></i> Metal
-                            </p>
-                          </div>
-                          <a href="#" class="btn btn-first">
-                            View Product
-                          </a>
-                          <a href="#" class="btn btn-second">
-                            Send Enquiry
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Slide 2 */}
-                <div class="carousel-item">
-                  <div className="row ">
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <div className="card-image">
-                          <img src={img12} class="card-img-top" alt="..." />
-                        </div>
-                        <div class="card-body">
-                          <h6 class="card-title">
-                            ADAO - Lorem ipsum dolor sit amet consectetur.
-                          </h6>
-                          <div className="line"></div>
-                          <div className="card-paragraph">
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Painting
-                            </p>
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
-                            </p>
-                          </div>
-                          <a href="#" class="btn btn-first">
-                            View Product
-                          </a>
-                          <a href="#" class="btn btn-second">
-                            Send Enquiry
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <div className="card-image">
-                          <img src={img10} class="card-img-top" alt="..." />
-                        </div>
-                        <div class="card-body">
-                          <h6 class="card-title">
-                            ADAO - Lorem ipsum dolor sit amet consectetur.
-                          </h6>
-                          <div className="line"></div>
-                          <div className="card-paragraph">
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Painting
-                            </p>
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
-                            </p>
-                          </div>
-                          <a href="#" class="btn btn-first">
-                            View Product
-                          </a>
-                          <a href="#" class="btn btn-second">
-                            Send Enquiry
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <div className="card-image">
-                          <img src={img13} class="card-img-top" alt="..." />
-                        </div>
-                        <div class="card-body">
-                          <h6 class="card-title">
-                            ADAO - Lorem ipsum dolor sit amet consectetur.
-                          </h6>
-                          <div className="line"></div>
-                          <div className="card-paragraph">
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Painting
-                            </p>
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
-                            </p>
-                          </div>
-                          <a href="#" class="btn btn-first">
-                            View Product
-                          </a>
-                          <a href="#" class="btn btn-second">
-                            Send Enquiry
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-lg-3 col-md-3 col-10">
-                      <div class="card" style={{ width: "15rem" }}>
-                        <div className="card-image">
-                          <img src={img11} class="card-img-top" alt="..." />
-                        </div>
-                        <div class="card-body">
-                          <h6 class="card-title">
-                            ADAO - Lorem ipsum dolor sit amet consectetur.
-                          </h6>
-                          <div className="line"></div>
-                          <div className="card-paragraph">
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Painting
-                            </p>
-                            <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
