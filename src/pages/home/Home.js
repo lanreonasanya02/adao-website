@@ -15,13 +15,13 @@ const Home = () => {
         {/* <SideNav /> */}
 
         <div className="container header-hero">
-          <div className="d-none d-lg-block">
+          <div className="">
             <div className="row align-items-center">
               <div className="fw-bold header-hero-text col-md-6 ">
                 {/* <h1 className="display-6 animate-charcter d-none d-lg-block">
               African Diversified Art Odyssey Group (ADAO)
             </h1> */}
-                <h1 className="display-4 d-none d-lg-block">
+                <h1 className="display-4">
                   African Diversified Art Odyssey (ADAO)
                 </h1>
 
@@ -53,7 +53,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="d-block d-lg-none text-start mobile-heading">
+          <div className="d-none  text-start mobile-heading">
             <h2 className="display-1">An</h2>
             <h2 className="display-1">
               <span>A</span>frican
