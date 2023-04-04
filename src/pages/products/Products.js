@@ -50,8 +50,11 @@ const Products = () => {
                         </div>
                         <div class="card-body">
                           <h6 class="card-title">
-                            ADAO - Lorem ipsum dolor sit amet consectetur.
+                            ADAO - Lorem ipsum dolor sit amet consectetur. b
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            BY TOLAWEWE
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -74,12 +77,15 @@ const Products = () => {
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img10} class="card-img-top" alt="..." />
+                          <img src={img1} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            BY ODEYEMI SEUN
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -102,12 +108,15 @@ const Products = () => {
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img13} class="card-img-top" alt="..." />
+                          <img src={img5} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            BY KENNY ADAMSON
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -130,12 +139,15 @@ const Products = () => {
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img12} class="card-img-top" alt="..." />
+                          <img src={img9} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            BY B. ALVIN
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -163,7 +175,7 @@ const Products = () => {
                     <div className="col-lg-3 col-md-4 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img1} class="card-img-top" alt="..." />
+                          <img src={img10} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h6 class="card-title">
@@ -195,7 +207,7 @@ const Products = () => {
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
                         <div className="card-image">
-                          <img src={img9} class="card-img-top" alt="..." />
+                          <img src={img12} class="card-img-top" alt="..." />
                         </div>
                         <div class="card-body">
                           <h6 class="card-title">

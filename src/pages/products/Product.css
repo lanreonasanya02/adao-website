@@ -47,7 +47,7 @@ section .carou .card {
 
 section .carou .card .card-body {
   background-color: #f4f4f4;
-  height: 55vh;
+  height: 60vh;
 }
 
 section .carou .card .card-image img,
@@ -74,6 +74,11 @@ section .card .card-body h6 {
   font-weight: bolder;
 }
 
+section .card .card-body .title-paragraph {
+  font-size: 10px;
+  font-weight: bold;
+}
+
 .carou-mobile .card .card-body h6 {
   height: 5vh;
 }
@@ -89,8 +94,8 @@ section .card .card-body .line {
   border: 1px solid #d2d0d0;
   width: 50%;
   margin: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 4px;
+  margin-bottom: 10px;
 }
 
 section .card .card-body .btn {
