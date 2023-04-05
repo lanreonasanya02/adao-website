@@ -18,7 +18,7 @@ import img13 from "../../images/adao-1.png";
 const Products = () => {
   return (
     <>
-      <div className=" container ">
+      <div className="container" id="products">
         <h3 className="section-heading">Products</h3>
       </div>
       <section className="d-none d-lg-block">
@@ -65,7 +65,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -92,11 +92,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Painting
                             </p>
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Landscape
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -120,14 +121,16 @@ const Products = () => {
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Painting
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Sculpture
                             </p>
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
+                              <i class="bi bi-view-list card-icon"></i> Wood
+                              work
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -151,14 +154,16 @@ const Products = () => {
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Painting
+                              <i class="bi bi-view-list card-icon"></i>{" "}
+                              Sculpture
                             </p>
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Abstract
+                              <i class="bi bi-view-list card-icon"></i> Metal
+                              work
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -181,6 +186,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -195,7 +203,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="/adao-1" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -213,6 +221,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -224,7 +235,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -242,6 +253,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -257,7 +271,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -275,6 +289,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -286,7 +303,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -309,6 +326,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -320,7 +340,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -338,6 +358,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -349,7 +372,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -367,6 +390,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -378,7 +404,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -396,6 +422,9 @@ const Products = () => {
                           <h6 class="card-title">
                             ADAO - Lorem ipsum dolor sit amet consectetur.
                           </h6>
+                          <p className="text-muted title-paragraph">
+                            Lorem, ipsum.
+                          </p>
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
@@ -407,7 +436,7 @@ const Products = () => {
                             </p>
                           </div>
                           <a href="#" class="btn btn-first">
-                            View Product
+                            View Art
                           </a>
                           <a href="#" class="btn btn-second">
                             Send Enquiry
@@ -442,12 +471,13 @@ const Products = () => {
             <div class="carousel-item active">
               <div class="card">
                 <div className="card-image">
-                  <img src={img13} class="card-img-top" alt="..." />
+                  <img src={img11} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
                   <h6 class="card-title">
                     ADAO - Lorem ipsum dolor sit amet consectetur.
                   </h6>
+                  <p className="text-muted title-paragraph">BY TOLAWEWE</p>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -458,7 +488,7 @@ const Products = () => {
                     </p>
                   </div>
                   <a href="#" class="btn btn-first">
-                    View Product
+                    View Art
                   </a>
                   <a href="#" class="btn btn-second">
                     Send Enquiry
@@ -475,6 +505,7 @@ const Products = () => {
                   <h6 class="card-title">
                     ADAO - Lorem ipsum dolor sit amet consectetur.
                   </h6>
+                  <p className="text-muted title-paragraph">BY ODEYEMI SEUN</p>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -483,12 +514,9 @@ const Products = () => {
                     <p class="card-text">
                       <i class="bi bi-view-list card-icon"></i> Landscape
                     </p>
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Scenery
-                    </p>
                   </div>
                   <a href="#" class="btn btn-first">
-                    View Product
+                    View Art
                   </a>
                   <a href="#" class="btn btn-second">
                     Send Enquiry
@@ -499,79 +527,24 @@ const Products = () => {
             <div class="carousel-item">
               <div class="card">
                 <div className="card-image">
-                  <img src={img12} class="card-img-top" alt="..." />
+                  <img src={img5} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
                   <h6 class="card-title">
                     ADAO - Lorem ipsum dolor sit amet consectetur.
                   </h6>
-                  <div className="line"></div>
-                  <div className="card-paragraph">
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Painting
-                    </p>
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Abstract
-                    </p>
-                  </div>
-                  <a href="#" class="btn btn-first">
-                    View Product
-                  </a>
-                  <a href="#" class="btn btn-second">
-                    Send Enquiry
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="card">
-                <div className="card-image">
-                  <img src={img4} class="card-img-top" alt="..." />
-                </div>
-                <div class="card-body text-center">
-                  <h6 class="card-title">
-                    ADAO - Lorem ipsum dolor sit amet consectetur.
-                  </h6>
+                  <p className="text-muted title-paragraph">BY KENNY ADAMSON</p>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
                       <i class="bi bi-view-list card-icon"></i> Sculpture
                     </p>
                     <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Metal
+                      <i class="bi bi-view-list card-icon"></i> Wood work
                     </p>
                   </div>
                   <a href="#" class="btn btn-first">
-                    View Product
-                  </a>
-                  <a href="#" class="btn btn-second">
-                    Send Enquiry
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <div class="card">
-                <div className="card-image">
-                  <img src={img11} class="card-img-top" alt="..." />
-                </div>
-                <div class="card-body text-center">
-                  <h6 class="card-title">
-                    ADAO - Lorem ipsum dolor sit amet consectetur.
-                  </h6>
-                  <div className="line"></div>
-                  <div className="card-paragraph">
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Painting
-                    </p>
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Abstract
-                    </p>
-                  </div>
-                  <a href="#" class="btn btn-first">
-                    View Product
+                    View Art
                   </a>
                   <a href="#" class="btn btn-second">
                     Send Enquiry
@@ -589,6 +562,65 @@ const Products = () => {
                   <h6 class="card-title">
                     ADAO - Lorem ipsum dolor sit amet consectetur.
                   </h6>
+                  <p className="text-muted title-paragraph">BY B. ALVIN</p>
+                  <div className="line"></div>
+                  <div className="card-paragraph">
+                    <p class="card-text">
+                      <i class="bi bi-view-list card-icon"></i> Sculpture
+                    </p>
+                    <p class="card-text">
+                      <i class="bi bi-view-list card-icon"></i> Metal work
+                    </p>
+                  </div>
+                  <a href="#" class="btn btn-first">
+                    View Art
+                  </a>
+                  <a href="#" class="btn btn-second">
+                    Send Enquiry
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
+                  <img src={img13} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
+                  <p className="text-muted title-paragraph">BY LOREM IPSUM</p>
+                  <div className="line"></div>
+                  <div className="card-paragraph">
+                    <p class="card-text">
+                      <i class="bi bi-view-list card-icon"></i> Painting
+                    </p>
+                    <p class="card-text">
+                      <i class="bi bi-view-list card-icon"></i> Abstract
+                    </p>
+                  </div>
+                  <a href="#" class="btn btn-first">
+                    View Art
+                  </a>
+                  <a href="#" class="btn btn-second">
+                    Send Enquiry
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card">
+                <div className="card-image">
+                  <img src={img12} class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">
+                    ADAO - Lorem ipsum dolor sit amet consectetur.
+                  </h6>
+                  <p className="text-muted title-paragraph">BY LOREM IPSUM</p>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -597,12 +629,9 @@ const Products = () => {
                     <p class="card-text">
                       <i class="bi bi-view-list card-icon"></i> Metal
                     </p>
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> Outdoor
-                    </p>
                   </div>
                   <a href="#" class="btn btn-first">
-                    View Product
+                    View Art
                   </a>
                   <a href="#" class="btn btn-second">
                     Send Enquiry
@@ -620,6 +649,7 @@ const Products = () => {
                   <h6 class="card-title">
                     ADAO - Lorem ipsum dolor sit amet consectetur.
                   </h6>
+                  <p className="text-muted title-paragraph">BY LOREM IPSUM</p>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -630,7 +660,7 @@ const Products = () => {
                     </p>
                   </div>
                   <a href="#" class="btn btn-first">
-                    View Product
+                    View Art
                   </a>
                   <a href="#" class="btn btn-second">
                     Send Enquiry
@@ -642,12 +672,13 @@ const Products = () => {
             <div class="carousel-item">
               <div class="card">
                 <div className="card-image">
-                  <img src={img3} class="card-img-top" alt="..." />
+                  <img src={img4} class="card-img-top" alt="..." />
                 </div>
                 <div class="card-body text-center">
                   <h6 class="card-title">
                     ADAO - Lorem ipsum dolor sit amet consectetur.
                   </h6>
+                  <p className="text-muted title-paragraph">BY LOREM IPSUM</p>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -658,7 +689,7 @@ const Products = () => {
                     </p>
                   </div>
                   <a href="#" class="btn btn-first">
-                    View Product
+                    View Art
                   </a>
                   <a href="#" class="btn btn-second">
                     Send Enquiry

@@ -45,7 +45,11 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link me-2 link-white" aria-current="page" href="#">
+              <a
+                class="nav-link me-2 link-white"
+                aria-current="page"
+                href="#products"
+              >
                 Products
               </a>
               {/* <Link
@@ -61,7 +65,7 @@ const Navbar = () => {
               <a class="nav-link me-2 link-white" href="#">
                 Experts
               </a>
-              <a class="nav-link me-2 link-white" href="#">
+              <a class="nav-link me-2 link-white" href="#gallery">
                 Gallery
               </a>
               <a class="nav-link me-3 link-white" href="#">
@@ -85,9 +89,9 @@ const Navbar = () => {
             &times;
           </a>
           <div className="sidenav-links">
-            <a href="#">Products</a>
+            <a href="#products">Products</a>
             <a href="#">Experts</a>
-            <a href="#">Gallery</a>
+            <a href="#gallery">Gallery</a>
             <a href="/contact">Contact</a>
           </div>
         </div>

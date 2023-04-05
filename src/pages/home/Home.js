@@ -4,6 +4,8 @@ import Navbar from "../navbars/Navbar";
 import Products from "../products/Products";
 import img from "../../images/adao-19ed.png";
 import img2 from "../../images/adao-18.png";
+import Gallery from "../gallery/Gallery";
+import Overview from "../overview/Overview";
 
 // import SideNav from "../navbars/SideNav";
 
@@ -27,8 +29,8 @@ const Home = () => {
 
                 <h5 className="fst-italic  text-muted">
                   {" "}
-                  Art Consultancy, Represention of Old & Modern Contemporary
-                  Artists, Supply, Exhibitions...
+                  Art Consultancy/Art Supply/Contemporary Artists
+                  Representation/Art Exhibitions...
                 </h5>
                 <br />
                 <p className="d-none">
@@ -41,7 +43,10 @@ const Home = () => {
                   Tempora, eius sapiente!
                 </p>
 
-                <a href="#" className="btn header-btn d-none d-lg-block">
+                <a
+                  href="#products"
+                  className="btn header-btn d-none d-lg-block"
+                >
                   View Collections
                 </a>
               </div>
@@ -50,36 +55,21 @@ const Home = () => {
                 <img src={img} alt="african-art" width="45%" />
                 <img src={img2} alt="african-art" width="55%" />
 
-                <a href="#" className="btn mobile-header-btn d-block d-lg-none">
+                <a
+                  href="#products"
+                  className="btn mobile-header-btn d-block d-lg-none"
+                >
                   View Collections
                 </a>
               </div>
             </div>
           </div>
-
-          <div className="d-none  text-start mobile-heading">
-            <h2 className="display-1">An</h2>
-            <h2 className="display-1">
-              <span>A</span>frican
-            </h2>
-            <h2 className="display-1">
-              <span>D</span>iversified
-            </h2>
-            <h2 className="display-1">
-              <span>A</span>rt
-            </h2>
-            <h2 className="display-1">
-              <span>O</span>dyssey
-            </h2>
-
-            <a href="#" className="btn header-btn d-block d-lg-none fst-italic">
-              See Collections
-            </a>
-          </div>
         </div>
       </header>
 
+      <Overview />
       <Products />
+      <Gallery />
     </>
   );
 };
