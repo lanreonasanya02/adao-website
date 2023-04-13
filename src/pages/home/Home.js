@@ -6,6 +6,8 @@ import img from "../../images/adao-19ed.png";
 import img2 from "../../images/adao-18.png";
 import Gallery from "../gallery/Gallery";
 import Overview from "../overview/Overview";
+import Experts from "../experts/Experts";
+import Footer from "../footer/Footer";
 
 // import SideNav from "../navbars/SideNav";
 
@@ -69,7 +71,9 @@ const Home = () => {
 
       <Overview />
       <Products />
+      <Experts />
       <Gallery />
+      <Footer />
     </>
   );
 };

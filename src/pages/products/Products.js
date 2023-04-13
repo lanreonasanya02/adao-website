@@ -41,7 +41,7 @@ const Products = () => {
             <div className="">
               <div class="carousel-inner">
                 {/* Slide 1 */}
-                <div class="carousel-item  active">
+                <div class="carousel-item active">
                   <div className="row ">
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
@@ -465,6 +465,7 @@ const Products = () => {
         </div>
       </section>
 
+      {/* Mobile */}
       <section className="carou-mobile d-block d-lg-none">
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner ">

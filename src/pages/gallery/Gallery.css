@@ -1,0 +1,49 @@
+main .gallery-section {
+  padding: 1rem 0;
+}
+
+main .gallery-section .carou {
+  display: grid;
+  grid-template-columns: 60px 1fr 60px;
+  text-align: center;
+  align-items: center;
+}
+
+main .gallery-section .card-image {
+  border-right: 5px double #f8f8f8;
+  height: 50vh;
+  overflow: hidden;
+}
+
+main .gallery-section .carou .carou-btn {
+  border: 2px double #787474;
+}
+
+main .gallery-section .gallery-image img {
+  width: 100%;
+  transition: transform 0.4s;
+  border-radius: 12px;
+  margin: auto;
+}
+
+main .gallery-section .card-image img:hover {
+  transform: scale(1.1);
+}
+
+main .gallery-section .gallery-buttons {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+  font-size: 3rem;
+}
+
+main .gallery-section .gallery-buttons button {
+  padding: 1px 1rem;
+  margin-right: 8px;
+  background-color: #615f5f;
+  border-style: none;
+}
+
+main .gallery-section .gallery-buttons button:hover {
+  background-color: #000;
+}
