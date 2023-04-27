@@ -1,0 +1,31 @@
+footer {
+  background-color: #f4f4f4;
+  padding: 3rem 0;
+}
+
+footer .section-two,
+footer .attribution,
+footer .section-three {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .section-two a {
+  margin-right: 1.2rem;
+  font-size: 1.5rem;
+}
+
+footer .section-two a:hover {
+  color: #6a6969;
+}
+
+footer .attribution p {
+  font-size: 8px;
+  letter-spacing: 6px;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+footer .attribution p a {
+  color: blue;
+}

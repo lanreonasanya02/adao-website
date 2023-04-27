@@ -9,15 +9,15 @@ const Footer = () => {
   return (
     <footer>
       <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <img src={logo} alt="logo" width="40%" />
+        <div className="row align-items-center">
+          <div className="col-md-4 section-one">
+            <img src={logo} alt="logo" width="35%" />
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 section-two">
             <a href="">
               <AiOutlineMail />
-            </a>{" "}
+            </a>
             <a href="">
               <FiFacebook />
             </a>
@@ -29,9 +29,15 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="col-md-4">
-            <p></p>
+          <div className="col-md-4 section-three">
+            <p>Copyright 2023 - All Rights Resrved.</p>
           </div>
+        </div>
+
+        <div className="attribution">
+          <p>
+            Created with ❤️ by <a href="">Lanre Adeolu</a>
+          </p>
         </div>
       </div>
     </footer>
