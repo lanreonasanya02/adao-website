@@ -6,7 +6,7 @@ import img3 from "../../images/adao-6.png";
 import img4 from "../../images/adao-7.png";
 import img5 from "../../images/adao-14.png";
 import img11 from "../../images/adao-19.png";
-import img6 from "../../images/adao-17.png";
+// import img6 from "../../images/adao-17.png";
 import img7 from "../../images/adao-18.png";
 import img8 from "../../images/adao-20.png";
 import img9 from "../../images/adao-5ed.png";
