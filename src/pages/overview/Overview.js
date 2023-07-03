@@ -18,8 +18,12 @@ const Overview = () => {
           endeavors. Through our expertise, industry knowledge, and passion for
           art, we deliver exceptional art supply services that elevate the
           ambiance, spark creativity, and produce memorable experiences for
-          hotel guests. We are committed to forging long-term partnerships with
-          branded hotels, bringing art to the fore of their brand identity, and
+          hotel guests.
+        </p>
+
+        <p>
+          We are committed to forging long-term partnerships with branded
+          hotels, bringing art to the fore of their brand identity, and
           enhancing their reputation in the hospitality industry.
         </p>
       </div>

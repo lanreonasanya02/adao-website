@@ -230,11 +230,10 @@ const Products = () => {
                           <div className="line"></div>
                           <div className="card-paragraph">
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i>{" "}
-                              Sculpture
+                              <i class="bi bi-view-list card-icon"></i> Painting
                             </p>
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Metal
+                              <i class="bi bi-view-list card-icon"></i> Abstract
                             </p>
                           </div>
                           <Link to="#" class="btn btn-first">
@@ -339,7 +338,8 @@ const Products = () => {
                               Sculpture
                             </p>
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Wood
+                              <i class="bi bi-view-list card-icon"></i> Fibre
+                              Glass in Bronze
                             </p>
                           </div>
                           <Link to="#" class="btn btn-first">
@@ -371,7 +371,7 @@ const Products = () => {
                               Sculpture
                             </p>
                             <p class="card-text">
-                              <i class="bi bi-view-list card-icon"></i> Wood
+                              <i class="bi bi-view-list card-icon"></i> Metal
                             </p>
                           </div>
                           <Link to="#" class="btn btn-first">

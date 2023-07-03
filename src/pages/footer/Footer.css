@@ -1,21 +1,55 @@
 footer {
-  background-color: #fff;
+  background-color: #201f1f;
+  color: #fff;
   padding: 3rem 0;
 }
 
+footer nav .navbar-brand img {
+  border-radius: 8px;
+  width: 18%;
+}
+
+footer nav .navbar-nav a {
+  color: #fff;
+}
+
+footer nav .navbar-nav a:hover {
+  color: #8f8484;
+}
+
+footer .footer-body {
+  margin-top: 3rem;
+}
+
+footer h6 {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
 footer .section-two,
-footer .attribution,
+footer .attribution {
+  text-align: center;
+}
+
 footer .section-three {
   text-align: center;
-  font-weight: bold;
 }
 
-footer .section-two a {
+footer .section-two a,
+footer .section-three .socials {
   margin-right: 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  color: #fff;
 }
 
-footer .section-two a:hover {
+footer .section-three a {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+footer .section-two a:hover,
+footer .section-three a:hover {
   color: #6a6969;
 }
 
