@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../footer/Footer.css";
 import logo from "../../images/adao-logo.png";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
@@ -15,18 +16,18 @@ const Footer = () => {
           </div>
 
           <div className="col-md-4 section-two">
-            <a href="">
+            <Link to="mailto:adaogroup@outlook.com">
               <AiOutlineMail />
-            </a>
-            <a href="">
+            </Link>
+            <Link to="https://www.facebook.com/adao-group">
               <FiFacebook />
-            </a>
-            <a href="">
+            </Link>
+            <Link to="https://www.instagram.com/adaogroup">
               <FiInstagram />
-            </a>
-            <a href="">
+            </Link>
+            <Link to="https://www.linkedin.com/adao-group">
               <FaLinkedinIn />
-            </a>
+            </Link>
           </div>
 
           <div className="col-md-4 section-three">
@@ -36,7 +37,10 @@ const Footer = () => {
 
         <div className="attribution">
           <p>
-            Created with ❤️ by <a href="">Lanre Adeolu</a>
+            Created with ❤️ by{" "}
+            <Link to="https://my-portfolio-khaki-psi.vercel.app/">
+              Lanre Adeolu
+            </Link>
           </p>
         </div>
       </div>

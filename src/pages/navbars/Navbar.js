@@ -26,9 +26,9 @@ const Navbar = () => {
     <>
       <nav class="navbar navbar-expand-lg desktop-nav py-3 d-none d-lg-block">
         <div class="container-lg">
-          <a class="navbar-brand" href="/">
+          <Link class="navbar-brand" to="/">
             <img src={logo} alt="logo" className="logo-desktop" />
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -45,13 +45,13 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a
+              <Link
                 class="nav-link me-2 link-white"
                 aria-current="page"
-                href="#products"
+                to="#products"
               >
                 Products
-              </a>
+              </Link>
               {/* <Link
                 className={
                   exactLocation[1] === "products"
@@ -62,18 +62,18 @@ const Navbar = () => {
               >
                 Products
               </Link> */}
-              <a class="nav-link me-2 link-white" href="#">
-                Experts
-              </a>
-              <a class="nav-link me-2 link-white" href="#gallery">
-                Gallery
-              </a>
-              <a class="nav-link me-3 link-white" href="#">
+              <Link class="nav-link me-2 link-white" to="#expert">
+                Expert
+              </Link>
+              <Link class="nav-link me-2 link-white" to="#exhibitions">
+                Exhibitions
+              </Link>
+              <Link class="nav-link me-3 link-white" to="#">
                 News
-              </a>
-              <a href="/contact" className="nav-btn">
+              </Link>
+              <Link to="/contact" className="nav-btn">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -82,17 +82,17 @@ const Navbar = () => {
       {/* Mobile Navbar */}
       <nav className="mobile-nav pt-3 d-block d-lg-none">
         <div id="mySidenav" className="sidenav">
-          <a class="navbar-brand closebtn-logo" href="#">
+          <Link class="navbar-brand closebtn-logo" to="#">
             <img src={logo} alt="logo" className="logo-overlap-mobile" />
-          </a>
-          <a href="#" class="closebtn" onClick={closeNav}>
+          </Link>
+          <Link to="#" class="closebtn" onClick={closeNav}>
             &times;
-          </a>
+          </Link>
           <div className="sidenav-links">
-            <a href="#products">Products</a>
-            <a href="#">Experts</a>
-            <a href="#gallery">Gallery</a>
-            <a href="/contact">Contact</a>
+            <Link to="#products">Products</Link>
+            <Link to="#expert">Expert</Link>
+            <Link to="#exhibitions">Exhibitions</Link>
+            <Link to="/contact">Contact</Link>
           </div>
         </div>
 
@@ -100,9 +100,9 @@ const Navbar = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-6">
-              <a class="navbar-brand" href="/">
+              <Link class="navbar-brand" to="/">
                 <img src={logo} alt="logo" className="logo-mobile" />
-              </a>
+              </Link>
             </div>
             <span onClick={openNav} className="hamburger col-6 text-end">
               <i class="bi bi-list"></i>

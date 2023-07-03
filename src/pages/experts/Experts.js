@@ -1,27 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Experts.css";
 
 const Experts = () => {
   return (
-    <>
+    <main id="main-expert">
       <div className="container" id="expert">
-        <h3 className="section-heading">Experts</h3>
+        <h3 className="section-heading">Expert</h3>
       </div>
 
       <section className="container">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad
-          voluptatibus, nam, labore obcaecati possimus quibusdam repellat et
-          officia saepe voluptas dolorum exercitationem tenetur adipisci velit.
-          Consectetur tenetur architecto nobis.
+          Our services include a number of crucial areas to guarantee a smooth
+          art supply process for branded hotels: art curation, art procurement,
+          custom artwork, art installation, art maintenance and conservation,
+          and art engagement programs.
         </p>
+
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ad
-          voluptatibus, nam, labore obcaecati possimus quibusdam repellat et
-          officia saepe voluptas dolorum exercitationem tenetur adipisci velit.
-          Consectetur tenetur architecto nobis.
+          Have a question, need to know more information about our products,
+          company or delivery? Contact us and ask anything.
         </p>
+
+        <Link to="#contact" className="btn expert-btn">
+          Contact Expert
+        </Link>
       </section>
-    </>
+    </main>
   );
 };
 

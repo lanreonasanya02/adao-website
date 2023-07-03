@@ -1,10 +1,11 @@
 import React from "react";
 import "../home/Home.css";
+import { Link } from "react-router-dom";
 import Navbar from "../navbars/Navbar";
 import Products from "../products/Products";
 import img from "../../images/adao-19ed.png";
 import img2 from "../../images/adao-18.png";
-import Gallery from "../gallery/Gallery";
+import Exhibitions from "../exhibitions/Exhibitions";
 import Overview from "../overview/Overview";
 import Experts from "../experts/Experts";
 import Footer from "../footer/Footer";
@@ -45,24 +46,24 @@ const Home = () => {
                   Tempora, eius sapiente!
                 </p>
 
-                <a
-                  href="#products"
+                <Link
+                  to="#products"
                   className="btn header-btn d-none d-lg-block"
                 >
                   View Collections
-                </a>
+                </Link>
               </div>
 
               <div className="col-md-6 m-auto">
                 <img src={img} alt="african-art" width="45%" />
                 <img src={img2} alt="african-art" width="55%" />
 
-                <a
-                  href="#products"
+                <Link
+                  to="#products"
                   className="btn mobile-header-btn d-block d-lg-none"
                 >
                   View Collections
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -72,7 +73,7 @@ const Home = () => {
       <Overview />
       <Products />
       <Experts />
-      <Gallery />
+      <Exhibitions />
       <Footer />
     </>
   );

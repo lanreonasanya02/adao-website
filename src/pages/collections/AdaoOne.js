@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import "../collections/Collections.css";
 
 const AdaoOne = () => {
@@ -20,10 +21,10 @@ const AdaoOne = () => {
             <div class="grid-text col-lg-6 text-start">
               <h4>The Art Group – Time Life Collection</h4>
               <h5 class="mt-5 mb-5">
-                <a href="#">
+                <Link href="#">
                   THE ART GROUP – PREMIUM HOTEL DECOR SUPPLIER / HOTEL WALL ART
                   / DECORATIVE HOTEL ART
-                </a>
+                </Link>
               </h5>
               <p>
                 The Art Group are delighted to unveil a new range of licensed
@@ -54,7 +55,7 @@ const AdaoOne = () => {
               <br />
               <br />
               <div class="enquire mt-5 mb-5">
-                <a href="#">Send Enquiry</a>
+                <Link href="#">Send Enquiry</Link>
               </div>
             </div>
             <div class="grid-image col-lg-6">

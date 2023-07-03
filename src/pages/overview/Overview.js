@@ -3,39 +3,24 @@ import "../overview/Overview.css";
 
 const Overview = () => {
   return (
-    <main>
+    <main id="main-overview">
       <div className="container">
         <h3 className="section-heading">Overview</h3>
       </div>
 
       <div className="overview-page container">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem neque natus nostrum, repudiandae suscipit, itaque
-          minima tenetur expedita magnam adipisci quidem ea vitae aperiam
-          quibusdam cupiditate nulla unde voluptate deleniti! Lorem ipsum dolor
-          sit amet consectetur adipisicing elit. Impedit est, molestiae vero
-          consequuntur possimus ipsam consectetur dolor, eveniet deleniti
-          voluptate voluptas commodi eligendi. Voluptas amet nemo quos,
-          aspernatur praesentium officiis? Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Suscipit, perspiciatis. Cupiditate illum
-          dolor in ex fugiat a qui natus eligendi.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt
-          voluptates alias, itaque beatae sed ad cumque soluta culpa, optio
-          fugiat quis ut animi quasi quo architecto enim nostrum accusantium.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam animi
-          ipsa reiciendis doloremque illo, ratione facere amet voluptatum
-          eligendi harum!
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
-          accusantium quidem debitis. Sapiente consequatur nisi amet quo
-          nesciunt facilis veniam, velit explicabo blanditiis, unde nemo enim,
-          voluptatum in magni qui?
+          At <strong>African Diversified Art Odyssey (ADAO)</strong>, we are
+          dedicated to providing comprehensive representation for emerging,
+          mid-career and established visual artists. Our company is founded on
+          the belief that artists and their careers require fair representation
+          and market to showcase their art and thrive in their artistic
+          endeavors. Through our expertise, industry knowledge, and passion for
+          art, we deliver exceptional art supply services that elevate the
+          ambiance, spark creativity, and produce memorable experiences for
+          hotel guests. We are committed to forging long-term partnerships with
+          branded hotels, bringing art to the fore of their brand identity, and
+          enhancing their reputation in the hospitality industry.
         </p>
       </div>
     </main>

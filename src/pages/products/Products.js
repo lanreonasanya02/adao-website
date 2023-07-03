@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../products/Product.css";
 import img1 from "../../images/adao-4.png";
 import img2 from "../../images/adao-15.png";
@@ -17,7 +18,7 @@ import img13 from "../../images/adao-1.png";
 
 const Products = () => {
   return (
-    <>
+    <main id="main-products">
       <div className="container" id="products">
         <h3 className="section-heading">Products</h3>
       </div>
@@ -64,12 +65,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Abstract
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -96,12 +97,12 @@ const Products = () => {
                               Landscape
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -129,12 +130,12 @@ const Products = () => {
                               work
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -162,12 +163,12 @@ const Products = () => {
                               work
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -202,15 +203,17 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Scenery
                             </p>
                           </div>
-                          <a href="/adao-1" class="btn btn-first">
+                          <Link to="/adao-1" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
+
+                    {/* Syntax */}
 
                     <div className="col-lg-3 col-md-3 col-10">
                       <div class="card" style={{ width: "15rem" }}>
@@ -234,12 +237,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Metal
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -270,12 +273,12 @@ const Products = () => {
                               3-dimensional
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -302,12 +305,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Metal
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -339,12 +342,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Wood
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -371,12 +374,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Wood
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -403,12 +406,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Metal
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -435,12 +438,12 @@ const Products = () => {
                               <i class="bi bi-view-list card-icon"></i> Metal
                             </p>
                           </div>
-                          <a href="#" class="btn btn-first">
+                          <Link to="#" class="btn btn-first">
                             View Art
-                          </a>
-                          <a href="#" class="btn btn-second">
+                          </Link>
+                          <Link to="#" class="btn btn-second">
                             Send Enquiry
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -488,12 +491,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Abstract
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -516,12 +519,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Landscape
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -544,12 +547,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Wood work
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -573,12 +576,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Metal work
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -602,12 +605,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Abstract
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -631,12 +634,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Metal
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -660,12 +663,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Abstract
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -689,12 +692,12 @@ const Products = () => {
                       <i class="bi bi-view-list card-icon"></i> Metal
                     </p>
                   </div>
-                  <a href="#" class="btn btn-first">
+                  <Link to="#" class="btn btn-first">
                     View Art
-                  </a>
-                  <a href="#" class="btn btn-second">
+                  </Link>
+                  <Link to="#" class="btn btn-second">
                     Send Enquiry
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -721,7 +724,7 @@ const Products = () => {
           </button>
         </div>
       </section>
-    </>
+    </main>
   );
 };
 

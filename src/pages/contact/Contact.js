@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import "../contact/Contact.css";
 
 const Contact = () => {
@@ -28,25 +29,25 @@ const Contact = () => {
         </h6>
 
         <h4>
-          <a href="#"> Send a Message</a>
+          <Link to="#"> Send a Message</Link>
         </h4>
       </section>
 
       <article class="container">
         <div class="links fw-bold">
-          <a href="#">BOOK A DEMO</a>
+          <Link to="#">BOOK A DEMO</Link>
           <br />
-          <a href="#">ADD YOUR COMPANY</a>
+          <Link to="#">ADD YOUR COMPANY</Link>
           <br />
-          <a href="#">PRIVACY & COOKIES</a>
+          <Link to="#">PRIVACY & COOKIES</Link>
           <br />
-          <a href="#">TERMS & CONDITIONS</a>
+          <Link to="#">TERMS & CONDITIONS</Link>
           <br />
-          <a href="#">CONTACT</a>
+          <Link to="#">CONTACT</Link>
           <br />
-          <a href="#">SUPPLIER LOGIN</a>
+          <Link to="#">SUPPLIER LOGIN</Link>
           <br />
-          <a href="#">SITE MAP</a>
+          <Link to="#">SITE MAP</Link>
         </div>
         <div class="unit">
           <h6 class="fw-bold">
@@ -90,7 +91,7 @@ const Contact = () => {
             </div>
 
             <h3 class="text-center mt-5">
-              <a href="#">Send</a>
+              <Link to="#">Send</Link>
             </h3>
           </form>
         </div>

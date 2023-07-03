@@ -1,5 +1,5 @@
 import React from "react";
-import "../gallery/Gallery.css";
+import "../exhibitions/Exhibitions.css";
 import img1 from "../../images/adao-4.png";
 import img2 from "../../images/adao-15.png";
 import img3 from "../../images/adao-6.png";
@@ -17,12 +17,12 @@ import img14 from "../../images/adao-9.png";
 import img15 from "../../images/adao-10.png";
 import img16 from "../../images/adao-11.png";
 
-const Gallery = () => {
+const Exhibitions = () => {
   return (
     <>
-      <main>
-        <div className="container" id="gallery">
-          <h3 className="section-heading">Gallery</h3>
+      <main id="main-exhibitions">
+        <div className="container" id="exhibitions">
+          <h3 className="section-heading">Exhibitions</h3>
         </div>
 
         <section className="d-none d-md-block gallery-section">
@@ -249,4 +249,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Exhibitions;
