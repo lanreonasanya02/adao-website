@@ -16,16 +16,22 @@ const Footer = () => {
           </div>
 
           <div className="col-md-4 section-two">
-            <Link to="mailto:adaogroup@outlook.com">
+            <Link to="mailto:adaogroup@outlook.com" target="_blank">
               <AiOutlineMail />
             </Link>
-            <Link to="https://www.facebook.com/adao-group">
+            <Link
+              to="https://web.facebook.com/profile.php?id=100077348396583"
+              target="_blank"
+            >
               <FiFacebook />
             </Link>
-            <Link to="https://www.instagram.com/adaogroup">
+            <Link to="https://www.instagram.com/adao_group" target="_blank">
               <FiInstagram />
             </Link>
-            <Link to="https://www.linkedin.com/adao-group">
+            <Link
+              to="https://www.linkedin.com/in/adao-group-427b46217"
+              target="_blank"
+            >
               <FaLinkedinIn />
             </Link>
           </div>
@@ -38,7 +44,10 @@ const Footer = () => {
         <div className="attribution">
           <p>
             Created with ❤️ by{" "}
-            <Link to="https://my-portfolio-khaki-psi.vercel.app/">
+            <Link
+              to="https://my-portfolio-khaki-psi.vercel.app/"
+              target="_blank"
+            >
               Lanre Adeolu
             </Link>
           </p>
