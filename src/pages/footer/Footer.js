@@ -132,7 +132,7 @@ const Footer = () => {
       <footer className="d-block d-lg-none">
         <nav className="">
           <div className="navbar-brand">
-            <img src={logo} alt="logo" width="50%" />
+            <img src={logo} alt="logo" />
           </div>
 
           <div className="all-links">

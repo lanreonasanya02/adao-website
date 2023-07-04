@@ -58,15 +58,20 @@ footer .attribution p {
   letter-spacing: 6px;
   margin-top: 3rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 footer .attribution p a {
-  color: blue;
+  color: #ffff00;
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
   footer .navbar-brand {
     text-align: center;
+  }
+
+  footer nav .navbar-brand img {
+    width: 30%;
   }
 
   footer {
