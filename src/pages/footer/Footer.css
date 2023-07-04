@@ -1,7 +1,7 @@
 footer {
   background-color: #201f1f;
   color: #fff;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 footer nav .navbar-brand img {
@@ -62,4 +62,31 @@ footer .attribution p {
 
 footer .attribution p a {
   color: blue;
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+  footer .navbar-brand {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 3rem;
+    padding: 1.5rem;
+  }
+
+  footer .all-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    row-gap: 1.3rem;
+    column-gap: 5rem;
+    margin-top: 2rem;
+  }
+
+  footer .links-column .socials,
+  footer .links-column a {
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #fff;
+  }
 }
