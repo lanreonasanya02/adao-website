@@ -55,7 +55,7 @@ footer .section-three a:hover {
 
 footer .attribution p {
   font-size: 8px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
   margin-top: 3rem;
   text-transform: uppercase;
   font-weight: bold;
@@ -75,7 +75,6 @@ footer .attribution p a {
   }
 
   footer {
-    margin-top: 3rem;
     padding: 1.5rem;
   }
 

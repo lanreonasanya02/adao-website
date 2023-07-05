@@ -52,3 +52,17 @@ main .gallery-section .gallery-buttons button {
 main .gallery-section .gallery-buttons button:hover {
   background-color: #000;
 }
+
+@media (min-width: 375px) and (max-width: 576px) {
+  .mobile-carousel {
+    background-color: #3d3636;
+  }
+
+  .mobile-carousel .slide-container {
+    height: 100vh;
+  }
+
+  .mobile-carousel .gallery-image {
+    text-align: center;
+  }
+}
