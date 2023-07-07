@@ -4,16 +4,16 @@ footer {
   padding: 1rem 0;
 }
 
-footer nav .navbar-brand img {
+footer .navbar-container .navbar-brand img {
   border-radius: 50%;
   width: 18%;
 }
 
-footer nav .navbar-nav a {
+footer .navbar-container .navbar-nav a {
   color: #fff;
 }
 
-footer nav .navbar-nav a:hover {
+footer .navbar-nav a:hover {
   color: #8f8484;
 }
 
@@ -70,7 +70,7 @@ footer .attribution p a {
     text-align: center;
   }
 
-  footer nav .navbar-brand img {
+  footer .navbar-brand img {
     width: 30%;
   }
 

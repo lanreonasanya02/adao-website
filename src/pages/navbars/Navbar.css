@@ -77,12 +77,20 @@
 }
 
 /* Navbar */
+.desktop-nav {
+  position: fixed;
+  z-index: 100;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  width: 100%;
+  border-bottom: 1px dotted #898585;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 nav .logo-desktop {
-  /* border-radius: 10rem;
-  border: 4px double #d4b35f;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.8);*/
   width: 20%;
-  /* border-radius: 50%; */
 }
 
 nav .navbar-nav a {
@@ -95,8 +103,7 @@ nav .navbar-nav .link-white {
 }
 
 nav .navbar-nav .nav-btn {
-  /* background-color: #d4b35f; */
-  background-color: #000;
+  background-color: #201f1f;
   color: #fff;
   outline: none;
   padding: 10px 2.5rem;
@@ -114,9 +121,10 @@ nav .navbar-nav .active {
   color: green;
 }
 
-.navbar-nav .current-active {
-  color: #d4b35f;
-  border-bottom: 3px solid #d4b35f;
+nav .navbar-nav .link-current {
+  font-weight: bold;
+  color: #6a6969;
+  border-bottom: 3px solid #6a6969;
 }
 
 /* .navbar-nav .contact-active {

@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../navbars/Navbar";
 // import "../contact/Contact.css";
 
 const Contact = () => {
   return (
-    <>
+    <main>
+      <Navbar />
       <section className="contact-page">
         <div class="text">
           <h3>CONTACT</h3>
@@ -96,7 +98,7 @@ const Contact = () => {
           </form>
         </div>
       </article>
-    </>
+    </main>
   );
 };
 

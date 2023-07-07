@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useEffect, useState, useContext, createContext } from "react";
 import logo from "../../images/adao-logo.png";
-import logoMobile from "../../images/adao-logo.png";
 import "../navbars/Navbar.css";
 import { useLocation, Link } from "react-router-dom";
 
+// Create a context to store the active section
+const ActiveSectionContext = createContext("");
+
 const Navbar = () => {
+  const location = useLocation();
+
+  return (
+    <ActiveSectionContext.Provider value={location.hash}>
+      <Navigation />
+    </ActiveSectionContext.Provider>
+  );
+};
+
+const Navigation = () => {
   // Open the sidenav
   function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
@@ -15,16 +27,53 @@ const Navbar = () => {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-  // Setting active class
+  //  Setting scroll to link section within page
   const location = useLocation();
-  const { pathname } = location;
-  console.log(pathname);
-  const exactLocation = pathname.split("/");
-  console.log(exactLocation);
+  const activeSection = useContext(ActiveSectionContext);
+
+  useEffect(() => {
+    if (location.hash) {
+      const targetElement = document.querySelector(location.hash);
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("article");
+
+      const scrollPosition = window.scrollY;
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+
+        if (
+          scrollPosition >= sectionTop - sectionHeight / 2 &&
+          scrollPosition < sectionTop + sectionHeight
+        ) {
+          window.history.replaceState(null, null, `#${section.id}`); // Update the URL hash
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [location]);
+
+  // Setting active link CSS style
+  const activeLinkStyle = {
+    fontWeight: "bold",
+    color: "#6a6969",
+    borderBottom: "3px solid #6a6969",
+  };
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg desktop-nav py-3 d-none d-lg-block">
+      <nav class="navbar navbar-expand-lg desktop-nav d-none d-lg-block">
         <div class="container-lg">
           <Link class="navbar-brand" to="/">
             <img src={logo} alt="logo" className="logo-desktop" />
@@ -48,30 +97,55 @@ const Navbar = () => {
               <Link
                 class="nav-link me-2 link-white"
                 aria-current="page"
-                to="#products"
-              >
-                Products
-              </Link>
-              {/* <Link
-                className={
-                  exactLocation[1] === "products"
-                    ? "current-active nav-link"
-                    : "nav-link"
+                to="/#products"
+                style={
+                  location.pathname === "/" && location.hash === "#products"
+                    ? activeLinkStyle
+                    : null
                 }
-                to="/products"
               >
                 Products
-              </Link> */}
-              <Link class="nav-link me-2 link-white" to="#expert">
-                Expert
               </Link>
-              <Link class="nav-link me-2 link-white" to="#exhibitions">
+
+              <Link
+                class="nav-link me-2 link-white"
+                to="/#exhibitions"
+                style={
+                  location.pathname === "/" && location.hash === "#exhibitions"
+                    ? activeLinkStyle
+                    : null
+                }
+              >
                 Exhibitions
               </Link>
-              <Link class="nav-link me-3 link-white" to="#">
+
+              <Link
+                class="nav-link me-2 link-white"
+                to="/#expert"
+                style={
+                  location.pathname === "/" && location.hash === "#expert"
+                    ? activeLinkStyle
+                    : null
+                }
+              >
+                Expert
+              </Link>
+
+              <Link
+                class="nav-link me-3 link-white"
+                to="/news"
+                style={location.pathname === "/news" ? activeLinkStyle : null}
+              >
                 News
               </Link>
-              <Link to="/contact" className="nav-btn">
+
+              <Link
+                to="/contact"
+                className="nav-btn"
+                style={
+                  location.pathname === "/contact" ? activeLinkStyle : null
+                }
+              >
                 Contact
               </Link>
             </div>

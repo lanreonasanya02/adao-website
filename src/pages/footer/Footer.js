@@ -9,9 +9,9 @@ import { AiOutlineMail } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <footer className="d-none d-lg-block">
-        <div className="container">
-          <nav class="navbar navbar-expand-lg desktop-nav">
+      <footer className="d-none d-md-block">
+        <div className="container navbar-container">
+          <div class="navbar navbar-expand-lg desktop-nav">
             <div class="container-lg">
               <Link class="navbar-brand" to="/">
                 <img src={logo} alt="logo" className="logo-desktop" />
@@ -39,16 +39,7 @@ const Footer = () => {
                   >
                     Products
                   </Link>
-                  {/* <Link
-                className={
-                  exactLocation[1] === "products"
-                    ? "current-active nav-link"
-                    : "nav-link"
-                }
-                to="/products"
-              >
-                Products
-              </Link> */}
+
                   <Link class="nav-link me-2" to="#expert">
                     Expert
                   </Link>
@@ -64,7 +55,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </nav>
+          </div>
 
           <div className="footer-body">
             <div className="row align-items-center">
@@ -83,29 +74,57 @@ const Footer = () => {
                 <Link
                   to="mailto:adaogroup@outlook.com"
                   target="_blank"
+                  rel="noreferrer"
                   className="socials"
                 >
-                  <AiOutlineMail />
+                  <span
+                    className="tt"
+                    data-bs-placement="top"
+                    title="Send us a mail"
+                  >
+                    <AiOutlineMail />
+                  </span>
                 </Link>
                 <Link
                   to="https://web.facebook.com/profile.php?id=100077348396583"
                   target="_blank"
+                  rel="noreferrer"
                   className="socials"
                 >
-                  <FiFacebook />
+                  <span
+                    className="tt"
+                    data-bs-placement="top"
+                    title="Visit Us On Facebook"
+                  >
+                    <FiFacebook />
+                  </span>
                 </Link>
                 <Link
                   to="https://www.instagram.com/adao_group"
                   target="_blank"
+                  rel="noreferrer"
                   className="socials"
                 >
-                  <FiInstagram />
+                  <span
+                    className="tt"
+                    data-bs-placement="top"
+                    title="Visit Us On Instagram"
+                  >
+                    <FiInstagram />
+                  </span>
                 </Link>
                 <Link
                   to="https://www.linkedin.com/in/adao-group-427b46217"
                   target="_blank"
+                  rel="noreferrer"
                 >
-                  <FaLinkedinIn />
+                  <span
+                    className="tt"
+                    data-bs-placement="top"
+                    title="Check Us Out On LinkedIn"
+                  >
+                    <FaLinkedinIn />
+                  </span>
                 </Link>
 
                 <p className="invisible">Lagos City</p>
@@ -129,8 +148,8 @@ const Footer = () => {
 
       {/* Mobile view */}
 
-      <footer className="d-block d-lg-none">
-        <nav className="">
+      <footer className="d-block d-md-none">
+        <div className="">
           <div className="navbar-brand">
             <img src={logo} alt="logo" />
           </div>
@@ -169,35 +188,63 @@ const Footer = () => {
               <Link
                 to="mailto:adaogroup@outlook.com"
                 target="_blank"
+                rel="noreferrer"
                 className="socials"
               >
-                <AiOutlineMail />
+                <span
+                  className="tt"
+                  data-bs-placement="bottom"
+                  title="Send us a mail"
+                >
+                  <AiOutlineMail />
+                </span>
               </Link>
               <Link
                 to="https://web.facebook.com/profile.php?id=100077348396583"
                 target="_blank"
+                rel="noreferrer"
                 className="socials"
               >
-                <FiFacebook />
+                <span
+                  className="tt"
+                  data-bs-placement="bottom"
+                  title="Visit Us On Facebook"
+                >
+                  <FiFacebook />
+                </span>
               </Link>
               <Link
                 to="https://www.instagram.com/adao_group"
                 target="_blank"
+                rel="noreferrer"
                 className="socials"
               >
-                <FiInstagram />
+                <span
+                  className="tt"
+                  data-bs-placement="bottom"
+                  title="Visit Us On Instagram"
+                >
+                  <FiInstagram />
+                </span>
               </Link>
               <Link
                 to="https://www.linkedin.com/in/adao-group-427b46217"
                 target="_blank"
+                rel="noreferrer"
               >
-                <FaLinkedinIn />
+                <span
+                  className="tt"
+                  data-bs-placement="bottom"
+                  title="Check Us Out On LinkedIn"
+                >
+                  <FaLinkedinIn />
+                </span>
               </Link>
 
               <p className="invisible">Lagos City</p>
             </div>
           </div>
-        </nav>
+        </div>
 
         <div className="attribution">
           <p>

@@ -7,50 +7,58 @@ main .gallery-section {
   padding: 1rem 0;
 }
 
-main .gallery-section .carou {
+main .grid-container {
   display: grid;
-  grid-template-columns: 60px 1fr 60px;
-  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
   align-items: center;
 }
 
-main .gallery-section .card-image {
-  border-right: 5px double #f8f8f8;
-  height: 50vh;
-  overflow: hidden;
+main .grid-container .exhibit-column {
+  display: flex;
+  flex-direction: column;
 }
 
-main .gallery-section .carou .carou-btn {
-  border: 2px double #787474;
+main .grid-container .exhibit-column .nested-columns {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
 }
 
-main .gallery-section .gallery-image img {
-  width: 100%;
+main .grid-container .exhibit-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
   transition: transform 0.4s;
-  border-radius: 12px;
-  margin: auto;
+  object-fit: contain;
 }
 
-main .gallery-section .card-image img:hover {
+main .grid-container .exhibit-column img:hover {
   transform: scale(1.1);
+  border-radius: 8px;
+}
+
+main .grid-container .exhibit-column .card-image {
+  overflow: hidden;
 }
 
 main .gallery-section .gallery-buttons {
   position: absolute;
   top: 100%;
   left: 45%;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 main .gallery-section .gallery-buttons button {
-  padding: 1px 1rem;
-  margin-right: 8px;
-  background-color: #615f5f;
+  padding: 7px;
+  margin-right: 1.2rem;
+  background-color: #201f1f;
+  border-radius: 50%;
   border-style: none;
 }
 
 main .gallery-section .gallery-buttons button:hover {
-  background-color: #000;
+  background-color: #615f5f;
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
