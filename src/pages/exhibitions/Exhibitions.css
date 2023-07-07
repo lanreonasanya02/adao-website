@@ -3,26 +3,68 @@
   padding: 0 0 7rem;
 }
 
-main .gallery-section {
-  padding: 1rem 0;
-}
-
 main .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem;
+  grid-gap: 1rem;
   align-items: center;
+  height: 100vh;
 }
 
 main .grid-container .exhibit-column {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+}
+
+main .grid-container .exhibit-column .first-column {
+  width: 100%;
+  align-items: center;
+  background-color: #201f1f;
+  padding: 8rem 3rem;
+  border-radius: 8px;
+}
+
+main .grid-container .exhibit-column .first-column img {
+  width: 100%;
+  align-content: center;
+  margin: auto;
 }
 
 main .grid-container .exhibit-column .nested-columns {
   display: grid;
   grid-template-rows: auto auto;
-  grid-gap: 10px;
+  grid-gap: 1rem;
+}
+
+main .last-slide-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  column-gap: 1rem;
+  background-color: #201f1f;
+  align-items: center;
+  padding: 5rem 3rem;
+  border-radius: 8px;
+  height: 100vh;
+}
+
+main .last-slide-column img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+main .single-nested-columns {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-gap: 2rem;
+  height: 100vh;
+}
+
+main .single-nested-columns img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.4s;
+  height: auto;
 }
 
 main .grid-container .exhibit-column img {
@@ -33,13 +75,19 @@ main .grid-container .exhibit-column img {
   object-fit: contain;
 }
 
-main .grid-container .exhibit-column img:hover {
+main .grid-container .exhibit-column img:hover,
+main .single-nested-columns img:hover {
   transform: scale(1.1);
   border-radius: 8px;
 }
 
-main .grid-container .exhibit-column .card-image {
+main .grid-container .exhibit-column .card-image,
+main .single-nested-columns .card-image {
   overflow: hidden;
+}
+
+main .gallery-section {
+  padding: 1rem 0;
 }
 
 main .gallery-section .gallery-buttons {
@@ -74,3 +122,13 @@ main .gallery-section .gallery-buttons button:hover {
     text-align: center;
   }
 }
+
+/* @media (min-width: 992px) and (max-width: 1400px) {
+  main .grid-container {
+    height: 150vh;
+  }
+
+  main .last-slide-column {
+    height: 150vh;
+  }
+} */
