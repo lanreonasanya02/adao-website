@@ -16,10 +16,6 @@ import img13 from "../../images/adao-10.png";
 import img14 from "../../images/adao-11.png";
 import img15 from "../../images/exhibitions/IMG_1764.jpg";
 import img16 from "../../images/exhibitions/IMG_1756.jpg";
-import img17 from "../../images/exhibitions/IMG_1754.jpg";
-import img18 from "../../images/exhibitions/IMG_1761.jpg";
-import img19 from "../../images/exhibitions/IMG_1766.jpg";
-import img20 from "../../images/exhibitions/IMG_1753.jpg";
 
 const Exhibitions = () => {
   return (
