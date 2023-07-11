@@ -2,13 +2,13 @@ import React from "react";
 import "../home/Home.css";
 import { Link } from "react-router-dom";
 import Navbar from "../navbars/Navbar";
-import Products from "../products/Products";
 import img from "../../images/adao-19ed.png";
 import img2 from "../../images/adao-18.png";
 import Exhibitions from "../exhibitions/Exhibitions";
 import Overview from "../overview/Overview";
 import Experts from "../experts/Experts";
 import Footer from "../footer/Footer";
+import ProductsOverview from "../ProductsOverview";
 
 // import SideNav from "../navbars/SideNav";
 
@@ -71,7 +71,7 @@ const Home = () => {
       </header>
 
       <Overview />
-      <Products />
+      <ProductsOverview />
       <Exhibitions />
       <Experts />
       <Footer />

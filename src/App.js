@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
 import News from "./pages/news/News";
-// import Products from "./pages/products/Products";
+import Products from "./pages/products/Products";
+
 // import AdaoOne from "./pages/collections/AdaoOne";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="news" element={<News />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="products" element={<Products />} />
       </Routes>
     </BrowserRouter>
   );
@@ -20,5 +22,4 @@ function App() {
 
 export default App;
 
-// <Route path="products" element={<Products />} />
 // <Route path="adao-1" element={<AdaoOne />} />

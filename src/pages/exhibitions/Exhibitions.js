@@ -14,8 +14,6 @@ import img11 from "../../images/exhibitions/IMG_1476.jpg";
 import img12 from "../../images/adao-9.png";
 import img13 from "../../images/adao-10.png";
 import img14 from "../../images/adao-11.png";
-import img15 from "../../images/exhibitions/IMG_1764.jpg";
-import img16 from "../../images/exhibitions/IMG_1756.jpg";
 
 const Exhibitions = () => {
   return (
@@ -57,12 +55,6 @@ const Exhibitions = () => {
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide-to="3"
                     aria-label="Slide 4"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="4"
-                    aria-label="Slide 5"
                   ></button>
                 </div>
                 <div className="carousel-inner">
@@ -172,23 +164,6 @@ const Exhibitions = () => {
                         <div className="exhibit-column">
                           <div className="card-image first-column">
                             <img src={img14} alt="exhibition-14" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Slide 5 */}
-                  <div className="carousel-item active" data-bs-interval="8000">
-                    <div className="container">
-                      <div className="last-slide-container">
-                        <div className="last-slide-column">
-                          <div className="card-image">
-                            <img src={img15} alt="exhibition-15" />
-                          </div>
-
-                          <div className="card-image ">
-                            <img src={img16} alt="exhibition-16" />
                           </div>
                         </div>
                       </div>
