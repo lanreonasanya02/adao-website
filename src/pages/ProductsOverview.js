@@ -3,15 +3,11 @@ import ReactCardFlip from "react-card-flip";
 import { useNavigate } from "react-router-dom";
 import img1 from "../images/products/img_3.jpg";
 import img2 from "../images/products/img_43.png";
-import img3 from "../images/products/img_51.jpg";
+import img3 from "../images/products/img_49.jpg";
 import img4 from "../images/products/img_50.jpg";
 
 function ProductsOverview() {
   const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate("/products");
-  };
 
   const [flip1, setFlip1] = useState(false);
   const [flip2, setFlip2] = useState(false);
@@ -27,7 +23,7 @@ function ProductsOverview() {
 
         <div className="row">
           {/* Column 1 - Painting */}
-          <div className="col-md-3" onClick={handleClick}>
+          <div className="col-md-3" onClick={() => navigate("/products")}>
             <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
               <div
                 class="card"
@@ -76,19 +72,10 @@ function ProductsOverview() {
                         padding: "10px",
                       }}
                     >
-                      Explore a collection of captivating paintings, ranging
-                      from vibrant abstract masterpieces to stunning landscapes
-                      and thought-provoking figurative artwork.
-                      <br />
-                      <span
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "bolder",
-                          color: "red",
-                        }}
-                      >
-                        Click card to view...
-                      </span>
+                      Click card to explore a collection of captivating
+                      paintings, ranging from vibrant abstract masterpieces to
+                      stunning landscapes and thought-provoking figurative
+                      artwork.
                     </h5>
                   </div>
                 </div>
@@ -146,19 +133,9 @@ function ProductsOverview() {
                         padding: "10px",
                       }}
                     >
-                      Immerse yourself in the world of sculpture, where
-                      traditional and contemporary styles converge, showcasing
-                      the beauty of form and materials.
-                      <br />
-                      <span
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "bolder",
-                          color: "red",
-                        }}
-                      >
-                        Click card to view...
-                      </span>
+                      Click card and immerse yourself in the world of sculpture,
+                      where traditional and contemporary styles converge,
+                      showcasing the beauty of form and materials.
                     </h5>
                   </div>
                 </div>
@@ -216,19 +193,9 @@ function ProductsOverview() {
                         padding: "10px",
                       }}
                     >
-                      Discover the intricate world of ceramics, where
-                      handcrafted pottery and unique ceramic artworks captivate
-                      with their beauty and craftsmanship.
-                      <br />
-                      <span
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "bolder",
-                          color: "red",
-                        }}
-                      >
-                        Click card to view...
-                      </span>
+                      Click card to discover the intricate world of ceramics,
+                      where handcrafted pottery and unique ceramic artworks
+                      captivate with their beauty and craftsmanship.
                     </h5>
                   </div>
                 </div>
@@ -251,7 +218,6 @@ function ProductsOverview() {
                     alt="..."
                     style={{
                       height: "50vh",
-                      // objectFit: "cover",
                     }}
                   />
 
@@ -287,19 +253,10 @@ function ProductsOverview() {
                         padding: "10px",
                       }}
                     >
-                      Experience the art of photography, featuring captivating
-                      images that showcase the beauty of landscapes, the essence
-                      of portraits, and the abstract in everyday moments.
-                      <br />
-                      <span
-                        style={{
-                          fontSize: "12px",
-                          fontWeight: "bolder",
-                          color: "red",
-                        }}
-                      >
-                        Click card to view...
-                      </span>
+                      Click card to experience the art of photography, featuring
+                      captivating images that showcase the beauty of landscapes,
+                      the essence of portraits, and the abstract in everyday
+                      moments.
                     </h5>
                   </div>
                 </div>

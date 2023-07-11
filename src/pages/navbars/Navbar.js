@@ -97,9 +97,9 @@ const Navigation = () => {
               <Link
                 class="nav-link me-2 link-white"
                 aria-current="page"
-                to="/#products"
+                to="/products"
                 style={
-                  location.pathname === "/" && location.hash === "#products"
+                  (location.pathname === "/") === "/products"
                     ? activeLinkStyle
                     : null
                 }
