@@ -28,41 +28,44 @@ const Products = () => {
       (product) => product.category === "Painting"
     );
     return (
-      <div className="card-container">
-        {filteredProducts.map((product) => {
-          const { id, category, subCategory, title, image, author } = product;
+      <>
+        <h3>Painting</h3>
+        <div className="card-container">
+          {filteredProducts.map((product) => {
+            const { id, category, subCategory, title, image, author } = product;
 
-          return (
-            <div key={id} className="card-style">
-              <div class="card">
-                <div className="card-header"></div>
-                <div className="card-image">
-                  <img src={image} class="card-img-top" alt={title} />
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title">{title}</h6>
-                  <p className="text-muted title-paragraph">By {author}</p>
-                  <div className="line"></div>
-                  <div className="card-paragraph">
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> {category}
-                    </p>
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> {subCategory}
-                    </p>
+            return (
+              <div key={id} className="card-style">
+                <div class="card">
+                  <div className="card-header"></div>
+                  <div className="card-image">
+                    <img src={image} class="card-img-top" alt={title} />
                   </div>
-                  <Link to="#" class="btn btn-first">
-                    View Art
-                  </Link>
-                  <Link to="#" class="btn btn-second">
-                    Send Enquiry
-                  </Link>
+                  <div class="card-body">
+                    <h6 class="card-title">{title}</h6>
+                    <p className="text-muted title-paragraph">By {author}</p>
+                    <div className="line"></div>
+                    <div className="card-paragraph">
+                      <p class="card-text">
+                        <i class="bi bi-view-list card-icon"></i> {category}
+                      </p>
+                      <p class="card-text">
+                        <i class="bi bi-view-list card-icon"></i> {subCategory}
+                      </p>
+                    </div>
+                    <Link to="#" class="btn btn-first">
+                      View Art
+                    </Link>
+                    <Link to="#" class="btn btn-second">
+                      Send Enquiry
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      </>
     );
   }
 
@@ -71,40 +74,44 @@ const Products = () => {
       (product) => product.category === "Sculpture"
     );
     return (
-      <div className="card-container">
-        {filteredProducts.map((product) => {
-          const { id, category, subCategory, title, image, author } = product;
+      <>
+        <h3>Sculpture</h3>
+        <div className="card-container">
+          {filteredProducts.map((product) => {
+            const { id, category, subCategory, title, image, author } = product;
 
-          return (
-            <div key={id} className="card-style">
-              <div class="card" style={{ width: "15rem" }}>
-                <div className="card-image">
-                  <img src={image} class="card-img-top" alt={title} />
-                </div>
-                <div class="card-body">
-                  <h6 class="card-title">{title}</h6>
-                  <p className="text-muted title-paragraph">By {author}</p>
-                  <div className="line"></div>
-                  <div className="card-paragraph">
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> {category}
-                    </p>
-                    <p class="card-text">
-                      <i class="bi bi-view-list card-icon"></i> {subCategory}
-                    </p>
+            return (
+              <div key={id} className="card-style">
+                <div class="card" style={{ width: "15rem" }}>
+                  <div className="card-header"></div>
+                  <div className="card-image">
+                    <img src={image} class="card-img-top" alt={title} />
                   </div>
-                  <Link to="#" class="btn btn-first">
-                    View Art
-                  </Link>
-                  <Link to="#" class="btn btn-second">
-                    Send Enquiry
-                  </Link>
+                  <div class="card-body">
+                    <h6 class="card-title">{title}</h6>
+                    <p className="text-muted title-paragraph">By {author}</p>
+                    <div className="line"></div>
+                    <div className="card-paragraph">
+                      <p class="card-text">
+                        <i class="bi bi-view-list card-icon"></i> {category}
+                      </p>
+                      <p class="card-text">
+                        <i class="bi bi-view-list card-icon"></i> {subCategory}
+                      </p>
+                    </div>
+                    <Link to="#" class="btn btn-first">
+                      View Art
+                    </Link>
+                    <Link to="#" class="btn btn-second">
+                      Send Enquiry
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      </>
     );
   }
 
