@@ -9,6 +9,11 @@ import img4 from "../images/products/img_50.jpg";
 function ProductsOverview() {
   const navigate = useNavigate();
 
+  const handleItemClick = (itemId) => {
+    // Pass the clicked item ID as a parameter to the "/products" route
+    navigate(`/products/${itemId}`);
+  };
+
   const [flip1, setFlip1] = useState(false);
   const [flip2, setFlip2] = useState(false);
   const [flip3, setFlip3] = useState(false);
@@ -23,12 +28,23 @@ function ProductsOverview() {
 
         <div className="row">
           {/* Column 1 - Painting */}
-          <div className="col-md-3" onClick={() => navigate("/products")}>
+          <div
+            className="col-md-3"
+            onClick={() => handleItemClick("paintings")}
+          >
             <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
               <div
                 class="card"
                 onMouseEnter={() => setFlip1(!flip1)}
-                style={{ width: "16rem", height: "50vh", borderRadius: "10px" }}
+                style={{
+                  width: "16rem",
+                  height: "50vh",
+                  borderRadius: "10px",
+                  cursor: "pointer",
+                  hover: {
+                    cursor: "pointer",
+                  },
+                }}
               >
                 <div className="card-image">
                   <img
@@ -84,7 +100,10 @@ function ProductsOverview() {
           </div>
 
           {/* Column 2 - Sscuplture */}
-          <div className="col-md-3">
+          <div
+            className="col-md-3"
+            onClick={() => handleItemClick("sculptures")}
+          >
             <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
               <div
                 class="card"
@@ -144,7 +163,7 @@ function ProductsOverview() {
           </div>
 
           {/* Column 3 - Ceramics */}
-          <div className="col-md-3">
+          <div className="col-md-3" onClick={() => handleItemClick("ceramics")}>
             <ReactCardFlip isFlipped={flip3} flipDirection="vertical">
               <div
                 class="card"
@@ -204,7 +223,10 @@ function ProductsOverview() {
           </div>
 
           {/* Column 4 - Photography */}
-          <div className="col-md-3">
+          <div
+            className="col-md-3"
+            onClick={() => handleItemClick("photography")}
+          >
             <ReactCardFlip isFlipped={flip4} flipDirection="vertical">
               <div
                 class="card"

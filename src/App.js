@@ -14,7 +14,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="news" element={<News />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="products" element={<Products />} />
+        {/* <Route path="products" element={<Products />} /> */}
+        <Route path="/products/:itemId" element={<Products />} />
       </Routes>
     </BrowserRouter>
   );

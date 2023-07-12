@@ -14,25 +14,113 @@ section {
   padding: 1rem 0;
 }
 
-section .carou {
+.card-container {
   display: grid;
-  grid-template-columns: 60px 1fr 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2rem;
   text-align: center;
-  align-items: center;
 }
 
-section .carou button {
-  border: none;
-  background: none;
+.card-container .card {
+  width: 16rem;
+  height: 90vh;
+  /* border-radius: 10px; */
+  border: 1.3px solid #403e3e;
 }
 
-section .carou button .btn-prev-next,
+.card-container .card .card-header {
+  background-color: #000;
+}
+
+.card-container .card .card-image {
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+}
+
+.card-container .card .card-image img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.card-container .card .card-image img:hover {
+  transform: scale(1.2);
+}
+
+.card-container .card .card-body {
+  background-color: #f4f4f4;
+  height: 48vh;
+}
+
+.card-container .card .card-body .card-icon {
+  color: #5c5959;
+  margin-right: 5px;
+}
+
+.card-container .card .card-body h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.card-container .card .card-body .title-paragraph {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card-container .card .card-body .card-paragraph {
+  font-size: 13px;
+  font-weight: bold;
+  height: 10vh;
+  line-height: 12px;
+}
+
+.card-container .card .card-body .line {
+  border: 1px solid #d2d0d0;
+  width: 50%;
+  margin: auto;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.card-container .card .card-body .btn {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.card-container .card .card-body .btn-first {
+  background-color: #201f1f;
+  margin-bottom: 10px;
+}
+
+.card-container .card .card-body .btn-second {
+  background-color: #5c5959;
+  color: #fff;
+}
+
+.go-back,
+.go-back a {
+  color: #5c5959;
+  padding: 3rem 0;
+  font-style: italic;
+  text-shadow: #201f1f;
+}
+
+.go-back:hover,
+.go-back:hover a {
+  color: rgb(246, 13, 13);
+}
+
+/* Mobile */
 .carou-mobile button .btn-prev-next {
   color: #201f1f;
   font-size: 2rem;
 }
 
-section .carou .card .card-image,
 .carou-mobile .card .card-image {
   width: 100%;
   height: 45vh;
@@ -43,17 +131,6 @@ section .carou .card .card-image,
   margin: 0 3.5rem;
 }
 
-section .carou .card {
-  border-radius: 10px;
-}
-
-section .carou .card .card-body {
-  background-color: #f4f4f4;
-  height: 48vh;
-  /* height: 60vh; To be applied after h6 returns */
-}
-
-section .carou .card .card-image img,
 .carou-mobile .card .card-image img {
   width: 100%;
   height: 60vh;
@@ -61,60 +138,10 @@ section .carou .card .card-image img,
   transition: transform 0.4s;
 }
 
-section .carou .card .card-image img:hover,
 .carou-mobile .card .card-image img:hover {
   transform: scale(1.2);
 }
 
-section .card .card-body .card-icon {
-  color: #5c5959;
-  margin-right: 5px;
-}
-
-section .card .card-body h6 {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: bolder;
-  display: none;
-}
-
-section .card .card-body .title-paragraph {
-  font-size: 10px;
-  font-weight: bold;
-}
-
 .carou-mobile .card .card-body h6 {
   height: 5vh;
-}
-
-section .card .card-body .card-paragraph {
-  font-size: 14px;
-  font-weight: bold;
-  height: 15vh;
-  line-height: 12px;
-}
-
-section .card .card-body .line {
-  border: 1px solid #d2d0d0;
-  width: 50%;
-  margin: auto;
-  margin-top: 4px;
-  margin-bottom: 10px;
-}
-
-section .card .card-body .btn {
-  display: block;
-  width: 100%;
-  color: #fff;
-  padding: 12px 0;
-}
-
-section .card .card-body .btn-first {
-  background-color: #201f1f;
-  margin-bottom: 1rem;
-}
-
-section .card .card-body .btn-second {
-  background-color: #5c5959;
-  color: #fff;
 }
