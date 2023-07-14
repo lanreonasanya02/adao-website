@@ -18,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-// <Route path="adao-1" element={<AdaoOne />} />

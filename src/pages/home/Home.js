@@ -9,6 +9,7 @@ import Overview from "../overview/Overview";
 import Experts from "../experts/Experts";
 import Footer from "../footer/Footer";
 import ProductsOverview from "./ProductsOverview";
+import ScrollToTop from "../scroll-to-top/ScrollToTop";
 
 // import SideNav from "../navbars/SideNav";
 
@@ -80,6 +81,7 @@ const Home = () => {
       <Exhibitions />
       <Experts />
       <Footer />
+      <ScrollToTop />
     </>
   );
 };

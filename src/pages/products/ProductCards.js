@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./Product.css";
 import { allProducts } from "./Data";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../scroll-to-top/ScrollToTop";
 
 function Painting() {
   // Scroll To top
@@ -112,6 +113,7 @@ function Painting() {
           </div>
         </div>
       )}
+      <ScrollToTop />
     </>
   );
 }
@@ -214,6 +216,8 @@ function Sculpture() {
           </div>
         </div>
       )}
+
+      <ScrollToTop />
     </>
   );
 }

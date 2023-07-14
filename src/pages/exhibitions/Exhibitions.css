@@ -110,10 +110,6 @@ main .gallery-section .gallery-buttons button:hover {
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
-  .mobile-carousel {
-    background-color: #3d3636;
-  }
-
   .mobile-carousel .slide-container {
     height: 80vh;
   }
@@ -126,7 +122,7 @@ main .gallery-section .gallery-buttons button:hover {
   .mobile-carousel .carousel-caption {
     background-color: transparent;
     backdrop-filter: blur(50px);
-    color: #070707;
+    color: #fff;
     font-weight: bolder;
   }
 

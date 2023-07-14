@@ -180,7 +180,7 @@ const Footer = () => {
             </div>
 
             <div className="">
-              <p>Copyright 2023 - All Rights Resrved.</p>
+              <p>Copyright 2023 - All Rights Reserved.</p>
             </div>
 
             <div className="links-column">
