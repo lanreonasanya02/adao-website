@@ -22,6 +22,14 @@ function Painting() {
     setIsModalOpen(false);
   };
 
+  const openForm = () => {
+    window.open(
+      "https://form.jotform.com/231938646635568",
+      "blank",
+      "scrollbars=yes,toolbar=no,width=700,height=500"
+    );
+  };
+
   const filteredProducts = allProducts.filter(
     (product) => product.category === "Painting"
   );
@@ -60,12 +68,16 @@ function Painting() {
                     View Art
                   </button>
 
-                  <Link
+                  {/* <Link
                     to="https://form.jotform.com/231938646635568"
                     target="_blank"
                     rel="noreferrer"
                     class="btn btn-second"
                   >
+                    Send Enquiry
+                  </Link> */}
+
+                  <Link to="#" onClick={openForm} class="btn btn-second">
                     Send Enquiry
                   </Link>
                 </div>

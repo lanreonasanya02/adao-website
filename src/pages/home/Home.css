@@ -72,6 +72,31 @@ header .header-hero .header-hero-text {
   }
 }
 
+/* Product Overview */
+#main-products {
+  padding-bottom: 6rem;
+}
+
+.product-overview-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.each-card {
+  width: 16rem;
+  height: 50vh;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.each-card:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* Mobile Heading */
+
 .mobile-heading h2 {
   color: #000;
   font-size: 3rem;
@@ -136,5 +161,23 @@ header .header-hero .header-hero-text {
   header .mobile-header-btn:hover {
     background-color: #5c5959;
     color: #fff;
+  }
+
+  #main-products {
+    padding-bottom: 4rem;
+  }
+
+  .product-overview-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  .each-card {
+    width: 80%;
+    height: 50vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
   }
 }
