@@ -1,135 +1,45 @@
-import React, { useState } from "react";
+/* eslint-disable no-unused-vars */
+import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../products/Product.css";
 import { allProducts } from "./Data";
+import { Painting, Sculpture } from "./ProductCards";
 
 const Products = () => {
   const { itemId } = useParams();
   const [selectedItem, setSelectedItem] = useState(itemId || null);
 
   const renderSelectedComponent = () => {
-    // Add your logic to determine the component to render based on the selected item
     switch (selectedItem) {
       case "paintings":
         return <Painting />;
       case "sculptures":
         return <Sculpture />;
-      // case "ceramics":
-      //   return <Ceramics />;
-      // case "photography":
-      //   return <Photography />;
+
       default:
         return <NoComponent />;
     }
   };
 
-  function Painting() {
-    const filteredProducts = allProducts.filter(
-      (product) => product.category === "Painting"
-    );
-    return (
-      <>
-        <h3>Painting</h3>
-        <div className="card-container">
-          {filteredProducts.map((product) => {
-            const { id, category, subCategory, title, image, author } = product;
-
-            return (
-              <div key={id} className="card-style">
-                <div class="card">
-                  <div className="card-header"></div>
-                  <div className="card-image">
-                    <img src={image} class="card-img-top" alt={title} />
-                  </div>
-                  <div class="card-body">
-                    <h6 class="card-title">{title}</h6>
-                    <p className="text-muted title-paragraph">By {author}</p>
-                    <div className="line"></div>
-                    <div className="card-paragraph">
-                      <p class="card-text">
-                        <i class="bi bi-view-list card-icon"></i> {category}
-                      </p>
-                      <p class="card-text">
-                        <i class="bi bi-view-list card-icon"></i> {subCategory}
-                      </p>
-                    </div>
-                    <Link to="#" class="btn btn-first">
-                      View Art
-                    </Link>
-                    <Link to="#" class="btn btn-second">
-                      Send Enquiry
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </>
-    );
-  }
-
-  function Sculpture() {
-    const filteredProducts = allProducts.filter(
-      (product) => product.category === "Sculpture"
-    );
-    return (
-      <>
-        <h3>Sculpture</h3>
-        <div className="card-container">
-          {filteredProducts.map((product) => {
-            const { id, category, subCategory, title, image, author } = product;
-
-            return (
-              <div key={id} className="card-style">
-                <div class="card" style={{ width: "15rem" }}>
-                  <div className="card-header"></div>
-                  <div className="card-image">
-                    <img src={image} class="card-img-top" alt={title} />
-                  </div>
-                  <div class="card-body">
-                    <h6 class="card-title">{title}</h6>
-                    <p className="text-muted title-paragraph">By {author}</p>
-                    <div className="line"></div>
-                    <div className="card-paragraph">
-                      <p class="card-text">
-                        <i class="bi bi-view-list card-icon"></i> {category}
-                      </p>
-                      <p class="card-text">
-                        <i class="bi bi-view-list card-icon"></i> {subCategory}
-                      </p>
-                    </div>
-                    <Link to="#" class="btn btn-first">
-                      View Art
-                    </Link>
-                    <Link to="#" class="btn btn-second">
-                      Send Enquiry
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </>
-    );
-  }
-
   function NoComponent() {
+    // Scroll To top
+    useEffect(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, []);
+
     return <div>Oops....No Component yet! Sorry</div>;
   }
 
   return (
     <main id="main-products">
       <article id="products" className="container">
-        <section>
-          <p className="go-back">
-            <Link to="/"> Return Home</Link>
-          </p>
-          <h3 className="section-heading">Products</h3>
-        </section>
+        <div className="d-none d-md-block">
+          <Link to="/" className="go-back">
+            Return Home
+          </Link>
 
-        {renderSelectedComponent()}
+          {renderSelectedComponent()}
+        </div>
       </article>
 
       {/* Mobile */}

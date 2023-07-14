@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../footer/Footer.css";
-import logo from "../../images/adao logo.jpg";
+import logo from "../../images/logo/adao logo.jpg";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";

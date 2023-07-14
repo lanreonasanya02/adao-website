@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext, createContext } from "react";
-import logo from "../../images/adao-logo.png";
+import logo from "../../images/logo/adao-logo.png";
 import "../navbars/Navbar.css";
 import { useLocation, Link } from "react-router-dom";
 
@@ -97,9 +97,9 @@ const Navigation = () => {
               <Link
                 class="nav-link me-2 link-white"
                 aria-current="page"
-                to="/products"
+                to="/#products"
                 style={
-                  (location.pathname === "/") === "/products"
+                  location.pathname === "/" && location.hash === "#products"
                     ? activeLinkStyle
                     : null
                 }

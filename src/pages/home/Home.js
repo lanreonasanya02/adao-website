@@ -1,18 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../home/Home.css";
 import { Link } from "react-router-dom";
 import Navbar from "../navbars/Navbar";
-import img from "../../images/adao-19ed.png";
-import img2 from "../../images/adao-18.png";
+import img from "../../images/home/adao-19ed.png";
+import img2 from "../../images/home/adao-18.png";
 import Exhibitions from "../exhibitions/Exhibitions";
 import Overview from "../overview/Overview";
 import Experts from "../experts/Experts";
 import Footer from "../footer/Footer";
-import ProductsOverview from "../ProductsOverview";
+import ProductsOverview from "./ProductsOverview";
 
 // import SideNav from "../navbars/SideNav";
 
 const Home = () => {
+  // Scroll To top
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <header>

@@ -46,8 +46,17 @@ import img45 from "../../images/products/img_45.png";
 import img46 from "../../images/products/img_46.png";
 import img47 from "../../images/products/img_47.png";
 import img48 from "../../images/products/img_48.png";
-// import img49 from "../../images/products/img_49.png";
-// import img50 from "../../images/products/img_50.jpg";
+import img49 from "../../images/products/img_51.jpg";
+import img50 from "../../images/products/img_52.jpg";
+import img51 from "../../images/products/img_53.jpg";
+import img52 from "../../images/products/img_54.jpg";
+import img53 from "../../images/products/img_55.jpg";
+import img54 from "../../images/products/img_56.jpg";
+import img55 from "../../images/products/img_57.jpg";
+import img56 from "../../images/products/img_58.jpg";
+import img57 from "../../images/products/img_59.jpg";
+import img58 from "../../images/products/img_60.jpg";
+import img59 from "../../images/products/img_61.jpg";
 
 export const allProducts = [
   {
@@ -326,7 +335,7 @@ export const allProducts = [
     image: img31,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
     author: "Lorem Ipsum",
-    subCategory: "Figuratives",
+    subCategory: "Figurative",
   },
 
   {
@@ -361,7 +370,7 @@ export const allProducts = [
     category: "Painting",
     image: img35,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Odeyemi Seun",
     subCategory: "Landscape",
   },
 
@@ -370,7 +379,7 @@ export const allProducts = [
     category: "Painting",
     image: img36,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -397,7 +406,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img39,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "B. Alvin",
     subCategory: "Metal",
   },
 
@@ -424,7 +433,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img42,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Kenny Adamson",
     subCategory: "Wood-work",
   },
 
@@ -479,24 +488,105 @@ export const allProducts = [
     image: img48,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
     author: "Lorem Ipsum",
-    subCategory: "Glass Fibre",
+    subCategory: "Fibre Glass",
   },
 
-  // {
-  //   id: 49,
-  //   category: "Sculpture",
-  //   image: img49,
-  //   title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-  //   author: "Lorem Ipsum",
-  //   subCategory: "Metal",
-  // },
+  {
+    id: 49,
+    category: "Sculpture",
+    image: img49,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Wood-work",
+  },
 
-  // {
-  //   id: 50,
-  //   category: "Sculpture",
-  //   image: img50,
-  //   title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-  //   author: "Lorem Ipsum",
-  //   subCategory: "Metal",
-  // },
+  {
+    id: 50,
+    category: "Sculpture",
+    image: img50,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Metal",
+  },
+
+  {
+    id: 51,
+    category: "Sculpture",
+    image: img51,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Metal",
+  },
+
+  {
+    id: 52,
+    category: "Sculpture",
+    image: img52,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Metal",
+  },
+
+  {
+    id: 53,
+    category: "Sculpture",
+    image: img53,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Wood-work",
+  },
+
+  {
+    id: 54,
+    category: "Sculpture",
+    image: img54,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Metal",
+  },
+
+  {
+    id: 55,
+    category: "Sculpture",
+    image: img55,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Wood-work",
+  },
+
+  {
+    id: 56,
+    category: "Sculpture",
+    image: img56,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Wood-work",
+  },
+
+  {
+    id: 57,
+    category: "Sculpture",
+    image: img57,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Wood-work",
+  },
+
+  {
+    id: 58,
+    category: "Sculpture",
+    image: img58,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Metal",
+  },
+
+  {
+    id: 59,
+    category: "Sculpture",
+    image: img59,
+    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+    author: "Lorem Ipsum",
+    subCategory: "Metal",
+  },
 ];

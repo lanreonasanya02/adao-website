@@ -11,9 +11,9 @@ import img8 from "../../images/exhibitions/IMG_1440.jpg";
 import img9 from "../../images/exhibitions/IMG_1480.jpg";
 import img10 from "../../images/exhibitions/IMG_1478.jpg";
 import img11 from "../../images/exhibitions/IMG_1476.jpg";
-import img12 from "../../images/adao-9.png";
-import img13 from "../../images/adao-10.png";
-import img14 from "../../images/adao-11.png";
+import img12 from "../../images/exhibitions/adao-9.png";
+import img13 from "../../images/exhibitions/adao-10.png";
+import img14 from "../../images/exhibitions/adao-11.png";
 
 const Exhibitions = () => {
   return (
