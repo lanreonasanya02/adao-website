@@ -115,11 +115,24 @@ main .gallery-section .gallery-buttons button:hover {
   }
 
   .mobile-carousel .slide-container {
-    height: 100vh;
+    height: 80vh;
   }
 
   .mobile-carousel .gallery-image {
     text-align: center;
+    width: 100%;
+  }
+
+  .mobile-carousel .carousel-caption {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    color: #070707;
+    font-weight: bolder;
+  }
+
+  .mobile-carousel .gallery-image img {
+    width: 100%;
+    height: 80vh;
   }
 }
 

@@ -14,6 +14,8 @@ import img11 from "../../images/exhibitions/IMG_1476.jpg";
 import img12 from "../../images/exhibitions/adao-9.png";
 import img13 from "../../images/exhibitions/adao-10.png";
 import img14 from "../../images/exhibitions/adao-11.png";
+import img15 from "../../images/exhibitions/IMG_1445.jpg";
+import img16 from "../../images/exhibitions/IMG_1448.jpg";
 
 const Exhibitions = () => {
   return (
@@ -192,7 +194,7 @@ const Exhibitions = () => {
               data-bs-interval="4000"
             >
               <div className="gallery-image">
-                <img src="#" alt="exhibition-1" />
+                <img src={img8} alt="exhibition-1" />
               </div>
               <div className="carousel-caption">
                 <h5>ADAO - Exhibition A</h5>
@@ -204,23 +206,50 @@ const Exhibitions = () => {
               data-bs-interval="3000"
             >
               <div className="gallery-image">
-                <img src="#" alt="exhibition-2" />
+                <img src={img2} alt="exhibition-2" />
               </div>
               <div className="carousel-caption">
                 <h5>ADAO - Exhibition B</h5>
                 <p>Texas, United States</p>
               </div>
             </div>
+
             <div
               className="carousel-item slide-container"
               data-bs-interval="3000"
             >
               <div className="gallery-image">
-                <img src="#" alt="exhibition-3" />
+                <img src={img15} alt="exhibition-3" />
               </div>
               <div className="carousel-caption">
                 <h5>ADAO - Exhibition C</h5>
                 <p>Venice, Italy</p>
+              </div>
+            </div>
+
+            <div
+              className="carousel-item slide-container"
+              data-bs-interval="3000"
+            >
+              <div className="gallery-image">
+                <img src={img16} alt="exhibition-3" />
+              </div>
+              <div className="carousel-caption">
+                <h5>ADAO - Exhibition D</h5>
+                <p>Lagos, Nigeria</p>
+              </div>
+            </div>
+
+            <div
+              className="carousel-item slide-container"
+              data-bs-interval="3000"
+            >
+              <div className="gallery-image">
+                <img src={img3} alt="exhibition-3" />
+              </div>
+              <div className="carousel-caption">
+                <h5>ADAO - Exhibition E</h5>
+                <p>Addis Ababa, Ivory Coast</p>
               </div>
             </div>
           </div>
