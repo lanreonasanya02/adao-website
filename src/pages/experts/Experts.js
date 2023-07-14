@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 import "./Experts.css";
 
 const Experts = () => {
+  const openForm = () => {
+    window.open(
+      "https://form.jotform.com/231938646635568",
+      "blank",
+      "scrollbars=yes,toolbar=no,width=700,height=500"
+    );
+  };
+
   return (
     <main id="main-expert">
       <article id="expert">
@@ -23,9 +31,11 @@ const Experts = () => {
             company or delivery? Contact us and ask anything.
           </p>
 
-          <Link to="#contact" className="btn expert-btn">
-            Contact Expert
-          </Link>
+          <div className="expert-btn-container">
+            <Link to="#" onClick={openForm} class="btn expert-btn">
+              Contact Expert
+            </Link>
+          </div>
         </section>
       </article>
     </main>

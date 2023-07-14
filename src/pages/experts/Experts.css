@@ -16,3 +16,9 @@
   background-color: #5c5959;
   color: #fff;
 }
+
+@media (min-width: 375px) and (max-width: 576px) {
+  .expert-btn-container {
+    text-align: center;
+  }
+}

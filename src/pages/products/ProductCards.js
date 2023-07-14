@@ -39,18 +39,17 @@ function Painting() {
       <h3 className="section-heading">Painting</h3>
       <div className="card-container">
         {filteredProducts.map((product) => {
-          const { id, category, subCategory, title, image, author } = product;
+          const { id, category, subCategory, image, author } = product;
 
           return (
             <div key={id} className="card-style">
               <div class="card">
                 <div className="card-header"></div>
                 <div className="card-image">
-                  <img src={image} class="card-img-top" alt={title} />
+                  <img src={image} class="card-img-top" alt={category} />
                 </div>
                 <div class="card-body">
-                  <h6 class="card-title">{title}</h6>
-                  <p className="text-muted title-paragraph">By {author}</p>
+                  <h6 class="card-title">By {author}</h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -98,17 +97,15 @@ function Painting() {
                 <div className="product-image">
                   <img
                     src={selectedProduct.image}
-                    alt={selectedProduct.title}
+                    alt={selectedProduct.category}
                   />
                 </div>
 
                 <div className="product-details">
-                  <h2>{selectedProduct.title}</h2>
-                  <h5>{selectedProduct.author}</h5>
+                  <h4>By {selectedProduct.author}</h4>
                   <h4>
                     {selectedProduct.category}, {selectedProduct.subCategory}
                   </h4>
-                  <h4>{selectedProduct.description}</h4>
                 </div>
               </div>
             )}
@@ -138,6 +135,14 @@ function Sculpture() {
     setIsModalOpen(false);
   };
 
+  const openForm = () => {
+    window.open(
+      "https://form.jotform.com/231938646635568",
+      "blank",
+      "scrollbars=yes,toolbar=no,width=700,height=500"
+    );
+  };
+
   const filteredProducts = allProducts.filter(
     (product) => product.category === "Sculpture"
   );
@@ -146,18 +151,17 @@ function Sculpture() {
       <h3 className="section-heading">Sculpture</h3>
       <div className="card-container">
         {filteredProducts.map((product) => {
-          const { id, category, subCategory, title, image, author } = product;
+          const { id, category, subCategory, image, author } = product;
 
           return (
             <div key={id} className="card-style">
               <div class="card" style={{ width: "15rem" }}>
                 <div className="card-header"></div>
                 <div className="card-image">
-                  <img src={image} class="card-img-top" alt={title} />
+                  <img src={image} class="card-img-top" alt={category} />
                 </div>
                 <div class="card-body">
-                  <h6 class="card-title">{title}</h6>
-                  <p className="text-muted title-paragraph">By {author}</p>
+                  <h6 class="card-title">By {author}</h6>
                   <div className="line"></div>
                   <div className="card-paragraph">
                     <p class="card-text">
@@ -174,12 +178,7 @@ function Sculpture() {
                     View Art
                   </button>
 
-                  <Link
-                    to="https://form.jotform.com/231938646635568"
-                    target="_blank"
-                    rel="noreferrer"
-                    class="btn btn-second"
-                  >
+                  <Link to="#" onClick={openForm} class="btn btn-second">
                     Send Enquiry
                   </Link>
                 </div>
@@ -200,17 +199,15 @@ function Sculpture() {
                 <div className="product-image">
                   <img
                     src={selectedProduct.image}
-                    alt={selectedProduct.title}
+                    alt={selectedProduct.category}
                   />
                 </div>
 
                 <div className="product-details">
-                  <h2>{selectedProduct.title}</h2>
-                  <h5>{selectedProduct.author}</h5>
+                  <h4>By {selectedProduct.author}</h4>
                   <h4>
                     {selectedProduct.category}, {selectedProduct.subCategory}
                   </h4>
-                  <h4>{selectedProduct.description}</h4>
                 </div>
               </div>
             )}
