@@ -370,7 +370,7 @@ export const allProducts = [
     category: "Painting",
     image: img35,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Odeyemi Seun",
+    author: "Seun Odeyemi",
     subCategory: "Landscape",
   },
 

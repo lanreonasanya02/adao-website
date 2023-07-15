@@ -2,8 +2,9 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../products/Product.css";
-import { allProducts } from "./Data";
+import Navbar from "../navbars/Navbar";
 import { Painting, Sculpture } from "./ProductCards";
+import { FaAngleLeft } from "react-icons/fa";
 
 const Products = () => {
   const { itemId } = useParams();
@@ -32,18 +33,23 @@ const Products = () => {
 
   return (
     <main id="main-products">
-      <article id="products" className="container">
-        <div className="d-none d-md-block">
-          <Link to="/" className="go-back">
-            Return Home
-          </Link>
+      <>
+        <Navbar />
+        <div className="container">
+          <div className="">
+            {/* <div className="return-link">
+              <Link to="/">
+                <FaAngleLeft /> Return Home
+              </Link>
+            </div> */}
 
-          {renderSelectedComponent()}
+            {renderSelectedComponent()}
+          </div>
         </div>
-      </article>
+      </>
 
       {/* Mobile */}
-      <section className="carou-mobile d-block d-lg-none">
+      <section className="carou-mobile d-none d-lg-none">
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner ">
             <div class="carousel-item active">
