@@ -157,7 +157,7 @@ function Sculpture() {
 
           return (
             <div key={id} className="card-style">
-              <div class="card" style={{ width: "15rem" }}>
+              <div class="card">
                 <div className="card-header"></div>
                 <div className="card-image">
                   <img src={image} class="card-img-top" alt={category} />

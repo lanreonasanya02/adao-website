@@ -29,7 +29,7 @@
 @media (min-width: 375px) and (max-width: 576px) {
   .scroll-to-top-button {
     position: fixed;
-    bottom: 150px;
+    bottom: 110px;
     right: 20px;
     width: 80px;
     height: 80px;

@@ -249,7 +249,7 @@ const Exhibitions = () => {
               </div>
               <div className="carousel-caption">
                 <h5>ADAO - Exhibition E</h5>
-                <p>Addis Ababa, Ivory Coast</p>
+                <p>Addis Ababa, Ethiopia</p>
               </div>
             </div>
           </div>

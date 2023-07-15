@@ -33,20 +33,18 @@ const Products = () => {
 
   return (
     <main id="main-products">
-      <>
-        <Navbar />
-        <div className="container">
-          <div className="">
-            {/* <div className="return-link">
-              <Link to="/">
-                <FaAngleLeft /> Return Home
-              </Link>
-            </div> */}
+      <Navbar />
+      <article id="products" className="container">
+        <div className="">
+          {/* <div className="return-link">
+            <Link to="/">
+              <FaAngleLeft /> Return Home
+            </Link>
+          </div> */}
 
-            {renderSelectedComponent()}
-          </div>
+          {renderSelectedComponent()}
         </div>
-      </>
+      </article>
 
       {/* Mobile */}
       <section className="carou-mobile d-none d-lg-none">

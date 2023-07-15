@@ -19,8 +19,7 @@
 }
 
 .section-heading {
-  margin: 5rem 0 3rem;
-  padding-bottom: 12px;
+  padding: 10rem 0 12px;
   border-bottom: 2px solid #c1bfbf;
   width: 8%;
   font-weight: bolder;
@@ -236,6 +235,10 @@ section {
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
+  .section-heading {
+    padding: 4rem 0 12px;
+  }
+
   .card-container {
     display: grid;
     grid-template-columns: 1fr;
