@@ -273,12 +273,18 @@ section {
   }
 
   .product-image img {
-    object-fit: contain;
-    width: 80%;
+    object-fit: cover;
+    width: 90%;
     overflow-y: scroll;
   }
 
+  .product-container .product-details {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
   .product-container .product-details h4 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
