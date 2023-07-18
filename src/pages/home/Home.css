@@ -92,6 +92,13 @@ header .header-hero .header-hero-text {
   opacity: 1;
 }
 
+.flip-side-text {
+  font-size: 13px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+}
+
 /* Mobile Heading */
 
 .mobile-heading h2 {
@@ -180,7 +187,7 @@ header .header-hero .header-hero-text {
   }
 }
 
-@media (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 992px) {
   header {
     background: url(../../images/home/adao-26.jpg);
     background-position: center;

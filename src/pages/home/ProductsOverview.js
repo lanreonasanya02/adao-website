@@ -75,14 +75,7 @@ function ProductsOverview() {
                     class="carousel-caption text-light bg-dark rounded"
                     style={{ height: "30vh" }}
                   >
-                    <h5
-                      style={{
-                        fontSize: "14px",
-                        textAlign: "center",
-                        fontWeight: "bolder",
-                        padding: "10px",
-                      }}
-                    >
+                    <h5 className="flip-side-text">
                       Click card to explore a collection of captivating
                       paintings, ranging from vibrant abstract masterpieces to
                       stunning landscapes and thought-provoking figurative
@@ -109,7 +102,7 @@ function ProductsOverview() {
                   />
 
                   <div class="carousel-caption text-dark fw-bold bg-light rounded">
-                    <h5 style={{ fontWeight: "bolder" }}>SCULPTURE</h5>
+                    <h5 style={{ fontWeight: "bolder" }}>SCULPTURES</h5>
                   </div>
                 </div>
               </div>
@@ -128,14 +121,7 @@ function ProductsOverview() {
                     class="carousel-caption text-light bg-dark rounded"
                     style={{ height: "30vh" }}
                   >
-                    <h5
-                      style={{
-                        fontSize: "14px",
-                        textAlign: "center",
-                        fontWeight: "bolder",
-                        padding: "10px",
-                      }}
-                    >
+                    <h5 className="flip-side-text">
                       Click card and immerse yourself in the world of sculpture,
                       where traditional and contemporary styles converge,
                       showcasing the beauty of form and materials.
@@ -180,14 +166,7 @@ function ProductsOverview() {
                     class="carousel-caption text-light bg-dark rounded"
                     style={{ height: "30vh" }}
                   >
-                    <h5
-                      style={{
-                        fontSize: "14px",
-                        textAlign: "center",
-                        fontWeight: "bolder",
-                        padding: "10px",
-                      }}
-                    >
+                    <h5 className="flip-side-text">
                       Click card to discover the intricate world of ceramics,
                       where handcrafted pottery and unique ceramic artworks
                       captivate with their beauty and craftsmanship.
@@ -232,14 +211,7 @@ function ProductsOverview() {
                     class="carousel-caption text-light bg-dark rounded"
                     style={{ height: "30vh" }}
                   >
-                    <h5
-                      style={{
-                        fontSize: "13px",
-                        textAlign: "center",
-                        fontWeight: "bolder",
-                        padding: "10px",
-                      }}
-                    >
+                    <h5 className="flip-side-text">
                       Click card to experience the art of photography, featuring
                       captivating images that showcase the beauty of landscapes,
                       the essence of portraits, and the abstract in everyday
