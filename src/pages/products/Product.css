@@ -246,6 +246,10 @@ section {
 }
 
 @media (min-width: 375px) and (max-width: 576px) {
+  .return-link {
+    padding: 3rem 0 12px;
+  }
+
   .section-heading {
     padding: 4rem 0 12px;
   }
@@ -300,5 +304,15 @@ section {
 
   .product-container .product-details h4 {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .section-heading {
+    padding: 2rem 0 12px;
+    border-bottom: 2px solid #c1bfbf;
+    width: 8%;
+    font-weight: bolder;
+    font-style: italic;
   }
 }

@@ -234,7 +234,7 @@ function ProductsOverview() {
                   >
                     <h5
                       style={{
-                        fontSize: "14px",
+                        fontSize: "13px",
                         textAlign: "center",
                         fontWeight: "bolder",
                         padding: "10px",
