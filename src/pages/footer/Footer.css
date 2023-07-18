@@ -84,7 +84,7 @@ footer .attribution p a {
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
     margin-top: 4rem;
-    text-align: center;
+    /* text-align: center; */
   }
 
   footer .links-column .socials,

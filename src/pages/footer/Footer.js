@@ -164,7 +164,7 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="">
+            <div className="text-center">
               <h6>Contact details</h6>
               <p>+234-817-3551-411</p>
               <p>+234-817-1375-644</p>
