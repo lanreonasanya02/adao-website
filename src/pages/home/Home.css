@@ -120,6 +120,7 @@ header .header-hero .header-hero-text {
 
   header .header-hero {
     height: 100vh;
+    padding-top: 5rem;
   }
 
   header .header-hero .header-hero-text {
@@ -128,7 +129,7 @@ header .header-hero .header-hero-text {
   }
 
   header .header-hero .header-hero-text h1 {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 2rem;
   }
 
@@ -193,6 +194,7 @@ header .header-hero .header-hero-text {
 
   header .header-hero {
     height: 100vh;
+    padding-top: 5rem;
   }
 
   header .header-hero .header-hero-text {
