@@ -1,4 +1,4 @@
-import img1 from "../../images/products/img_0.jpg";
+import img1 from "../../images/products/img_1.jpg";
 import img2 from "../../images/products/img_2.jpg";
 import img3 from "../../images/products/img_3.jpg";
 import img4 from "../../images/products/img_4.jpg";

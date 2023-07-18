@@ -61,7 +61,7 @@ const Exhibitions = () => {
                 </div>
                 <div className="carousel-inner">
                   {/* Slide 1 */}
-                  <div className="carousel-item active" data-bs-interval="8000">
+                  <div className="carousel-item active" data-bs-interval="4000">
                     <div className="container">
                       <div className="grid-container">
                         <div className="exhibit-column">
@@ -86,7 +86,7 @@ const Exhibitions = () => {
                   </div>
 
                   {/* Slide 2 */}
-                  <div className="carousel-item active" data-bs-interval="8000">
+                  <div className="carousel-item active" data-bs-interval="3000">
                     <div className="container">
                       <div className="grid-container">
                         <div className="exhibit-column">
@@ -117,7 +117,7 @@ const Exhibitions = () => {
                   </div>
 
                   {/* Slide 3 */}
-                  <div className="carousel-item active" data-bs-interval="8000">
+                  <div className="carousel-item active" data-bs-interval="3000">
                     <div className="container">
                       <div className="grid-container">
                         <div className="exhibit-column">
@@ -148,7 +148,7 @@ const Exhibitions = () => {
                   </div>
 
                   {/* Slide 4 */}
-                  <div className="carousel-item active" data-bs-interval="8000">
+                  <div className="carousel-item active" data-bs-interval="3000">
                     <div className="container">
                       <div className="grid-container">
                         <div className="exhibit-column">
