@@ -4,11 +4,11 @@ import "../overview/Overview.css";
 const Overview = () => {
   return (
     <main id="main-overview">
-      <div className="container">
+      <div className="container-lg">
         <h3 className="section-heading">Overview</h3>
       </div>
 
-      <div className="overview-page container">
+      <div className="overview-page container-lg">
         <p>
           At <strong>African Diversified Art Odyssey (ADAO)</strong>, we are
           dedicated to providing comprehensive representation for emerging,

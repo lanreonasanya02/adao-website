@@ -14,11 +14,11 @@ const Experts = () => {
   return (
     <main id="main-expert">
       <article id="expert">
-        <div className="container">
+        <div className="container-lg">
           <h3 className="section-heading">Expert</h3>
         </div>
 
-        <section className="container">
+        <section className="container-lg">
           <p>
             Our services include a number of crucial areas to guarantee a smooth
             art supply process for branded hotels: art curation, art

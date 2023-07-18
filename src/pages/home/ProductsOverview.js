@@ -22,7 +22,7 @@ function ProductsOverview() {
 
   return (
     <main id="main-products">
-      <article id="products" className="container">
+      <article id="products" className="container-lg">
         <section>
           <h3 className="section-heading">Products</h3>
         </section>

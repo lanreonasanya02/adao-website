@@ -25,10 +25,10 @@ const Home = () => {
         <Navbar />
         {/* <SideNav /> */}
 
-        <div className="container header-hero">
+        <div className="container-lg header-hero">
           <div className="">
             <div className="row align-items-center">
-              <div className="fw-bold header-hero-text col-md-6 ">
+              <div className="fw-bold header-hero-text col-md-6">
                 {/* <h1 className="display-6 animate-charcter d-none d-lg-block">
               African Diversified Art Odyssey Group (ADAO)
             </h1> */}
@@ -36,25 +36,16 @@ const Home = () => {
                   African Diversified Art Odyssey (ADAO)
                 </h1>
 
-                <h5 className="fst-italic  text-muted">
+                <h5 className="fst-italic text-muted">
                   {" "}
                   Art Consultancy/Art Supply/Contemporary Artists
                   Representation/Art Exhibitions...
                 </h5>
                 <br />
-                <p className="d-none">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Pariatur quos iusto illum repellat et voluptatum magnam neque
-                  ipsa in obcaecati, quisquam at quae, incidunt accusamus
-                  laborum exercitationem deserunt rerum atque ad iste. Ratione
-                  veniam architecto corporis laborum ullam recusandae cupiditate
-                  eos praesentium quasi, quia incidunt officiis doloribus.
-                  Tempora, eius sapiente!
-                </p>
 
                 <Link
                   to="#products"
-                  className="btn header-btn d-none d-lg-block"
+                  className="btn header-btn d-none d-md-block"
                 >
                   View Collections
                 </Link>
@@ -66,7 +57,7 @@ const Home = () => {
 
                 <Link
                   to="#products"
-                  className="btn mobile-header-btn d-block d-lg-none"
+                  className="btn mobile-header-btn d-block d-md-none"
                 >
                   View Collections
                 </Link>

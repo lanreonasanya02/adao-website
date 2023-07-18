@@ -34,7 +34,7 @@ const Products = () => {
   return (
     <main id="main-products">
       <Navbar />
-      <article id="products" className="container">
+      <article id="products" className="container-lg">
         <div className="return-link">
           <Link to="/">
             <FaAngleDoubleLeft /> Return Home

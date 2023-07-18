@@ -10,23 +10,13 @@ const Footer = () => {
   return (
     <>
       <footer className="d-none d-md-block">
-        <div className="container navbar-container">
+        <div className="container-lg navbar-container">
           <div class="navbar navbar-expand-lg desktop-nav">
             <div class="container-lg">
               <Link class="navbar-brand" to="/">
                 <img src={logo} alt="logo" className="logo-desktop" />
               </Link>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+
               <div
                 class="collapse navbar-collapse justify-content-end"
                 id="navbarNavAltMarkup"
@@ -58,7 +48,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-body">
-            <div className="row align-items-center">
+            <div className="row ">
               <div className="col-md-4">
                 <p>Copyright 2023 - All Rights Reserved.</p>
               </div>
@@ -156,6 +146,7 @@ const Footer = () => {
 
           <div className="all-links">
             <div class="navbar-nav">
+              <h6>Website links</h6>
               <Link class="nav-link me-2 " aria-current="page" to="#products">
                 Products
               </Link>
@@ -177,72 +168,69 @@ const Footer = () => {
               <h6>Contact details</h6>
               <p>+234-817-3551-411</p>
               <p>+234-817-1375-644</p>
-            </div>
 
-            <div className="">
-              <p>Copyright 2023 - All Rights Reserved.</p>
+              <div className="links-column mt-5">
+                <h6>Our Socials</h6>
+                <Link
+                  to="mailto:adaogroup@outlook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="socials"
+                >
+                  <span
+                    className="tt"
+                    data-bs-placement="bottom"
+                    title="Send us a mail"
+                  >
+                    <AiOutlineMail />
+                  </span>
+                </Link>
+                <Link
+                  to="https://web.facebook.com/profile.php?id=100077348396583"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="socials"
+                >
+                  <span
+                    className="tt"
+                    data-bs-placement="bottom"
+                    title="Visit Us On Facebook"
+                  >
+                    <FiFacebook />
+                  </span>
+                </Link>
+                <Link
+                  to="https://www.instagram.com/adao_group"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="socials"
+                >
+                  <span
+                    className="tt"
+                    data-bs-placement="bottom"
+                    title="Visit Us On Instagram"
+                  >
+                    <FiInstagram />
+                  </span>
+                </Link>
+                <Link
+                  to="https://www.linkedin.com/in/adao-group-427b46217"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span
+                    className="tt"
+                    data-bs-placement="bottom"
+                    title="Check Us Out On LinkedIn"
+                  >
+                    <FaLinkedinIn />
+                  </span>
+                </Link>
+              </div>
             </div>
-
-            <div className="links-column">
-              <h6>Our Socials</h6>
-              <Link
-                to="mailto:adaogroup@outlook.com"
-                target="_blank"
-                rel="noreferrer"
-                className="socials"
-              >
-                <span
-                  className="tt"
-                  data-bs-placement="bottom"
-                  title="Send us a mail"
-                >
-                  <AiOutlineMail />
-                </span>
-              </Link>
-              <Link
-                to="https://web.facebook.com/profile.php?id=100077348396583"
-                target="_blank"
-                rel="noreferrer"
-                className="socials"
-              >
-                <span
-                  className="tt"
-                  data-bs-placement="bottom"
-                  title="Visit Us On Facebook"
-                >
-                  <FiFacebook />
-                </span>
-              </Link>
-              <Link
-                to="https://www.instagram.com/adao_group"
-                target="_blank"
-                rel="noreferrer"
-                className="socials"
-              >
-                <span
-                  className="tt"
-                  data-bs-placement="bottom"
-                  title="Visit Us On Instagram"
-                >
-                  <FiInstagram />
-                </span>
-              </Link>
-              <Link
-                to="https://www.linkedin.com/in/adao-group-427b46217"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span
-                  className="tt"
-                  data-bs-placement="bottom"
-                  title="Check Us Out On LinkedIn"
-                >
-                  <FaLinkedinIn />
-                </span>
-              </Link>
-
-              <p className="invisible">Lagos City</p>
-            </div>
+          </div>
+          <div className="mt-5 text-center">
+            <p>Copyright 2023 - All Rights Reserved.</p>
           </div>
         </div>
 

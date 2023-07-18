@@ -65,13 +65,14 @@ footer .attribution p a {
   color: #ffff00;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 991px) {
   footer .navbar-brand {
     text-align: center;
   }
 
   footer .navbar-brand img {
     width: 30%;
+    border-radius: 50%;
   }
 
   footer {
@@ -81,16 +82,23 @@ footer .attribution p a {
   footer .all-links {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-    row-gap: 1.3rem;
-    column-gap: 5rem;
-    margin-top: 2rem;
+    column-gap: 3rem;
+    margin-top: 4rem;
+    text-align: center;
   }
 
   footer .links-column .socials,
   footer .links-column a {
     margin-right: 1rem;
     font-size: 1rem;
+    color: #fff;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  footer .section-three .socials {
+    margin-right: 1rem;
+    font-size: 1.2rem;
     color: #fff;
   }
 }

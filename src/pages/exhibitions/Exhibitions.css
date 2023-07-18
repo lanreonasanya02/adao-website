@@ -129,6 +129,7 @@ main .gallery-section .gallery-buttons button:hover {
   .mobile-carousel .gallery-image img {
     width: 100%;
     height: 80vh;
+    object-fit: cover;
   }
 }
 
