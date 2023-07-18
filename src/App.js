@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import News from "./pages/news/News";
 import Products from "./pages/products/Products";
+import NotFound from "./pages/not-found/NotFound";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="news" element={<News />} />
         <Route path="/products/:itemId" element={<Products />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
