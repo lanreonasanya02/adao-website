@@ -65,7 +65,7 @@ footer .attribution p a {
   color: #ffff00;
 }
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (min-width: 375px) and (max-width: 767px) {
   footer .navbar-brand {
     text-align: center;
   }
