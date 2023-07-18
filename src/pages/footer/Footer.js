@@ -60,7 +60,7 @@ const Footer = () => {
           <div className="footer-body">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <p>Copyright 2023 - All Rights Resrved.</p>
+                <p>Copyright 2023 - All Rights Reserved.</p>
               </div>
 
               <div className="col-md-4 section-two">

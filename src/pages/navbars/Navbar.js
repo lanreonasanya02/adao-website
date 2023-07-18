@@ -1,22 +1,9 @@
-import React, { useEffect, useState, useContext, createContext } from "react";
+import React, { useEffect } from "react";
 import logo from "../../images/logo/adao-logo.png";
 import "../navbars/Navbar.css";
 import { useLocation, Link } from "react-router-dom";
 
-// Create a context to store the active section
-const ActiveSectionContext = createContext("");
-
 const Navbar = () => {
-  const location = useLocation();
-
-  return (
-    <ActiveSectionContext.Provider value={location.hash}>
-      <Navigation />
-    </ActiveSectionContext.Provider>
-  );
-};
-
-const Navigation = () => {
   // Open the sidenav
   function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
@@ -29,7 +16,6 @@ const Navigation = () => {
 
   //  Setting scroll to link section within page
   const location = useLocation();
-  const activeSection = useContext(ActiveSectionContext);
 
   useEffect(() => {
     if (location.hash) {
@@ -38,31 +24,16 @@ const Navigation = () => {
         targetElement.scrollIntoView({ behavior: "smooth" });
       }
     }
-
-    const handleScroll = () => {
-      const sections = document.querySelectorAll("article");
-
-      const scrollPosition = window.scrollY;
-
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-
-        if (
-          scrollPosition >= sectionTop - sectionHeight / 2 &&
-          scrollPosition < sectionTop + sectionHeight
-        ) {
-          window.history.replaceState(null, null, `#${section.id}`); // Update the URL hash
-        }
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
   }, [location]);
+
+  // Open Form
+  const openForm = () => {
+    window.open(
+      "https://form.jotform.com/231938646635568",
+      "blank",
+      "scrollbars=yes,toolbar=no,width=700,height=500"
+    );
+  };
 
   // Setting active link CSS style
   const activeLinkStyle = {
@@ -140,7 +111,8 @@ const Navigation = () => {
               </Link>
 
               <Link
-                to="/contact"
+                to="#"
+                onClick={openForm}
                 className="nav-btn"
                 style={
                   location.pathname === "/contact" ? activeLinkStyle : null

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./Product.css";
 import { allProducts } from "./Data";
-import { Link } from "react-router-dom";
 import ScrollToTop from "../scroll-to-top/ScrollToTop";
+import SendBtn from "../submit-btn/SendBtn";
 
 function Painting() {
   // Scroll To top
@@ -23,21 +23,14 @@ function Painting() {
     setIsModalOpen(false);
   };
 
-  const openForm = () => {
-    window.open(
-      "https://form.jotform.com/231938646635568",
-      "blank",
-      "scrollbars=yes,toolbar=no,width=700,height=500"
-    );
-  };
-
   const filteredProducts = allProducts.filter(
-    (product) => product.category === "Painting"
+    (product) =>
+      product.category === "Painting" || product.category === "Drawing"
   );
 
   return (
     <>
-      <h3 className="section-heading">Painting</h3>
+      <h3 className="productCards-heading">Paintings & Drawings</h3>
       <div className="card-container">
         {filteredProducts.map((product) => {
           const { id, category, subCategory, image, author } = product;
@@ -68,18 +61,7 @@ function Painting() {
                     View Art
                   </button>
 
-                  {/* <Link
-                    to="https://form.jotform.com/231938646635568"
-                    target="_blank"
-                    rel="noreferrer"
-                    class="btn btn-second"
-                  >
-                    Send Enquiry
-                  </Link> */}
-
-                  <Link to="#" onClick={openForm} class="btn btn-second">
-                    Send Enquiry
-                  </Link>
+                  <SendBtn title={"Send Enquiry"} />
                 </div>
               </div>
             </div>
@@ -137,20 +119,12 @@ function Sculpture() {
     setIsModalOpen(false);
   };
 
-  const openForm = () => {
-    window.open(
-      "https://form.jotform.com/231938646635568",
-      "blank",
-      "scrollbars=yes,toolbar=no,width=700,height=500"
-    );
-  };
-
   const filteredProducts = allProducts.filter(
     (product) => product.category === "Sculpture"
   );
   return (
     <>
-      <h3 className="section-heading">Sculpture</h3>
+      <h3 className="productCards-heading">Sculptures</h3>
       <div className="card-container">
         {filteredProducts.map((product) => {
           const { id, category, subCategory, image, author } = product;
@@ -180,9 +154,7 @@ function Sculpture() {
                     View Art
                   </button>
 
-                  <Link to="#" onClick={openForm} class="btn btn-second">
-                    Send Enquiry
-                  </Link>
+                  <SendBtn title={"Send Enquiry"} />
                 </div>
               </div>
             </div>

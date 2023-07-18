@@ -46,7 +46,9 @@ function ProductsOverview() {
                   />
 
                   <div class="carousel-caption text-dark fw-bold bg-light rounded">
-                    <h5 style={{ fontWeight: "bolder" }}>PAINTING</h5>
+                    <h5 style={{ fontWeight: "bolder" }}>
+                      PAINTINGS & DRAWINGS
+                    </h5>
                   </div>
                 </div>
               </div>
@@ -75,7 +77,7 @@ function ProductsOverview() {
                   >
                     <h5
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         textAlign: "center",
                         fontWeight: "bolder",
                         padding: "10px",
@@ -92,7 +94,7 @@ function ProductsOverview() {
             </ReactCardFlip>
           </div>
 
-          {/* Column 2 - Sscuplture */}
+          {/* Column 2 - Scuplture */}
           <div className="" onClick={() => handleItemClick("sculptures")}>
             <ReactCardFlip isFlipped={flip2} flipDirection="vertical">
               <div class="card each-card" onMouseEnter={() => setFlip2(!flip2)}>
@@ -128,7 +130,7 @@ function ProductsOverview() {
                   >
                     <h5
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         textAlign: "center",
                         fontWeight: "bolder",
                         padding: "10px",
@@ -180,7 +182,7 @@ function ProductsOverview() {
                   >
                     <h5
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         textAlign: "center",
                         fontWeight: "bolder",
                         padding: "10px",
@@ -232,7 +234,7 @@ function ProductsOverview() {
                   >
                     <h5
                       style={{
-                        fontSize: "12px",
+                        fontSize: "14px",
                         textAlign: "center",
                         fontWeight: "bolder",
                         padding: "10px",

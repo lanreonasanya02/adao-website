@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import "../products/Product.css";
 import Navbar from "../navbars/Navbar";
 import { Painting, Sculpture } from "./ProductCards";
-import { FaAngleLeft } from "react-icons/fa";
+import { FaAngleDoubleLeft } from "react-icons/fa";
 
 const Products = () => {
   const { itemId } = useParams();
@@ -35,15 +35,13 @@ const Products = () => {
     <main id="main-products">
       <Navbar />
       <article id="products" className="container">
-        <div className="">
-          {/* <div className="return-link">
-            <Link to="/">
-              <FaAngleLeft /> Return Home
-            </Link>
-          </div> */}
-
-          {renderSelectedComponent()}
+        <div className="return-link">
+          <Link to="/">
+            <FaAngleDoubleLeft /> Return Home
+          </Link>
         </div>
+
+        {renderSelectedComponent()}
       </article>
 
       {/* Mobile */}

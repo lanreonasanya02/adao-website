@@ -2,24 +2,8 @@
   background-color: #f8f8f8;
 }
 
-/* .go-back, */
-
-.return-link a {
-  color: #5c5959;
-  padding: 0.5rem 1rem;
-  margin-top: 9rem;
-  font-style: italic;
-  text-shadow: #201f1f;
-  font-weight: 700;
-  border: 1px double #000;
-}
-
-.return-link:hover {
-  color: rgb(246, 13, 13);
-}
-
 .section-heading {
-  padding: 10rem 0 12px;
+  padding: 4rem 0 12px;
   border-bottom: 2px solid #c1bfbf;
   width: 8%;
   font-weight: bolder;
@@ -118,14 +102,41 @@ section {
   color: #fff;
 }
 
+.productCards-heading {
+  padding: 2rem 0 12px;
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* .go-back, */
+
+.return-link {
+  padding: 10rem 0 12px;
+}
+
+.return-link a {
+  color: #5c5959;
+  padding: 0.5rem 1rem;
+  margin-top: 9rem;
+  font-style: italic;
+  text-shadow: #201f1f;
+  font-weight: 700;
+}
+
+.return-link a:hover {
+  color: rgb(246, 13, 13);
+}
+
 /* Modal */
 .modal-overlay {
   position: fixed;
   top: 0;
+  top: 5%;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,16 +145,16 @@ section {
 
 .modal-content {
   background-color: rgb(240, 232, 232);
-  padding: 2rem 20px;
+  padding: 3rem 20px;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   transition: transform 0.7s ease;
   margin: 0 8rem;
 }
 
 .product-container {
   align-items: center;
-  height: 80vh;
+  height: 60vh;
   width: 100%;
   overflow-y: scroll;
 }
@@ -155,7 +166,7 @@ section {
 
 .product-image img {
   object-fit: contain;
-  width: 70%;
+  width: 60%;
 }
 
 .product-container .product-details {

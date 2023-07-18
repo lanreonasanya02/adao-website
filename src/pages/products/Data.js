@@ -64,7 +64,7 @@ export const allProducts = [
     category: "Painting",
     image: img1,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem ipsum",
+    author: "John Israel G.",
     subCategory: "Mixed Media",
   },
 
@@ -73,7 +73,7 @@ export const allProducts = [
     category: "Painting",
     image: img2,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Seun Odeyemi",
     subCategory: "Figurative",
   },
 
@@ -82,7 +82,7 @@ export const allProducts = [
     category: "Painting",
     image: img3,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Aragbada Stephen",
     subCategory: "Figurative",
   },
 
@@ -91,7 +91,7 @@ export const allProducts = [
     category: "Painting",
     image: img4,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -100,7 +100,7 @@ export const allProducts = [
     category: "Painting",
     image: img5,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Mixed Media",
   },
 
@@ -109,7 +109,7 @@ export const allProducts = [
     category: "Painting",
     image: img6,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -118,7 +118,7 @@ export const allProducts = [
     category: "Painting",
     image: img7,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Mixed Media",
   },
 
@@ -127,7 +127,7 @@ export const allProducts = [
     category: "Painting",
     image: img8,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Aragbada Stephen",
     subCategory: "Figurative",
   },
 
@@ -136,7 +136,7 @@ export const allProducts = [
     category: "Painting",
     image: img9,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Landscape",
   },
 
@@ -145,7 +145,7 @@ export const allProducts = [
     category: "Painting",
     image: img10,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Gbelekale Azeez",
     subCategory: "Impressionism",
   },
 
@@ -154,7 +154,7 @@ export const allProducts = [
     category: "Painting",
     image: img11,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur.",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -163,7 +163,7 @@ export const allProducts = [
     category: "Painting",
     image: img12,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur (III)",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -172,7 +172,7 @@ export const allProducts = [
     category: "Painting",
     image: img13,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur (II)",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -181,7 +181,7 @@ export const allProducts = [
     category: "Painting",
     image: img14,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Seun Odeyemi",
     subCategory: "Figurative",
   },
 
@@ -190,7 +190,7 @@ export const allProducts = [
     category: "Painting",
     image: img15,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -208,7 +208,7 @@ export const allProducts = [
     category: "Painting",
     image: img17,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Seun Odeyemi",
     subCategory: "Figurative",
   },
 
@@ -217,7 +217,7 @@ export const allProducts = [
     category: "Painting",
     image: img18,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Abstract",
   },
 
@@ -226,7 +226,7 @@ export const allProducts = [
     category: "Painting",
     image: img19,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Mixed Media",
   },
 
@@ -235,7 +235,7 @@ export const allProducts = [
     category: "Painting",
     image: img20,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur (I)",
-    author: "Lorem Ipsum",
+    author: "Gbelekale Azeez",
     subCategory: "Impressionism",
   },
 
@@ -244,7 +244,7 @@ export const allProducts = [
     category: "Painting",
     image: img21,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -253,7 +253,7 @@ export const allProducts = [
     category: "Painting",
     image: img22,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Landscape",
   },
 
@@ -262,7 +262,7 @@ export const allProducts = [
     category: "Painting",
     image: img23,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Gbelekale Azeez",
     subCategory: "Impressionism",
   },
 
@@ -271,7 +271,7 @@ export const allProducts = [
     category: "Painting",
     image: img24,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Gbelekale Azeez",
     subCategory: "Impressionism",
   },
 
@@ -280,7 +280,7 @@ export const allProducts = [
     category: "Painting",
     image: img25,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Gbelekale Azeez",
     subCategory: "Impressionism",
   },
 
@@ -289,7 +289,7 @@ export const allProducts = [
     category: "Painting",
     image: img26,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Aragbada Stephen",
     subCategory: "Figurative",
   },
 
@@ -298,7 +298,7 @@ export const allProducts = [
     category: "Painting",
     image: img27,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -307,7 +307,7 @@ export const allProducts = [
     category: "Painting",
     image: img28,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur (I)",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -316,7 +316,7 @@ export const allProducts = [
     category: "Painting",
     image: img29,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -325,7 +325,7 @@ export const allProducts = [
     category: "Painting",
     image: img30,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -334,7 +334,7 @@ export const allProducts = [
     category: "Painting",
     image: img31,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Aragbada Stephen",
     subCategory: "Figurative",
   },
 
@@ -343,7 +343,7 @@ export const allProducts = [
     category: "Painting",
     image: img32,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "John Israel G.",
     subCategory: "Landscape",
   },
 
@@ -352,7 +352,7 @@ export const allProducts = [
     category: "Painting",
     image: img33,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Abstract",
   },
 
@@ -361,7 +361,7 @@ export const allProducts = [
     category: "Painting",
     image: img34,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -388,7 +388,7 @@ export const allProducts = [
     category: "Painting",
     image: img37,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Tolawewe",
     subCategory: "Abstract",
   },
 
@@ -397,9 +397,11 @@ export const allProducts = [
     category: "Painting",
     image: img38,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Gbelekale Azeez",
     subCategory: "Impressionism",
   },
+
+  // Sculpture
 
   {
     id: 39,
@@ -415,7 +417,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img40,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Marcus Maxwel",
     subCategory: "Metal",
   },
 
@@ -424,7 +426,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img41,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Akintomide Adesemoye",
     subCategory: "Metal",
   },
 
@@ -442,7 +444,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img43,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Metal",
   },
 
@@ -451,7 +453,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img44,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Ojegoke Pelumi",
     subCategory: "Wood-work",
   },
 
@@ -460,7 +462,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img45,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Metal",
   },
 
@@ -469,7 +471,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img46,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Ojegoke Pelumi",
     subCategory: "Metal",
   },
 
@@ -478,7 +480,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img47,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Metal",
   },
 
@@ -487,7 +489,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img48,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Kenny Adamson",
     subCategory: "Fibre Glass",
   },
 
@@ -505,7 +507,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img50,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Adewunmi James",
     subCategory: "Metal",
   },
 
@@ -514,7 +516,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img51,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Marcus Maxwel",
     subCategory: "Metal",
   },
 
@@ -523,7 +525,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img52,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Marcus Maxwel",
     subCategory: "Metal",
   },
 
@@ -532,7 +534,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img53,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Ojegoke Pelumi",
     subCategory: "Wood-work",
   },
 
@@ -541,7 +543,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img54,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Ojegoke Pelumi",
     subCategory: "Metal",
   },
 
@@ -550,7 +552,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img55,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Ojegoke Pelumi",
     subCategory: "Wood-work",
   },
 
@@ -559,7 +561,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img56,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Kenny Adamson",
     subCategory: "Wood-work",
   },
 
@@ -568,7 +570,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img57,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "Kenny Adamson",
     subCategory: "Wood-work",
   },
 
@@ -577,7 +579,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img58,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "B. Alvin",
     subCategory: "Metal",
   },
 
@@ -586,7 +588,7 @@ export const allProducts = [
     category: "Sculpture",
     image: img59,
     title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
+    author: "B. Alvin",
     subCategory: "Metal",
   },
 ];
