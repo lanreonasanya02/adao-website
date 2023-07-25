@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../products/Product.css";
 import Navbar from "../navbars/Navbar";
-import { Painting, Sculpture } from "./ProductCards";
+import { Painting, Sculpture, Ceramics, Photography } from "./ProductCards";
 import { FaAngleDoubleLeft } from "react-icons/fa";
 
 const Products = () => {
@@ -16,7 +16,10 @@ const Products = () => {
         return <Painting />;
       case "sculptures":
         return <Sculpture />;
-
+      case "ceramics":
+        return <Ceramics />;
+      case "photography":
+        return <Photography />;
       default:
         return <NoComponent />;
     }

@@ -4,8 +4,10 @@ import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import img1 from "../../images/products/img_3.jpg";
 import img2 from "../../images/products/img_43.png";
-import img3 from "../../images/products/img_49.jpg";
-import img4 from "../../images/products/img_50.jpg";
+// import img3 from "../../images/products/img_49.jpg";
+import img3 from "../../images/products/img_95.jpeg";
+import img4 from "../../images/products/img_116.jpeg";
+// import img4 from "../../images/products/img_50.jpg";
 
 function ProductsOverview() {
   const navigate = useNavigate();

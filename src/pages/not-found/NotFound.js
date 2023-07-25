@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NotFound.css";
-import { MdOutlineArrowBackIosNew } from "react-icons/md";
 import { FaAngleDoubleLeft } from "react-icons/fa";
 
 const NotFound = () => {
@@ -23,7 +22,7 @@ const NotFound = () => {
       >
         <h4>
           Oops...The page you are looking for doesn't exist! It may be that you
-          put it in the wrong address.
+          put in the wrong address.
         </h4>
 
         <div className="go-back-link">

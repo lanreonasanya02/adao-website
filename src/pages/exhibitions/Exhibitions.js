@@ -8,8 +8,8 @@ import img5 from "../../images/exhibitions/IMG_1481.jpg";
 import img6 from "../../images/exhibitions/IMG_1437.jpg";
 import img7 from "../../images/exhibitions/IMG_1475.jpg";
 import img8 from "../../images/exhibitions/IMG_1440.jpg";
-import img9 from "../../images/exhibitions/IMG_1480.jpg";
-import img10 from "../../images/exhibitions/IMG_1478.jpg";
+// import img9 from "../../images/exhibitions/IMG_1480.jpg";
+// import img10 from "../../images/exhibitions/IMG_1478.jpg";
 import img11 from "../../images/exhibitions/IMG_1476.jpg";
 import img12 from "../../images/exhibitions/adao-9.png";
 import img13 from "../../images/exhibitions/adao-10.png";
@@ -104,7 +104,7 @@ const Exhibitions = () => {
                         <div className="exhibit-column">
                           <div className="nested-columns">
                             <div className="card-image">
-                              <img src={img10} alt="exhibition-6" />
+                              <img src={img2} alt="exhibition-6" />
                             </div>
 
                             <div className="card-image ">
@@ -127,7 +127,7 @@ const Exhibitions = () => {
                             </div>
 
                             <div className="card-image ">
-                              <img src={img9} alt="exhibition-9" />
+                              <img src={img7} alt="exhibition-9" />
                             </div>
                           </div>
                         </div>

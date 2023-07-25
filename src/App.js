@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
-import News from "./pages/news/News";
 import Products from "./pages/products/Products";
 import NotFound from "./pages/not-found/NotFound";
 
@@ -9,7 +8,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
-        <Route path="news" element={<News />} />
         <Route path="/products/:itemId" element={<Products />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
@@ -19,5 +17,7 @@ function App() {
 
 export default App;
 
+// import News from "./pages/news/News";
 // import Contact from "./pages/contact/Contact";
 /* <Route path="contact" element={<Contact />} /> */
+/* <Route path="news" element={<News />} /> */
