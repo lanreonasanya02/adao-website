@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import Navbar from "../navbars/Navbar";
 import img from "../../images/home/adao-19ed.png";
 import img2 from "../../images/home/adao-18.png";
-import Exhibitions from "../exhibitions/Exhibitions";
 import Overview from "../overview/Overview";
 import Experts from "../experts/Experts";
 import Footer from "../footer/Footer";
 import ProductsOverview from "./ProductsOverview";
 import ScrollToTop from "../scroll-to-top/ScrollToTop";
+import ExhibitionsHome from "./ExhibitionsHome";
 
 // import SideNav from "../navbars/SideNav";
 
@@ -69,7 +69,7 @@ const Home = () => {
 
       <Overview />
       <ProductsOverview />
-      <Exhibitions />
+      <ExhibitionsHome />
       <Experts />
       <Footer />
       <ScrollToTop />

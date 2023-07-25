@@ -1,6 +1,6 @@
 #main-exhibitions {
   background-color: #fff;
-  padding: 0 0 7rem;
+  padding: 0 0 5rem;
 }
 
 main .grid-container {
@@ -8,7 +8,7 @@ main .grid-container {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 
 main .grid-container .exhibit-column {
@@ -19,7 +19,7 @@ main .grid-container .exhibit-column .first-column {
   width: 100%;
   align-items: center;
   background-color: #201f1f;
-  padding: 8rem 3rem;
+  padding: 5rem 3rem;
   border-radius: 8px;
 }
 
@@ -69,7 +69,7 @@ main .single-nested-columns img {
 
 main .grid-container .exhibit-column img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 8px;
   transition: transform 0.4s;
   object-fit: contain;

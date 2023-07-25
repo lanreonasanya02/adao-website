@@ -21,161 +21,159 @@ const Exhibitions = () => {
   return (
     <>
       <main id="main-exhibitions" className="d-none d-lg-block">
-        <article id="exhibitions">
-          <section className="container-lg">
-            <h3 className="section-heading">Exhibitions</h3>
+        <section className="container-lg">
+          <h3 className="section-heading">Exhibitions</h3>
 
-            <section className=" gallery-section">
-              <div
-                id="carouselExampleCaptions"
-                className="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div className="gallery-buttons">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="0"
-                    className="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4"
-                  ></button>
+          <section className=" gallery-section">
+            <div
+              id="carouselExampleCaptions"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div className="gallery-buttons">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  className="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div className="carousel-inner">
+                {/* Slide 1 */}
+                <div className="carousel-item active" data-bs-interval="4000">
+                  <div className="container">
+                    <div className="grid-container">
+                      <div className="exhibit-column">
+                        <div className="card-image first-column">
+                          <img src={img1} alt="exhibition-1" />
+                        </div>
+                      </div>
+
+                      <div className="exhibit-column">
+                        <div className="nested-columns">
+                          <div className="card-image">
+                            <img src={img3} alt="exhibition-2" />
+                          </div>
+
+                          <div className="card-image ">
+                            <img src={img2} alt="exhibition-3" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="carousel-inner">
-                  {/* Slide 1 */}
-                  <div className="carousel-item active" data-bs-interval="4000">
-                    <div className="container">
-                      <div className="grid-container">
-                        <div className="exhibit-column">
-                          <div className="card-image first-column">
-                            <img src={img1} alt="exhibition-1" />
+
+                {/* Slide 2 */}
+                <div className="carousel-item active" data-bs-interval="3000">
+                  <div className="container">
+                    <div className="grid-container">
+                      <div className="exhibit-column">
+                        <div className="nested-columns">
+                          <div className="card-image">
+                            <img src={img4} alt="exhibition-4" />
+                          </div>
+
+                          <div className="card-image ">
+                            <img src={img5} alt="exhibition-5" />
                           </div>
                         </div>
+                      </div>
 
-                        <div className="exhibit-column">
-                          <div className="nested-columns">
-                            <div className="card-image">
-                              <img src={img3} alt="exhibition-2" />
-                            </div>
+                      <div className="exhibit-column">
+                        <div className="nested-columns">
+                          <div className="card-image">
+                            <img src={img2} alt="exhibition-6" />
+                          </div>
 
-                            <div className="card-image ">
-                              <img src={img2} alt="exhibition-3" />
-                            </div>
+                          <div className="card-image ">
+                            <img src={img11} alt="exhibition-7" />
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
 
-                  {/* Slide 2 */}
-                  <div className="carousel-item active" data-bs-interval="3000">
-                    <div className="container">
-                      <div className="grid-container">
-                        <div className="exhibit-column">
-                          <div className="nested-columns">
-                            <div className="card-image">
-                              <img src={img4} alt="exhibition-4" />
-                            </div>
+                {/* Slide 3 */}
+                <div className="carousel-item active" data-bs-interval="3000">
+                  <div className="container">
+                    <div className="grid-container">
+                      <div className="exhibit-column">
+                        <div className="nested-columns">
+                          <div className="card-image">
+                            <img src={img8} alt="exhibition-8" />
+                          </div>
 
-                            <div className="card-image ">
-                              <img src={img5} alt="exhibition-5" />
-                            </div>
+                          <div className="card-image ">
+                            <img src={img7} alt="exhibition-9" />
                           </div>
                         </div>
+                      </div>
 
-                        <div className="exhibit-column">
-                          <div className="nested-columns">
-                            <div className="card-image">
-                              <img src={img2} alt="exhibition-6" />
-                            </div>
+                      <div className="exhibit-column">
+                        <div className="nested-columns">
+                          <div className="card-image">
+                            <img src={img6} alt="exhibition-10" />
+                          </div>
 
-                            <div className="card-image ">
-                              <img src={img11} alt="exhibition-7" />
-                            </div>
+                          <div className="card-image ">
+                            <img src={img7} alt="exhibition-11" />
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
 
-                  {/* Slide 3 */}
-                  <div className="carousel-item active" data-bs-interval="3000">
-                    <div className="container">
-                      <div className="grid-container">
-                        <div className="exhibit-column">
-                          <div className="nested-columns">
-                            <div className="card-image">
-                              <img src={img8} alt="exhibition-8" />
-                            </div>
-
-                            <div className="card-image ">
-                              <img src={img7} alt="exhibition-9" />
-                            </div>
+                {/* Slide 4 */}
+                <div className="carousel-item active" data-bs-interval="3000">
+                  <div className="container">
+                    <div className="grid-container">
+                      <div className="exhibit-column">
+                        <div className="nested-columns">
+                          <div className="card-image">
+                            <img src={img12} alt="exhibition-12" />
                           </div>
-                        </div>
 
-                        <div className="exhibit-column">
-                          <div className="nested-columns">
-                            <div className="card-image">
-                              <img src={img6} alt="exhibition-10" />
-                            </div>
-
-                            <div className="card-image ">
-                              <img src={img7} alt="exhibition-11" />
-                            </div>
+                          <div className="card-image ">
+                            <img src={img13} alt="exhibition-13" />
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
 
-                  {/* Slide 4 */}
-                  <div className="carousel-item active" data-bs-interval="3000">
-                    <div className="container">
-                      <div className="grid-container">
-                        <div className="exhibit-column">
-                          <div className="nested-columns">
-                            <div className="card-image">
-                              <img src={img12} alt="exhibition-12" />
-                            </div>
-
-                            <div className="card-image ">
-                              <img src={img13} alt="exhibition-13" />
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="exhibit-column">
-                          <div className="card-image first-column">
-                            <img src={img14} alt="exhibition-14" />
-                          </div>
+                      <div className="exhibit-column">
+                        <div className="card-image first-column">
+                          <img src={img14} alt="exhibition-14" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
+            </div>
           </section>
-        </article>
+        </section>
       </main>
 
       {/* Mobile */}
