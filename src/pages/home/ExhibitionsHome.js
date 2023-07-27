@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const ExhibitionsHome = () => {
   return (
     <>
-      <main id="main-exhibitions" className="d-none d-lg-block">
+      <main id="home-exhibitions" className="d-none d-lg-block">
         <article id="exhibitions">
           <section className="container-lg">
             <h3 className="section-heading">Exhibitions</h3>

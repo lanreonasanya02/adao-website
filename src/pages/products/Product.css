@@ -103,16 +103,20 @@ section {
 }
 
 .productCards-heading {
-  padding: 2rem 0 12px;
+  padding: 2rem 0 0;
   font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
 }
 
+.productCards-paragraph {
+  margin-bottom: 5rem;
+}
+
 /* .go-back, */
 
 .return-link {
-  padding: 10rem 0 12px;
+  padding: 8rem 0 12px;
 }
 
 .return-link a {
@@ -122,6 +126,7 @@ section {
   font-style: italic;
   text-shadow: #201f1f;
   font-weight: 700;
+  font-size: 12px;
 }
 
 .return-link a:hover {

@@ -46,7 +46,7 @@ import img45 from "../../images/products/img_45.png";
 import img46 from "../../images/products/img_46.png";
 import img47 from "../../images/products/img_47.png";
 import img48 from "../../images/products/img_48.png";
-import img49 from "../../images/products/img_51.jpg";
+// import img49 from "../../images/products/img_51.jpg";
 import img50 from "../../images/products/img_52.jpg";
 import img51 from "../../images/products/img_53.jpg";
 import img52 from "../../images/products/img_54.jpg";
@@ -554,14 +554,14 @@ export const allProducts = [
     subCategory: "Fibre Glass",
   },
 
-  {
-    id: 49,
-    category: "Sculpture",
-    image: img49,
-    title: "ADAO - Lorem ipsum dolor sit amet consectetur",
-    author: "Lorem Ipsum",
-    subCategory: "Wood-work",
-  },
+  // {
+  //   id: 49,
+  //   category: "Sculpture",
+  //   image: img49,
+  //   title: "ADAO - Lorem ipsum dolor sit amet consectetur",
+  //   author: "Lorem Ipsum",
+  //   subCategory: "Wood-work",
+  // },
 
   {
     id: 50,

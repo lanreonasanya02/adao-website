@@ -16,13 +16,41 @@ import img13 from "../../images/exhibitions/adao-10.png";
 import img14 from "../../images/exhibitions/adao-11.png";
 import img15 from "../../images/exhibitions/IMG_1445.jpg";
 import img16 from "../../images/exhibitions/IMG_1448.jpg";
+import { Link } from "react-router-dom";
+import { FaAngleDoubleLeft } from "react-icons/fa";
+import Navbar from "../navbars/Navbar";
+import Footer from "../footer/Footer";
 
 const Exhibitions = () => {
   return (
     <>
       <main id="main-exhibitions" className="d-none d-lg-block">
+        <Navbar />
         <section className="container-lg">
-          <h3 className="section-heading">Exhibitions</h3>
+          <div className="return-link">
+            <Link to="/">
+              <FaAngleDoubleLeft /> Return Home
+            </Link>
+          </div>
+          <h3 className="productCards-heading">Exhibitions</h3>
+          <p>
+            Welcome to the exhibitions section of our website, a captivating
+            showcase of artistic wonders! Here, we take you on an enchanting
+            visual journey through a diverse collection of art exhibitions that
+            have graced our gallery walls. Immerse yourself in a symphony of
+            colors, emotions, and creativity as each image narrates its own
+            unique story.
+          </p>
+
+          <p className="productCards-paragraph">
+            From contemporary masterpieces to timeless classics, this section
+            offers a window into the boundless world of artistry, where
+            imagination knows no boundaries. Join us in celebrating the talent
+            and vision of artists from around the globe, and let these
+            breathtaking displays inspire your own artistic spirit. Enjoy the
+            artistry, passion, and inspiration that await you in our
+            ever-growing gallery of exhibitions.
+          </p>
 
           <section className=" gallery-section">
             <div
@@ -85,7 +113,7 @@ const Exhibitions = () => {
                 </div>
 
                 {/* Slide 2 */}
-                <div className="carousel-item active" data-bs-interval="3000">
+                <div className="carousel-item" data-bs-interval="3000">
                   <div className="container">
                     <div className="grid-container">
                       <div className="exhibit-column">
@@ -116,7 +144,7 @@ const Exhibitions = () => {
                 </div>
 
                 {/* Slide 3 */}
-                <div className="carousel-item active" data-bs-interval="3000">
+                <div className="carousel-item" data-bs-interval="3000">
                   <div className="container">
                     <div className="grid-container">
                       <div className="exhibit-column">
@@ -147,7 +175,7 @@ const Exhibitions = () => {
                 </div>
 
                 {/* Slide 4 */}
-                <div className="carousel-item active" data-bs-interval="3000">
+                <div className="carousel-item" data-bs-interval="3000">
                   <div className="container">
                     <div className="grid-container">
                       <div className="exhibit-column">
@@ -175,6 +203,7 @@ const Exhibitions = () => {
           </section>
         </section>
       </main>
+      <Footer />
 
       {/* Mobile */}
       <main className="d-block d-lg-none" id="main-exhibitions">

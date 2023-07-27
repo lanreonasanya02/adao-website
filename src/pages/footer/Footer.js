@@ -121,18 +121,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          <div className="attribution">
-            <p>
-              Created with ❤️ by{" "}
-              <Link
-                to="https://my-portfolio-khaki-psi.vercel.app/"
-                target="_blank"
-              >
-                Lanre Adeolu
-              </Link>
-            </p>
-          </div>
         </div>
       </footer>
 
@@ -232,18 +220,6 @@ const Footer = () => {
           <div className="mt-5 text-center">
             <p>Copyright 2023 - All Rights Reserved.</p>
           </div>
-        </div>
-
-        <div className="attribution">
-          <p>
-            Created with ❤️ by{" "}
-            <Link
-              to="https://my-portfolio-khaki-psi.vercel.app/"
-              target="_blank"
-            >
-              Lanre Adeolu
-            </Link>
-          </p>
         </div>
       </footer>
     </>

@@ -1,6 +1,10 @@
+#home-exhibitions {
+  padding: 0 0 5rem;
+}
+
 #main-exhibitions {
   background-color: #fff;
-  padding: 0 0 5rem;
+  padding: 0 0 12rem;
 }
 
 main .grid-container {
