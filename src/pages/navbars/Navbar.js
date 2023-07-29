@@ -146,7 +146,7 @@ const Navbar = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-6">
-              <Link class="navbar-brand" to="/">
+              <Link class="navbar-brand logo-mobile-container" to="/">
                 <img src={logo} alt="logo" className="logo-mobile" />
               </Link>
             </div>

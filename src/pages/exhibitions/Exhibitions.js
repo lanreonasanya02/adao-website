@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../exhibitions/Exhibitions.css";
 import img1 from "../../images/exhibitions/IMG_1453.jpg";
 import img2 from "../../images/exhibitions/IMG_1435.jpg";
@@ -22,6 +22,11 @@ import Navbar from "../navbars/Navbar";
 import Footer from "../footer/Footer";
 
 const Exhibitions = () => {
+  // Scroll To top
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <main id="main-exhibitions" className="d-none d-lg-block">

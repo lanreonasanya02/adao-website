@@ -85,6 +85,7 @@ header .header-hero .header-hero-text {
   height: 50vh;
   border-radius: 10px;
   cursor: pointer;
+  margin: auto;
 }
 
 .each-card:hover {
@@ -179,7 +180,7 @@ header .header-hero .header-hero-text {
   }
 
   .each-card {
-    width: 90%;
+    width: 95%;
     height: 100%;
     border-radius: 10px;
     cursor: pointer;
@@ -187,7 +188,7 @@ header .header-hero .header-hero-text {
   }
 }
 
-@media (min-width: 577px) and (max-width: 992px) {
+@media (min-width: 577px) and (max-width: 991px) {
   header {
     background: url(../../images/home/adao-26.jpg);
     background-position: center;
@@ -248,7 +249,7 @@ header .header-hero .header-hero-text {
   }
 
   .each-card {
-    width: 100%;
+    width: 90%;
     height: 50vh;
     border-radius: 10px;
     cursor: pointer;
@@ -282,7 +283,7 @@ header .header-hero .header-hero-text {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   .each-card {
-    width: 100%;
+    width: 90%;
     height: 50vh;
   }
 }

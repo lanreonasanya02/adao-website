@@ -134,10 +134,12 @@ nav .navbar-nav .link-current {
 
 .mobile-nav {
   width: 100%;
+  /* border: 1px solid red; */
 }
 
 .mobile-nav .logo-mobile {
   width: 60%;
+  /* border: 1px solid yellow; */
 }
 
 .mobile-nav .logo-overlap-mobile {

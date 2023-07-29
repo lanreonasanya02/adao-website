@@ -26,6 +26,7 @@ section {
   width: 16rem;
   height: 75vh;
   border: 1.3px solid #403e3e;
+  margin: auto;
 }
 
 .card-container .card .card-header {
@@ -312,7 +313,34 @@ section {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 577px) and (max-width: 767px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-heading {
+    padding: 1rem 0;
+    border-bottom: 2px solid #c1bfbf;
+    width: 8%;
+    font-weight: bolder;
+    font-style: italic;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card-container .card {
+    width: 15rem;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
   .section-heading {
     padding: 1rem 0;
     border-bottom: 2px solid #c1bfbf;
@@ -323,9 +351,6 @@ section {
 
   .card-container .card {
     margin: auto;
-  }
-
-  .card-container .card {
     width: 13rem;
     height: 75vh;
     border: 1.3px solid #403e3e;
