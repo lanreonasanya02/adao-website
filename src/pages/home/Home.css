@@ -94,7 +94,7 @@ header .header-hero .header-hero-text {
 }
 
 .flip-side-text {
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
   font-weight: bolder;
   padding: 10px;
@@ -281,7 +281,7 @@ header .header-hero .header-hero-text {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .each-card {
     width: 90%;
     height: 50vh;

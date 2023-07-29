@@ -48,9 +48,9 @@ function ProductsOverview() {
                   />
 
                   <div class="carousel-caption text-dark fw-bold bg-light rounded">
-                    <h5 style={{ fontWeight: "bolder" }}>
+                    <h6 style={{ fontWeight: "bolder" }}>
                       PAINTINGS & DRAWINGS
-                    </h5>
+                    </h6>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ function ProductsOverview() {
                   />
 
                   <div class="carousel-caption text-dark fw-bold bg-light rounded">
-                    <h5 style={{ fontWeight: "bolder" }}>SCULPTURES</h5>
+                    <h6 style={{ fontWeight: "bolder" }}>SCULPTURES</h6>
                   </div>
                 </div>
               </div>
@@ -149,7 +149,7 @@ function ProductsOverview() {
                   />
 
                   <div class="carousel-caption text-dark fw-bold bg-light rounded">
-                    <h5 style={{ fontWeight: "bolder" }}>CERAMICS</h5>
+                    <h6 style={{ fontWeight: "bolder" }}>CERAMICS</h6>
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@ function ProductsOverview() {
                   />
 
                   <div class="carousel-caption text-dark fw-bold bg-light rounded">
-                    <h5 style={{ fontWeight: "bolder" }}>PHOTOGRAPHY</h5>
+                    <h6 style={{ fontWeight: "bolder" }}>PHOTOGRAPHY</h6>
                   </div>
                 </div>
               </div>
