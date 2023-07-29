@@ -114,6 +114,11 @@ section {
   margin-bottom: 5rem;
 }
 
+.productCards-para-container {
+  padding: 0 1rem;
+  text-align: justify;
+}
+
 /* .go-back, */
 
 .return-link {

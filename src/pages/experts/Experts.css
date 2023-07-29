@@ -17,6 +17,10 @@
   color: #fff;
 }
 
+.expert-paragraph {
+  text-align: justify;
+}
+
 @media (min-width: 375px) and (max-width: 768px) {
   .expert-btn-container {
     text-align: center;
