@@ -439,7 +439,7 @@ function Photography() {
                 </div>
 
                 <div className="product-details">
-                  <h4>By {selectedProduct.author}</h4>
+                  <h4>Shot By {selectedProduct.author}</h4>
                   <h4>{selectedProduct.category}</h4>
                 </div>
               </div>
