@@ -1,7 +1,7 @@
 import React from "react";
 import "../exhibitions/Exhibitions.css";
 import img1 from "../../images/exhibitions/IMG_1453.jpg";
-import img2 from "../../images/exhibitions/IMG_1435.jpg";
+import img2 from "../../images/exhibitions/IMG_1432.jpg";
 import img3 from "../../images/exhibitions/IMG_5744.jpg";
 import img4 from "../../images/exhibitions/IMG_5754.jpg";
 import img5 from "../../images/exhibitions/IMG_1895.jpg";
@@ -9,17 +9,18 @@ import img6 from "../../images/exhibitions/IMG_1886.jpg";
 import img7 from "../../images/exhibitions/IMG_1872.jpg";
 import img8 from "../../images/exhibitions/IMG_1560.jpg";
 import img9 from "../../images/exhibitions/IMG_4255.jpg";
-import img10 from "../../images/exhibitions/IMG_4883.jpg";
-import img11 from "../../images/exhibitions/IMG_3349.jpg";
-import img12 from "../../images/exhibitions/IMG_2173.jpg";
-import img13 from "../../images/exhibitions/IMG_2163.jpg";
-import img14 from "../../images/exhibitions/IMG_001.jpg";
-import img15 from "../../images/exhibitions/IMG_1887.jpg";
-import img16 from "../../images/exhibitions/IMG_1868.jpg";
-import img17 from "../../images/exhibitions/IMG_1729.jpg";
-import img18 from "../../images/exhibitions/IMG_1681.jpg";
-import img19 from "../../images/exhibitions/IMG_1676.jpg";
+import img10 from "../../images/exhibitions/IMG_1900.jpg";
+import img11 from "../../images/exhibitions/IMG_004.jpg";
+import img12 from "../../images/exhibitions/IMG_1917.jpg";
+import img13 from "../../images/exhibitions/IMG_2171.jpg";
+import img14 from "../../images/exhibitions/IMG_2173.jpg";
+import img15 from "../../images/exhibitions/IMG_3364.jpg";
+import img16 from "../../images/exhibitions/IMG_5227.jpg";
+import img17 from "../../images/exhibitions/IMG_5763.jpg";
+import img18 from "../../images/exhibitions/IMG_6933.jpg";
+import img19 from "../../images/exhibitions/IMG_6969.jpg";
 import img20 from "../../images/exhibitions/IMG_1576.jpg";
+import img21 from "../../images/exhibitions/IMG_1887.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -258,6 +259,15 @@ const ExhibitionsHome = () => {
               >
                 <div className="gallery-image">
                   <img src={img20} alt="exhibition-3" />
+                </div>
+              </div>
+
+              <div
+                className="carousel-item slide-container"
+                data-bs-interval="3000"
+              >
+                <div className="gallery-image">
+                  <img src={img21} alt="exhibition-3" />
                 </div>
               </div>
             </div>
