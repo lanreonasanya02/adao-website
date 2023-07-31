@@ -1,5 +1,9 @@
 import React from "react";
 import "../exhibitions/Exhibitions.css";
+import img1d from "../../images/exhibitions/IMG_1453.jpg";
+import img2d from "../../images/exhibitions/IMG_001.jpg";
+import img3d from "../../images/exhibitions/IMG_1435.jpg";
+// Mobile images
 import img1 from "../../images/exhibitions/IMG_1453.jpg";
 import img2 from "../../images/exhibitions/IMG_1432.jpg";
 import img3 from "../../images/exhibitions/IMG_5744.jpg";
@@ -37,18 +41,18 @@ const ExhibitionsHome = () => {
                 <div className="grid-container">
                   <div className="exhibit-column">
                     <div className="card-image first-column">
-                      <img src={img1} alt="exhibition-1" />
+                      <img src={img1d} alt="exhibition-1" />
                     </div>
                   </div>
 
                   <div className="exhibit-column">
                     <div className="nested-columns">
                       <div className="card-image">
-                        <img src={img3} alt="exhibition-2" />
+                        <img src={img2d} alt="exhibition-2" />
                       </div>
 
                       <div className="card-image ">
-                        <img src={img2} alt="exhibition-3" />
+                        <img src={img3d} alt="exhibition-3" />
                       </div>
                     </div>
                   </div>
