@@ -31,7 +31,7 @@ const Experts = () => {
           </div>
 
           <div className="expert-btn-container">
-            <Link to="#" onClick={openForm} class="btn expert-btn">
+            <Link to="/contact" class="btn expert-btn">
               Contact Expert
             </Link>
           </div>
