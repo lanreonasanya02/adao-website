@@ -52,15 +52,6 @@ form {
   color: #ff0000;
 }
 
-/* input[type="submit"] {
-  display: block;
-  padding: 6px 30px;
-  font-size: 14px;
-  background-color: #4460aa;
-  color: #fff;
-  border: none;
-} */
-
 .grid4form input::placeholder,
 .grid4form textarea::placeholder {
   font-style: italic;
@@ -82,7 +73,7 @@ form {
   color: #fff;
 }
 
-/* @media (max-width: 576px) {
+@media (min-width: 375px) and (max-width: 576px) {
   .contact {
     padding-top: 5rem;
   }
@@ -91,23 +82,23 @@ form {
     margin-bottom: 3rem;
   }
 
-  .contact .grid4form {
+  .grid4form {
     display: block;
     text-align: center;
   }
 
-  .contact .info {
+  .info {
     padding: 0;
     border-right: none;
   }
 
-  .contact .form {
-    margin: 0 2rem;
+  form {
+    margin: 4rem 2rem 0;
   }
 
-  .contact .grid4form input,
-  textarea {
+  .grid4form input,
+  .grid4form textarea {
     width: 100%;
-    padding: 1rem;
+    padding: 8px 12px;
   }
-} */
+}
