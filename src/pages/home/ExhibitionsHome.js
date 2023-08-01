@@ -86,7 +86,7 @@ const ExhibitionsHome = () => {
             className="carousel slide carousel-fade mobile-carousel"
             data-bs-ride="carousel"
           >
-            <div className="carousel-inner">
+            <div className="carousel-inner text-center">
               <div
                 className="carousel-item active slide-container"
                 data-bs-interval="3000"

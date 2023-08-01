@@ -60,8 +60,8 @@ const Exhibitions = () => {
   }, []);
 
   return (
-    <>
-      <main id="main-exhibitions" className="d-none d-lg-block">
+    <div className="d-none d-lg-block">
+      <main id="main-exhibitions">
         <Navbar />
         <section className="container-lg">
           <div className="return-link">
@@ -487,7 +487,7 @@ const Exhibitions = () => {
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 };
 
