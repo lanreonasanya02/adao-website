@@ -108,12 +108,15 @@ const NavbarContact = () => {
       {/* Mobile Navbar */}
       <nav className="mobile-nav pt-3 d-block d-lg-none">
         <div id="mySidenav" className="sidenav">
-          <Link class="navbar-brand closebtn-logo" to="#">
-            <img src={logo} alt="logo" className="logo-overlap-mobile" />
-          </Link>
-          <Link to="#" class="closebtn" onClick={closeNav}>
-            &times;
-          </Link>
+          <div className="sidenav-header">
+            <Link class="navbar-brand closebtn-logo" to="#">
+              <img src={logo} alt="logo" className="logo-overlap-mobile" />
+            </Link>
+            <Link to="#" class="closebtn" onClick={closeNav}>
+              &times;
+            </Link>
+          </div>
+
           <div className="sidenav-links">
             <Link to="/" onClick={closeNav}>
               Home
@@ -128,14 +131,14 @@ const NavbarContact = () => {
         </div>
 
         {/* <!-- Use any element to open the sidenav --> */}
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-6">
-              <Link class="navbar-brand logo-mobile-container" to="/">
-                <img src={logo} alt="logo" className="logo-mobile" />
-              </Link>
-            </div>
-            <span onClick={openNav} className="hamburger col-6 text-end">
+        <div className="mobile-nav-grid">
+          <div className="mobile-nav-grid-logo">
+            <Link class="navbar-brand logo-mobile-container" to="/">
+              <img src={logo} alt="logo" className="logo-mobile" />
+            </Link>
+          </div>
+          <div className="mobile-nav-grid-hamburger text-end">
+            <span onClick={openNav} className="hamburger-icon ">
               <i class="bi bi-list"></i>
             </span>
           </div>
