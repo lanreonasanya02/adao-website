@@ -95,7 +95,7 @@ function Painting() {
       </div>
 
       {isModalOpen && (
-        <div className="modal-overlay">
+        <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content">
             <button className="close-button" onClick={closeModal}>
               X
@@ -209,7 +209,7 @@ function Sculpture() {
       </div>
 
       {isModalOpen && (
-        <div className="modal-overlay">
+        <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content">
             <button className="close-button" onClick={closeModal}>
               X
@@ -318,7 +318,7 @@ function Ceramics() {
       </div>
 
       {isModalOpen && (
-        <div className="modal-overlay">
+        <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content">
             <button className="close-button" onClick={closeModal}>
               X
@@ -424,7 +424,7 @@ function Photography() {
       </div>
 
       {isModalOpen && (
-        <div className="modal-overlay">
+        <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content">
             <button className="close-button" onClick={closeModal}>
               X
