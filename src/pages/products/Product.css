@@ -258,7 +258,7 @@ section {
 
 @media (min-width: 375px) and (max-width: 576px) {
   .return-link {
-    padding: 3rem 0 12px;
+    padding: 2rem 0 12px;
   }
 
   .section-heading {
@@ -320,7 +320,7 @@ section {
 
 @media (min-width: 577px) and (max-width: 767px) {
   .return-link {
-    padding: 3rem 0 12px;
+    padding: 2rem 0 12px;
   }
 
   .card-container {
@@ -338,7 +338,7 @@ section {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .return-link {
-    padding: 3rem 0 12px;
+    padding: 2rem 0 12px;
   }
 
   .section-heading {
