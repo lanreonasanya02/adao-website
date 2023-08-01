@@ -128,10 +128,15 @@ const Navbar = () => {
             &times;
           </Link>
           <div className="sidenav-links">
-            <Link to="#products">Products</Link>
-            <Link to="#expert">Expert</Link>
-            <Link to="#exhibitions">Exhibitions</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/" onClick={closeNav}>
+              Home
+            </Link>
+            <Link to="/news" onClick={closeNav}>
+              News
+            </Link>
+            <Link to="/contact" onClick={closeNav}>
+              Contact
+            </Link>
           </div>
         </div>
 
