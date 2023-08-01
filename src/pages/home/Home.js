@@ -29,9 +29,6 @@ const Home = () => {
           <div className="">
             <div className="row align-items-center">
               <div className="fw-bold header-hero-text col-md-6">
-                {/* <h1 className="display-6 animate-charcter d-none d-lg-block">
-              African Diversified Art Odyssey Group (ADAO)
-            </h1> */}
                 <h1 className="display-4">
                   African Diversified Art Odyssey (ADAO)
                 </h1>
@@ -45,7 +42,7 @@ const Home = () => {
 
                 <Link
                   to="#products"
-                  className="btn header-btn d-none d-md-block"
+                  className="btn header-btn d-none d-lg-block"
                 >
                   View Collections
                 </Link>
@@ -57,7 +54,7 @@ const Home = () => {
 
                 <Link
                   to="#products"
-                  className="btn mobile-header-btn d-block d-md-none"
+                  className="btn mobile-header-btn d-block d-lg-none"
                 >
                   View Collections
                 </Link>
@@ -78,3 +75,7 @@ const Home = () => {
 };
 
 export default Home;
+
+/* <h1 className="display-6 animate-charcter d-none d-lg-block">
+    African Diversified Art Odyssey Group (ADAO)
+    </h1> */
