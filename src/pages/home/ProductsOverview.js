@@ -26,7 +26,7 @@ function ProductsOverview() {
         <section>
           <h3 className="section-heading">Products</h3>
           <p className="overview-page">
-            Discover our exquisite collection of products! Click or tap on each
+            Discover our exquisite collection of products! Click or tap on a
             card to explore the stunning galleries showcasing the beauty and
             uniqueness of each product. Embrace the artistry and find your
             perfect piece today!
