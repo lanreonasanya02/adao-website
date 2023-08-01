@@ -176,7 +176,8 @@ header .header-hero .header-hero-text {
   .product-overview-container {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 2rem;
+    row-gap: 3rem;
+    padding: 2rem;
   }
 
   .each-card {
