@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import logo from "../../images/logo/adao-logo.png";
 import "../navbars/Navbar.css";
 import { useLocation, Link } from "react-router-dom";
+import { FaHome, FaInfoCircle, FaNewspaper } from "react-icons/fa";
 
 const NavbarContact = () => {
   //  Setting scroll to link section within page
@@ -119,13 +120,13 @@ const NavbarContact = () => {
 
           <div className="sidenav-links">
             <Link to="/" onClick={closeNav}>
-              Home
+              <FaHome /> Home
             </Link>
             <Link to="/news" onClick={closeNav}>
-              News
+              <FaNewspaper /> News
             </Link>
             <Link to="/contact" onClick={closeNav}>
-              Contact Us
+              <FaInfoCircle /> Contact
             </Link>
           </div>
         </div>

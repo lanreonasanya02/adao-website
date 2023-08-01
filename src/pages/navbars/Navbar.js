@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import logo from "../../images/logo/adao-logo.png";
 import "../navbars/Navbar.css";
 import { useLocation, Link } from "react-router-dom";
-import { FaHome, FaInfo, FaInfoCircle, FaNewspaper } from "react-icons/fa";
-import { AiFillContacts } from "react-icons/ai";
+import { FaHome, FaInfoCircle, FaNewspaper } from "react-icons/fa";
 
 const Navbar = () => {
   // Open the sidenav
@@ -131,7 +130,7 @@ const Navbar = () => {
               <FaNewspaper /> News
             </Link>
             <Link to="/contact" onClick={closeNav}>
-              <FaInfoCircle /> Contact Us
+              <FaInfoCircle /> Contact
             </Link>
           </div>
         </div>
