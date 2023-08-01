@@ -5,13 +5,11 @@ import Navbar from "../navbars/Navbar";
 import img from "../../images/home/adao-19ed.png";
 import img2 from "../../images/home/adao-18.png";
 import Overview from "../overview/Overview";
-import Experts from "../experts/Experts";
 import Footer from "../footer/Footer";
 import ProductsOverview from "./ProductsOverview";
-import ScrollToTop from "../scroll-to-top/ScrollToTop";
 import ExhibitionsHome from "./ExhibitionsHome";
-
-// import SideNav from "../navbars/SideNav";
+import Experts from "../experts/Experts";
+import ScrollToTop from "../scroll-to-top/ScrollToTop";
 
 const Home = () => {
   // Scroll To top
@@ -23,7 +21,6 @@ const Home = () => {
     <>
       <header>
         <Navbar />
-        {/* <SideNav /> */}
 
         <div className="container-lg header-hero">
           <div className="">
@@ -34,7 +31,6 @@ const Home = () => {
                 </h1>
 
                 <h5 className="fst-italic text-muted">
-                  {" "}
                   Art Consultancy | Art Supply | Contemporary Artists'
                   Representation | Art Exhibitions
                 </h5>
