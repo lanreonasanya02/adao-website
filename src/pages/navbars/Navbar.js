@@ -26,15 +26,6 @@ const Navbar = () => {
     }
   }, [location]);
 
-  // Open Form
-  // const openForm = () => {
-  //   window.open(
-  //     "https://form.jotform.com/231938646635568",
-  //     "blank",
-  //     "scrollbars=yes,toolbar=no,width=700,height=500"
-  //   );
-  // };
-
   // Setting active link CSS style
   const activeLinkStyle = {
     fontWeight: "bold",
@@ -135,7 +126,7 @@ const Navbar = () => {
               News
             </Link>
             <Link to="/contact" onClick={closeNav}>
-              Contact
+              Contact Us
             </Link>
           </div>
         </div>

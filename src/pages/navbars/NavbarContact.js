@@ -23,6 +23,16 @@ const NavbarContact = () => {
     borderBottom: "3px solid #6a6969",
   };
 
+  // Open the sidenav
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+  }
+
+  // Close/hide the sidenav
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
   return (
     <>
       <nav class="navbar navbar-expand-lg desktop-nav d-none d-lg-block">
@@ -91,6 +101,43 @@ const NavbarContact = () => {
                 News
               </Link>
             </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Mobile Navbar */}
+      <nav className="mobile-nav pt-3 d-block d-lg-none">
+        <div id="mySidenav" className="sidenav">
+          <Link class="navbar-brand closebtn-logo" to="#">
+            <img src={logo} alt="logo" className="logo-overlap-mobile" />
+          </Link>
+          <Link to="#" class="closebtn" onClick={closeNav}>
+            &times;
+          </Link>
+          <div className="sidenav-links">
+            <Link to="/" onClick={closeNav}>
+              Home
+            </Link>
+            <Link to="/news" onClick={closeNav}>
+              News
+            </Link>
+            <Link to="/contact" onClick={closeNav}>
+              Contact Us
+            </Link>
+          </div>
+        </div>
+
+        {/* <!-- Use any element to open the sidenav --> */}
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-6">
+              <Link class="navbar-brand logo-mobile-container" to="/">
+                <img src={logo} alt="logo" className="logo-mobile" />
+              </Link>
+            </div>
+            <span onClick={openNav} className="hamburger col-6 text-end">
+              <i class="bi bi-list"></i>
+            </span>
           </div>
         </div>
       </nav>
