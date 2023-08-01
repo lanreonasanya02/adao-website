@@ -20,7 +20,6 @@
 
 /* The navigation menu links */
 .sidenav a {
-  /* padding: 8px 8px 8px 32px; */
   text-decoration: none;
   color: #000;
   display: block;
@@ -39,8 +38,8 @@
   top: 0;
   right: 25px;
   font-size: 3.5rem;
-  padding: 10px 10px 0 0;
-  /* margin-left: 50px; */
+  padding-right: 10px;
+  margin-left: 50px;
 }
 
 .sidenav .closebtn-logo {
