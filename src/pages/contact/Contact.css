@@ -40,7 +40,7 @@ form {
 .field input,
 .field textarea {
   display: block;
-  min-width: 80%;
+  width: 80%;
   line-height: 1.5;
   font-size: 14px;
   outline: none;
@@ -73,7 +73,7 @@ form {
   color: #fff;
 }
 
-@media (min-width: 375px) and (max-width: 576px) {
+@media (min-width: 375px) and (max-width: 768px) {
   .contact {
     padding-top: 5rem;
   }
