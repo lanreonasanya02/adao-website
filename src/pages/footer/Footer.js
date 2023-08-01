@@ -11,42 +11,6 @@ const Footer = () => {
     <>
       <footer className="d-none d-md-block">
         <div className="container-lg navbar-container">
-          <div class="navbar navbar-expand-lg desktop-nav">
-            <div class="container-lg">
-              <Link class="navbar-brand" to="/">
-                <img src={logo} alt="logo" className="logo-desktop" />
-              </Link>
-
-              <div
-                class="collapse navbar-collapse justify-content-end"
-                id="navbarNavAltMarkup"
-              >
-                <div class="navbar-nav">
-                  <Link
-                    class="nav-link me-2 "
-                    aria-current="page"
-                    to="#products"
-                  >
-                    Products
-                  </Link>
-
-                  <Link class="nav-link me-2" to="#expert">
-                    Expert
-                  </Link>
-                  <Link class="nav-link me-2" to="#exhibitions">
-                    Exhibitions
-                  </Link>
-                  <Link class="nav-link me-3" to="#">
-                    News
-                  </Link>
-                  <Link to="/contact" className="nav-link me-3">
-                    Contact
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="footer-body">
             <div className="row ">
               <div className="col-md-4">
@@ -135,19 +99,19 @@ const Footer = () => {
           <div className="all-links">
             <div class="navbar-nav">
               <h6>Website links</h6>
-              <Link class="nav-link me-2 " aria-current="page" to="#products">
+              <Link class="nav-link me-2 " aria-current="page" to="/#products">
                 Products
               </Link>
-              <Link class="nav-link me-2" to="#expert">
+              <Link class="nav-link" to="/#expert">
                 Expert
               </Link>
-              <Link class="nav-link me-2" to="#exhibitions">
+              <Link class="nav-link" to="/#exhibitions">
                 Exhibitions
               </Link>
-              <Link class="nav-link me-3" to="#">
+              <Link class="nav-link" to="/news">
                 News
               </Link>
-              <Link to="/contact" className="nav-link me-3">
+              <Link to="/contact" className="nav-link">
                 Contact
               </Link>
             </div>
