@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Contact.css";
-import { FaAngleDoubleLeft } from "react-icons/fa";
+import { FaAngleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -78,13 +78,22 @@ const Contact = () => {
       );
   };
 
+  // Scroll To top
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+
+  const goBack = () => {
+    window.history.back();
+  };
+
   return (
     <>
       <NavbarContact />
       <section className="container">
         <div className="return-link">
-          <Link to="/">
-            <FaAngleDoubleLeft /> Return Home
+          <Link onClick={goBack}>
+            <FaAngleLeft /> Go Back
           </Link>
         </div>
 
@@ -92,11 +101,12 @@ const Contact = () => {
 
         <div className="grid4form">
           <div className="info">
-            <h6>
-              Get in touch with us! We'd love to hear from you. Whether you have
-              questions about our artworks, collaborations, or just want to
-              share your thoughts, feel free to reach out. Our team is here to
-              assist and connect with art enthusiasts like you.
+            <h6 className="mb-4">
+              Want to make enquiries? get in touch with us! We'd love to hear
+              from you. Whether you have questions about our artworks,
+              collaborations, or just want to share your thoughts, feel free to
+              reach out. Our team is here to assist and connect with art
+              enthusiasts like you.
             </h6>
 
             <p>+234-817-3551-411, +234-817-1375-644</p>

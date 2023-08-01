@@ -3,14 +3,6 @@ import { Link } from "react-router-dom";
 import "./Experts.css";
 
 const Experts = () => {
-  const openForm = () => {
-    window.open(
-      "https://form.jotform.com/231938646635568",
-      "blank",
-      "scrollbars=yes,toolbar=no,width=700,height=500"
-    );
-  };
-
   return (
     <main id="main-expert">
       <article id="expert">

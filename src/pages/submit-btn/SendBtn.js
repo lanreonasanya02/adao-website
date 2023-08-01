@@ -1,20 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../products/Product.css";
 
 const SendBtn = ({ title }) => {
-  const openForm = () => {
-    window.open(
-      "https://form.jotform.com/231938646635568",
-      "blank",
-      "scrollbars=yes,toolbar=no,width=700,height=500"
-    );
-  };
-
   return (
     <div>
-      <button onClick={openForm} class="btn btn-second">
+      <Link to="/contact" class="btn btn-second">
         {title}
-      </button>
+      </Link>
     </div>
   );
 };
