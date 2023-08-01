@@ -101,12 +101,11 @@ const Contact = () => {
 
         <div className="grid4form">
           <div className="info">
-            <h6 className="mb-4">
-              Want to make enquiries? get in touch with us! We'd love to hear
-              from you. Whether you have questions about our artworks,
-              collaborations, or just want to share your thoughts, feel free to
-              reach out. Our team is here to assist and connect with art
-              enthusiasts like you.
+            <h6 className="mb-3">
+              Want to make enquiries? Kindly fill the short form below! We'd
+              love to hear from you. Whether you have questions about our
+              artworks, collaborations, or just want to share your thoughts. Our
+              team is here to assist and connect with you.
             </h6>
 
             <p>+234-817-3551-411, +234-817-1375-644</p>

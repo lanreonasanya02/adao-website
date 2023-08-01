@@ -27,7 +27,7 @@ form {
 }
 
 .field {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .field label {
@@ -59,7 +59,7 @@ form {
 }
 
 .form-btn {
-  padding: 7px 3rem;
+  padding: 1rem 3rem;
   margin-top: 1rem;
   background-color: #201f1f;
   color: #fff;
