@@ -35,8 +35,8 @@ const Home = () => {
 
                 <h5 className="fst-italic text-muted">
                   {" "}
-                  Art Consultancy/Art Supply/Contemporary Artists
-                  Representation/Art Exhibitions...
+                  Art Consultancy | Art Supply | Contemporary Artists'
+                  Representation | Art Exhibitions
                 </h5>
                 <br />
 
