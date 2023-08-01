@@ -96,9 +96,13 @@ form {
     margin: 3rem 2rem 0;
   }
 
+  .field {
+    margin-bottom: 2rem;
+  }
+
   .grid4form input,
   .grid4form textarea {
     width: 100%;
-    padding: 8px 12px;
+    padding: 12px;
   }
 }
