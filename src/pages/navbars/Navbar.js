@@ -111,7 +111,7 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Navbar */}
-      <nav className="mobile-nav pt-3 d-block d-lg-none">
+      <nav className="mobile-nav pt-2 d-block d-lg-none">
         <div id="mySidenav" className="sidenav">
           <div className="sidenav-header">
             <Link class="navbar-brand closebtn-logo" to="#">

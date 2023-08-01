@@ -6,15 +6,15 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #fff;
   /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
     url(../../images/home/adao-26.jpg);
   background-position: center;
   background-repeat: space;
   background-size: cover; */
-  background-color: #fff;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
   /* animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0); */
 }
 
@@ -128,10 +128,6 @@ nav .navbar-nav .nav-btn:hover {
   color: #fff;
 }
 
-/* nav .navbar-nav .active {
-  color: green;
-} */
-
 nav .navbar-nav .link-current {
   font-weight: bold;
   color: #6a6969;
@@ -153,7 +149,20 @@ nav .navbar-nav .link-current {
 }
 
 @media (min-width: 768px) {
+  .mobile-nav {
+    width: 100%;
+    text-align: left;
+  }
+
+  .sidenav .sidenav-header {
+    padding: 30px;
+  }
+
   .mobile-nav .logo-mobile {
     width: 40%;
+  }
+
+  .mobile-nav .logo-overlap-mobile {
+    width: 30%;
   }
 }
