@@ -10,20 +10,31 @@ const NotFound = () => {
   }, []);
 
   return (
-    <div className="error-page">
-      <div
-        className="text-center align-self-center text-white container"
-        style={{
-          height: "100vh",
-          display: "grid",
-          gridTemplateColumns: "1fr",
-          alignItems: "center",
-        }}
-      >
-        <h4>
-          Oops...The page you are looking for doesn't exist! It may be that you
-          put in the wrong address.
-        </h4>
+    <>
+      <div className="error-page d-none d-md-block">
+        <div
+          className="text-center  container"
+          style={{
+            height: "100vh",
+          }}
+        >
+          <h1>The page you are looking for doesn't exist!</h1>
+
+          <div className="go-back-link">
+            <Link to="/">
+              <FaAngleDoubleLeft /> Return Home
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile */}
+      <div className="mobile-error-page">
+        <div className="d-block d-md-none">
+          <span>Page</span>
+          <span>Not</span>
+          <span>Found.</span>
+        </div>
 
         <div className="go-back-link">
           <Link to="/">
@@ -31,7 +42,7 @@ const NotFound = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
