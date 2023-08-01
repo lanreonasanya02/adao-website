@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./NotFound.css";
 import { FaAngleDoubleLeft } from "react-icons/fa";
+import "./NotFound.css";
 
 const NotFound = () => {
   // Scroll To top
@@ -12,14 +12,8 @@ const NotFound = () => {
   return (
     <>
       <div className="error-page d-none d-md-block">
-        <div
-          className="text-center  container"
-          style={{
-            height: "100vh",
-          }}
-        >
-          <h1>The page you are looking for doesn't exist!</h1>
-
+        <div className="text-center container error-heading">
+          <h1>Page Unavailable!</h1>
           <div className="go-back-link">
             <Link to="/">
               <FaAngleDoubleLeft /> Return Home
@@ -29,8 +23,8 @@ const NotFound = () => {
       </div>
 
       {/* Mobile */}
-      <div className="mobile-error-page">
-        <div className="d-block d-md-none">
+      <div className="mobile-error-page d-block d-md-none">
+        <div className="">
           <span>Page</span>
           <span>Not</span>
           <span>Found.</span>

@@ -1,25 +1,55 @@
-.error-page h4 {
-  font-size: 3rem;
+.error-page {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("../../images/home/barrier.jpg"); */
+  background: url("../../images/home/barrier.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.error-page .error-heading {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 3rem 0;
+  border-radius: 8px;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+}
+
+.error-page h1 {
+  font-size: 5rem;
   font-weight: bolder;
-  color: #fff;
+  color: #000;
+}
+
+.go-back-link a {
+  color: #000;
+  text-shadow: #201f1f;
+  font-weight: 700;
 }
 
 .mobile-error-page {
   padding: 4rem 20px;
+  background-color: #202020;
+  height: 100vh;
 }
 
 .mobile-error-page span {
   display: block;
   font-size: 5rem;
   font-weight: bold;
+  color: #fff;
 }
 
-.go-back-link {
+.mobile-error-page .go-back-link {
   margin-top: 3rem;
 }
 
-.go-back-link a {
-  color: #000;
+.mobile-error-page .go-back-link a {
+  color: #fff;
   text-shadow: #201f1f;
   font-weight: 700;
 }
