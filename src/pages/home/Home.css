@@ -17,7 +17,7 @@ header .header-hero {
 header .header-btn {
   width: fit-content;
   padding: 1rem 3rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   background-color: #201f1f;
   color: #fff;
   font-weight: bold;
@@ -141,8 +141,6 @@ header .header-hero .header-hero-text {
   }
 
   header .header-hero .header-hero-text h5 {
-    color: #d4b35f;
-    /* font-weight: bold; */
     font-style: italic;
     font-size: 14px;
     padding-bottom: 1.5rem;
@@ -216,8 +214,6 @@ header .header-hero .header-hero-text {
   }
 
   header .header-hero .header-hero-text h5 {
-    color: #d4b35f;
-    font-style: italic;
     font-size: 14px;
     padding-bottom: 1.5rem;
   }

@@ -30,9 +30,10 @@ const Home = () => {
                   African Diversified Art Odyssey (ADAO)
                 </h1>
 
-                <h5 className="fst-italic text-muted">
+                <h5 className="fst-italic">
                   Art Consultancy | Art Supply | Contemporary Artists'
-                  Representation | Art Exhibitions
+                  Representation | Art Exhibitions | Representatives Of
+                  Manufacturers Including Building Supplies & Materials
                 </h5>
                 <br />
 
