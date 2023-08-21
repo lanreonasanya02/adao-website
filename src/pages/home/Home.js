@@ -32,8 +32,7 @@ const Home = () => {
 
                 <h5 className="fst-italic">
                   Art Consultancy | Art Supply | Contemporary Artists'
-                  Representation | Art Exhibitions | Representatives Of
-                  Manufacturers Including Building Supplies & Materials
+                  Representation | Art Exhibitions
                 </h5>
                 <br />
 
